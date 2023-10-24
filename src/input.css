@@ -1,0 +1,110 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Jost&family=Manrope:wght@200;300;400;500;600;700;800&family=Mooli&display=swap');
+@import 'tailwindcss/base';
+
+@import 'tailwindcss/components';
+
+@import 'tailwindcss/utilities';
+
+body{
+    position: relative;
+    scroll-behavior: smooth;
+}
+:root {
+    /* --font-family: 'Manrope', sans-serif; */
+    --font-family: 'Mooli', sans-serif;
+    --gradient-text: linear-gradient(90deg, #FFFF00 0%, #00BCD4 50%, #FF6452 100%);
+    --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+  
+    --color-bg:  0px, 0px, 0px,rgba(255,255,255,0);
+    --color-footer : #031B34;
+    --color-blog: #042c54;
+    --color-border: #E6FF00;
+    --color-text: #81AFDD;
+    --color-subtext: #FF8A71;
+    --color-div:linear-gradient(90deg, #FFFF00 0%, #FF8A71 100%);
+}
+
+@layer components{
+    .background{
+        color: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.7));
+      }
+    .scale-up-center {
+        -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+        position: absolute;
+      }
+      
+      @-webkit-keyframes scale-up-center {
+        0% {
+          -webkit-transform: scale(0.5);
+                  transform: scale(0.5);
+        }
+        100% {
+          -webkit-transform: scale(1);
+                  transform: scale(1);
+        }
+      }
+      
+      @keyframes scale-up-center {
+        0% {
+          -webkit-transform: scale(0.5);
+                  transform: scale(0.5);
+        }
+        100% {
+          -webkit-transform: scale(1);
+                  transform: scale(1);
+        }
+      }
+      .content{
+      -webkit-text-stroke: 2px #fff;
+      animation: back 20s linear infinite;
+      }
+      @keyframes back{
+        100%{ background-position: 2000px 0;}
+    }
+    .motion{
+      white-space: nowrap;
+      animation:typing 3s steps(200, end);
+      animation-delay: 1s;
+      animation-iteration-count: infinite;
+      overflow: hidden;
+    }
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 100% }
+  }
+  .banner{
+    background-image: url(/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+  }
+  .swiper-navBtn {
+    color: #000;
+    height: 50px;
+    width: 50px;
+    transform: translateY(-40%);
+    background: #fff;
+    border-radius: 50%;
+  }
+  .swiper-navBtn::before,
+  .swiper-navBtn::after {
+    font-size: 24px;
+  }
+  
+  .swiper-pagination-bullet {
+    background-color:white;
+    color: white;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .swiper-navBtn {
+      /* display: none; */
+    }
+  }
+  
+  
+ 
+}
