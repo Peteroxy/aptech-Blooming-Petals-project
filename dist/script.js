@@ -17,6 +17,7 @@ var swiper = new Swiper(".slide-container", {
   // },
   cssMode: 'true',
   autoplay: {
+    disableOnInteraction:false,
     delay: 3000,
   },
   pagination: {

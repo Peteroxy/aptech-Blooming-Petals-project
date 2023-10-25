@@ -10,6 +10,32 @@
       
       <link href="output.css" rel="stylesheet" />
       <title>STAR ORGANIC FARMS</title>
+      <style>
+        /* Initial Navbar Styles */
+        .navbar {
+            background-color: transparent; /* Set your initial background color */
+            padding: 10px;
+            transition: background-color 1s; /* Add a smooth transition effect */
+            color: white;
+            margin-top: 0;
+            /* margin-bottom: 20rem; */
+        }
+
+        /* Sticky Navbar Styles */
+        .navbar-sticky {
+            background-color: #fff; /* Set your sticky background color */
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3); /* Add a box shadow for a sticky effect */
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            color: black;
+            margin-top: 0;
+            margin-left: 1rem;
+            margin-right: 1rem;
+
+        }
+    </style>
     
   </head>
   <body >
@@ -17,8 +43,8 @@
 
     <!-- nav section -->
 
-    <section  class="font-bold   h-[5rem] justify-center items-center w-full">
-        <nav class="flex justify-between items-center text-center p-2 m-2  max-w-[1330px] mt-5">
+    <section  class="font-bold z-50  absolute h-[5rem] justify-center items-center text-center w-full">
+        <nav class=" navbar z-50 flex  justify-center items-center text-center p-2 m-2 mx-10  gap-28 mt-5 max-xl:gap-10 max-lg:gap-20">
             
             <div class=" flex justify-center items-center text-center" onclick="window.location.href='index.html'">
                 <img src="./images/logo2.png" alt="logo" class="w-20 h-25 max-sm:w-25">
@@ -60,10 +86,10 @@
        </section>
     
     <!-- Banner section -->
-       <section class="flex m-5 p-2 relative overflow-hidden rounded-lg bg-cover bg-no-repeat"
+       <section id="slideImg" class="flex m-5 relative p-2 overflow-hidden rounded-lg bg-cover bg-no-repeat" 
        style="background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)),url('./images/background.jpg'); height: 600px ">
-        <div class="flex my-3 px-5 flex-col w-full">
-            <div class="justify-center items-center text-center mt-10 flex flex-col ">
+        <div class="flex my-3 mt-20 px-5 flex-col w-full animated-section">
+            <div class="justify-center items-center text-center mt-10 flex flex-col animated-element">
                 <h1 class="text-white font-bold text-[60px] max-sm:text-[30px]">STAR ORGANIC FARMS</h1>
                 <h3 class="text-white font-bold text-[40px] mt-10  max-sm:text-[20px]">We make Freshly made food items available and affodable</h3>
             </div>
@@ -91,25 +117,25 @@
             <div class="mt-10 flex max-lg:flex-col ">
                 <div class="">
                     <div class="flex max-lg:flex-col justify-center items-center gap-10 max-xl:grid max-xl:grid-cols-2 max-lg:grid-cols-1">
-                        <div class="group justify-center items-center text-center ">
-                            <div class=" w-[350px] h-[600px] max-sm:w-[270px] max-sm:ml-7 max-sm:mx-4 justify-center flex flex-col rounded-[2rem] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] bg-white items-center group group-hover:bg-slate-500 group-hover:text-white border-solid border-2 ">
+                        <div class=" group justify-center items-center text-center ">
+                            <div class=" promo-card w-[350px] h-[600px] max-sm:w-[270px] max-sm:ml-7 max-sm:mx-4 justify-center flex flex-col rounded-[2rem] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] bg-white items-center group  group-hover:text-white border-solid border-2 ">
                                 <h4 class="font-bold text-center mt-[-14]">NUTRICIOUS CEREAL</h4>
-                                <span class="bg-red-500 w-[5rem] h-1 justify-center items-center text-center"></span>
+                                <span class="bg-red-800 w-[5rem] h-1 justify-center items-center text-center"></span>
                                 <img src="./images/Cornflakes.png" alt="oatmeal" class="w-full px-3 h-50 mt-16  justify-center items-center text-center  ">
                                 <p class="justify-center text-center items-center mt-5 px-5"><i>Nutritious breakfast option, packed with fiber, vitamins, and minerals for a healthy start to your day.</i></p>
-                                <button onclick='openDiv("motion")' class="mt-5 text-white bg-red-400 p-2 w-[10rem] rounded-full text-[20px] invisible group-hover:visible transition ease-in-out duration-3000 delay-1000">View Category</button>
+                                <button onclick='openDiv("motion")' class="mt-5 text-white bg-red-800 p-2 w-[10rem] rounded-full text-[20px] invisible group-hover:visible transition ease-in-out duration-3000 delay-1000 ">View Category</button>
                             </div>
                         </div>
-                        <div class="group">
+                        <div class="group justify-center items-center text-center">
                             <div class=" w-[350px] h-[600px] max-sm:w-[270px] max-sm:ml-7  flex flex-col rounded-[2rem] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] bg-white items-center group group-hover:bg-slate-500 group-hover:text-white border-solid border-2 ">
                                 <h4 class="font-bold text-center mt-10">PROTIENS</h4>
                                 <span class="bg-red-500 w-[5rem] h-1 justify-center items-center text-center"></span>
                                 <img src="./images/Tofu.png" alt="oatmeal" class="w-full px-3 h-50 mt-24  justify-center items-center text-center">
                                 <p class="justify-center text-center items-center mt-7 px-5"><i> Essential for muscle repair and overall well-being, protein provides nourishment and supports a strong, balanced diet.</i></p>
-                                <button onclick='openDiv("motion2")' class="mt-5 text-white bg-red-400 p-2  w-[10rem] rounded-full text-[20px] invisible group-hover:visible transition ease-in-out duration-3000 delay-1000">View Category</button>
+                                <button onclick='openDiv("motion2")' class="mt-5 text-white bg-red-400 p-2  w-[10rem] rounded-full text-[20px] invisible group-hover:visible transition ease-in-out duration-3000 delay-1000 ">View Category</button>
                             </div>
                         </div>
-                        <div class="group">
+                        <div class="group justify-center items-center text-center">
                             <div class=" w-[350px] h-[600px] max-sm:w-[270px] max-sm:ml-7 flex flex-col rounded-[2rem] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] bg-white items-center group group-hover:bg-slate-500 group-hover:text-white border-solid border-2">
                                 <h4 class="font-bold text-center mt-10">FRESH FRUITS</h4>
                                 <span class="bg-red-500 w-[5rem] h-1 justify-center items-center text-center"></span>
@@ -330,10 +356,53 @@
         
     });
 
+var section = document.getElementById("slideImg");
+
+const images = [
+    "./images/background.jpg",
+    "./images/about1.jpg",
+    "./images/about2.jpg",
+    "./images/about3.jpg",
+    "./images/about4.jpg",
+    "./images/about5.jpg"
+];
+
+var len = images.length;
+var i = 0;
+
+function slider() {
+    if (i > len - 1) {
+        i = 0;
+    }
+    section.style.backgroundImage = "linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url('" + images[i] + "')";
+    i++;
+    setTimeout(slider, 3000);
+}
+
+slider();
+
+
+
+
+
 
     function openDiv(id){
         window.location.href='products.html#'+id
     }
+
+   
+    window.addEventListener("scroll", function() {
+        var navbar = document.querySelector(".navbar");
+        var scrollPosition = window.scrollY;
+
+        // Adjust the scroll position value as needed
+        if (scrollPosition >= 100) {
+            navbar.classList.add("navbar-sticky");
+        } else {
+            navbar.classList.remove("navbar-sticky");
+        }
+    });
+   
    
    </script>
  

@@ -640,6 +640,86 @@ video {
   font-size: 24px;
 }
 
+.promo-card {
+  position: relative;
+  background-color: var(--white);
+  text-align: center;
+  padding: 40px 30px;
+  box-shadow: var(--shadow-2);
+  z-index: 1;
+}
+
+.promo-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: var(--deep-saffron);
+  -webkit-clip-path: var(--clip-path-1);
+          clip-path: var(--clip-path-1);
+  transform: scaleY(0.3);
+  transform-origin: bottom;
+  z-index: -1;
+  transition: var(--transition-1);
+  border-radius: 2rem;
+}
+
+.promo-card:hover::after {
+  -webkit-clip-path: var(--clip-path-2);
+          clip-path: var(--clip-path-2);
+  transform: scaleY(1);
+}
+
+#slideImg{
+  animation: zoom 3s linear infinite;
+  overflow-x: hidden;
+  animation-fill-mode: both
+}
+
+@keyframes zoom{
+  0%{
+    transform: scale(1.2);
+  }
+
+  15%{
+    transform: scale(1);
+  }
+
+  85%{
+    transform: scale(1);
+  }
+
+  100%{
+    transform: scale(1.2);
+  }
+}
+
+.animated-section {
+  animation: fade 3s linear infinite;
+}
+
+.animated-element {
+  animation: slide 3s linear infinite;
+}
+
+@keyframes fade {
+  0%, 100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+}
+
+@keyframes slide {
+  0%, 100% {
+    transform: translateX(0);
+  }
+
+  50% {
+  }
+}
+
 @media screen and (max-width: 768px) {
   .swiper-navBtn {
     /* display: none; */
@@ -1034,6 +1114,10 @@ video {
   gap: 5rem;
 }
 
+.gap-28{
+  gap: 7rem;
+}
+
 .gap-32{
   gap: 8rem;
 }
@@ -1164,6 +1248,11 @@ video {
 .bg-red-500{
   --tw-bg-opacity: 1;
   background-color: rgb(239 68 68 / var(--tw-bg-opacity));
+}
+
+.bg-red-800{
+  --tw-bg-opacity: 1;
+  background-color: rgb(153 27 27 / var(--tw-bg-opacity));
 }
 
 .bg-transparent{
@@ -1425,6 +1514,12 @@ video {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body{
   position: relative;
   scroll-behavior: smooth;
@@ -1442,6 +1537,10 @@ body{
   --color-text: #81AFDD;
   --color-subtext: #FF8A71;
   --color-div:linear-gradient(90deg, #FFFF00 0%, #FF8A71 100%);
+  --deep-saffron: hsl(32, 100%, 59%);
+  --transition-1: 0.5s ease;
+  --clip-path-1: polygon(0 40%, 100% 0%, 100% 100%, 0 100%);
+  --clip-path-2: polygon(0 0%, 100% 0%, 100% 100%, 0 100%);
 }
 
 .hover\:bg-red-400:hover{
@@ -1527,6 +1626,10 @@ body{
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .max-xl\:gap-10{
+    gap: 2.5rem;
+  }
+
   .max-xl\:text-\[20px\]{
     font-size: 20px;
   }
@@ -1563,6 +1666,10 @@ body{
 
   .max-lg\:gap-10{
     gap: 2.5rem;
+  }
+
+  .max-lg\:gap-20{
+    gap: 5rem;
   }
 
   .max-lg\:text-\[20px\]{

@@ -6,6 +6,12 @@
 
 @import 'tailwindcss/utilities';
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body{
     position: relative;
     scroll-behavior: smooth;
@@ -23,6 +29,12 @@ body{
     --color-text: #81AFDD;
     --color-subtext: #FF8A71;
     --color-div:linear-gradient(90deg, #FFFF00 0%, #FF8A71 100%);
+    --deep-saffron: hsl(32, 100%, 59%);
+
+    --transition-1: 0.5s ease;
+    
+  --clip-path-1: polygon(0 40%, 100% 0%, 100% 100%, 0 100%);
+  --clip-path-2: polygon(0 0%, 100% 0%, 100% 100%, 0 100%);
 }
 
 @layer components{
@@ -98,6 +110,76 @@ body{
     background-color:white;
     color: white;
   }
+  .promo-card {
+    position: relative;
+    background-color: var(--white);
+    text-align: center;
+    padding: 40px 30px;
+    box-shadow: var(--shadow-2);
+    z-index: 1;
+  }
+  
+  .promo-card::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: var(--deep-saffron);
+    clip-path: var(--clip-path-1);
+    transform: scaleY(0.3);
+    transform-origin: bottom;
+    z-index: -1;
+    transition: var(--transition-1);
+    border-radius: 2rem;
+  }
+  
+  .promo-card:hover::after {
+    clip-path: var(--clip-path-2);
+    transform: scaleY(1);
+  }
+  #slideImg{
+    animation: zoom 3s linear infinite;
+    overflow-x: hidden;
+     animation-fill-mode: both
+    
+  }
+  @keyframes zoom{
+    0%{
+      transform: scale(1.2);
+    }
+    15%{
+      transform: scale(1);
+    }85%{
+      transform: scale(1);
+    }100%{
+      transform: scale(1.2);
+    }
+  }
+  .animated-section {
+    animation: fade 3s linear infinite;
+}
+
+.animated-element {
+    animation: slide 3s linear infinite;
+}
+
+@keyframes fade {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+
+@keyframes slide {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    50% {
+    }
+  }
+
+
   
   @media screen and (max-width: 768px) {
     .swiper-navBtn {
