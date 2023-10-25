@@ -672,7 +672,11 @@ video {
 #slideImg{
   animation: zoom 3s linear infinite;
   overflow-x: hidden;
-  animation-fill-mode: both
+  overflow-y: auto;
+  animation-fill-mode: both;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
 }
 
 @keyframes zoom{
@@ -1568,6 +1572,11 @@ body{
   color: rgb(248 113 113 / var(--tw-text-opacity));
 }
 
+.hover\:text-white:hover{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 .focus\:border-red-400:focus{
   --tw-border-opacity: 1;
   border-color: rgb(248 113 113 / var(--tw-border-opacity));
@@ -1697,17 +1706,8 @@ body{
 }
 
 @media not all and (min-width: 640px){
-  .max-sm\:mx-4{
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-
   .max-sm\:ml-5{
     margin-left: 1.25rem;
-  }
-
-  .max-sm\:ml-7{
-    margin-left: 1.75rem;
   }
 
   .max-sm\:mt-4{
@@ -1744,10 +1744,6 @@ body{
 
   .max-sm\:w-\[200px\]{
     width: 200px;
-  }
-
-  .max-sm\:w-\[270px\]{
-    width: 270px;
   }
 
   .max-sm\:w-\[300px\]{
