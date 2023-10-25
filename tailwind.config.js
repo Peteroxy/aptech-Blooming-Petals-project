@@ -5,6 +5,9 @@ module.exports = {
     extend: {
       fontFamily: {
         mooli: ['Mooli', 'sans-serif'],
+        'dancing': ['"Dancing Script"', 'cursive'],
+        'allura': ['Allura', 'cursive'],
+        'tangerine': ['Tangerine', 'cursive'],
        
       },
     },

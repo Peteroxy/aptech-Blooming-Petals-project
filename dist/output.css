@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Jost&family=Manrope:wght@200;300;400;500;600;700;800&family=Mooli&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Inclusive+Sans&family=Jost&family=Manrope:wght@200;300;400;500;600;700;800&family=Mooli&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Dancing+Script:wght@400;500;600;700&family=Inclusive+Sans&family=Jost&family=Manrope:wght@200;300;400;500;600;700;800&family=Mooli&family=Roboto:ital,wght@0,100;0,300;1,100;1,300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Inclusive+Sans&family=Jost&family=Manrope:wght@200;300;400;500;600;700;800&family=Mooli&family=Roboto:ital,wght@0,100;0,300;1,100;1,300&family=Tangerine:wght@400;700&display=swap');
+
 /*
 ! tailwindcss v3.3.3 | MIT License | https://tailwindcss.com
 */
@@ -653,7 +659,7 @@ video {
   content: "";
   position: absolute;
   inset: 0;
-  background-color: var(--deep-saffron);
+  background-color: var(--coral);
   -webkit-clip-path: var(--clip-path-1);
           clip-path: var(--clip-path-1);
   transform: scaleY(0.3);
@@ -669,7 +675,7 @@ video {
   transform: scaleY(1);
 }
 
-#slideImg{
+#slideImg,#offerImg{
   animation: zoom 3s linear infinite;
   overflow-x: hidden;
   overflow-y: auto;
@@ -1364,6 +1370,14 @@ video {
   text-align: right;
 }
 
+.font-dancing{
+  font-family: "Dancing Script", cursive;
+}
+
+.font-tangerine{
+  font-family: Tangerine, cursive;
+}
+
 .text-4xl{
   font-size: 2.25rem;
   line-height: 2.5rem;
@@ -1440,6 +1454,11 @@ video {
 .text-red-400{
   --tw-text-opacity: 1;
   color: rgb(248 113 113 / var(--tw-text-opacity));
+}
+
+.text-red-800{
+  --tw-text-opacity: 1;
+  color: rgb(153 27 27 / var(--tw-text-opacity));
 }
 
 .text-white{
@@ -1527,11 +1546,12 @@ video {
 body{
   position: relative;
   scroll-behavior: smooth;
+  background-color: #F7D7D7;
 }
 
 :root {
   /* --font-family: 'Manrope', sans-serif; */
-  --font-family: 'Mooli', sans-serif;
+  /* --font-family: 'Mooli', sans-serif; */
   --gradient-text: linear-gradient(90deg, #FFFF00 0%, #00BCD4 50%, #FF6452 100%);
   --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
   --color-bg:  0px, 0px, 0px,rgba(255,255,255,0);
@@ -1542,9 +1562,16 @@ body{
   --color-subtext: #FF8A71;
   --color-div:linear-gradient(90deg, #FFFF00 0%, #FF8A71 100%);
   --deep-saffron: hsl(32, 100%, 59%);
+  --soft-pink:#F7D7D7;
+  --coral:#FF7F50;
   --transition-1: 0.5s ease;
   --clip-path-1: polygon(0 40%, 100% 0%, 100% 100%, 0 100%);
   --clip-path-2: polygon(0 0%, 100% 0%, 100% 100%, 0 100%);
+}
+
+.group:hover .group-hover\:hoverEffect{
+  background-color: var(--coral) ;
+  transition: var(--transition-1);
 }
 
 .hover\:bg-red-400:hover{
@@ -1570,6 +1597,11 @@ body{
 .hover\:text-red-400:hover{
   --tw-text-opacity: 1;
   color: rgb(248 113 113 / var(--tw-text-opacity));
+}
+
+.hover\:text-red-800:hover{
+  --tw-text-opacity: 1;
+  color: rgb(153 27 27 / var(--tw-text-opacity));
 }
 
 .hover\:text-white:hover{
@@ -1619,6 +1651,11 @@ body{
 .group:hover .group-hover\:text-red-400{
   --tw-text-opacity: 1;
   color: rgb(248 113 113 / var(--tw-text-opacity));
+}
+
+.group:hover .group-hover\:text-red-800{
+  --tw-text-opacity: 1;
+  color: rgb(153 27 27 / var(--tw-text-opacity));
 }
 
 .group:hover .group-hover\:text-white{
