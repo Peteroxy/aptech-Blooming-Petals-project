@@ -148,14 +148,14 @@ body{
   }
   @keyframes zoom{
     0%{
-      transform: scale(1.2);
+      transform: scale(.95);
     }
     15%{
       transform: scale(1);
     }85%{
       transform: scale(1);
     }100%{
-      transform: scale(1.2);
+      transform: scale(.95);
     }
   }
   .animated-section {

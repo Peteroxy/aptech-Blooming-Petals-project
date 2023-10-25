@@ -681,7 +681,7 @@ video {
 
 @keyframes zoom{
   0%{
-    transform: scale(1.2);
+    transform: scale(.95);
   }
 
   15%{
@@ -693,7 +693,7 @@ video {
   }
 
   100%{
-    transform: scale(1.2);
+    transform: scale(.95);
   }
 }
 
