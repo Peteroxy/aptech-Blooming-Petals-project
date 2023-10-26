@@ -488,12 +488,14 @@ const searchModalTemplate = `
         listItem.innerHTML =
         `
         <div  id="mappedItems" class=" mappedDiv group w-full h-[500px] max-sm:flex-col justify-center flex flex-col rounded-[2rem] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] bg-transparent items-center group group-hover:text-white border-solid  border-white"
-          style="background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5))">
-            <h4 class="font-bold text-center text-white mt-10">${product.name}</h4>
-            <span class="bg-red-800 w-[5rem] h-2 justify-center items-center text-center"></span>
+          style="background-color:#FF7F50">
+          <h4 class="font-bold text-center text-white mt-10">CATEGORY: ${product.category}</h4>
+          <span class="bg-red-800 w-[5rem] h-1 justify-center items-center text-center"></span>
+            <h4 class="font-bold text-center text-white mt-10">NAME: ${product.name}</h4>
+            <span class="bg-red-800 w-[5rem] h-1 justify-center items-center text-center"></span>
             <img id="small" src=${product.image} alt="oatmeal" class="small-img w-[15rem] ">
                    
-            <p id='charge'  class=' mt-5 text-white p-2 font-bold w-full  text-[14px]'>${product.description}</p>
+            <p id='charge'  class=' mt-5 text-white p-2  font-bold w-full  text-[14px]'>${product.description}</p>
        
            
         </div>`
@@ -518,16 +520,37 @@ const searchModalTemplate = `
 
 
   // Function to perform the search
-function searchItems(){
+// function searchItems(){
       
-  const searchQuery = document.getElementById('searchInput').value.toLowerCase();
-  if (searchQuery.trim() === '') {
-    // Input is empty, do not perform a search
+//   const searchQuery = document.getElementById('searchInput').value.toLowerCase();
+//   if (searchQuery.trim() === '') {
+//     // Input is empty, do not perform a search
+//     return;
+// }
+//     const searchResults = products.filter(product => product.name.toLowerCase().includes(searchQuery));
+//     displaySearchResults(searchResults);
+//   };
+
+
+function searchItems() {
+  const searchInput = document.getElementById('searchInput');
+ 
+  const searchQuery = searchInput.value.toLowerCase();
+ 
+
+  if (searchQuery.trim() === '' && categoryQuery.trim() === '') {
+   
     return;
+  }
+
+  const searchResults = products.filter(product => {
+    const nameMatch = product.name.toLowerCase().includes(searchQuery);
+    const categoryMatch = product.category.toLowerCase().includes(searchQuery);
+    return nameMatch || categoryMatch;
+  });
+
+  displaySearchResults(searchResults);
 }
-    const searchResults = products.filter(product => product.name.toLowerCase().includes(searchQuery));
-    displaySearchResults(searchResults);
-  };
 
   
 // Function to close the search modal
@@ -539,6 +562,10 @@ document.addEventListener('click', (e) => {
     }
   }
 });
+
+
+
+
 
 
   // document.addEventListener('click', (e) => {
