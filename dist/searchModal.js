@@ -1,145 +1,145 @@
 const products = [
   {
       id: 0,
-      category:'cereals',
-      image: 'images/Cornflakes.png',
-      name: 'Cornflakes Cereals',
+      category:'anniversary',
+      image: 'images/anniversary1.png',
+      name: 'Eternal Bloom',
       price: 120,
       description:"Indulge in our organic cornflakes, crafted from sustainably sourced corn for a crisp and nutritious breakfast experience that satisfies."
   },
   {
       id: 1,
-      category:'cereals',
-      image: 'images/Bran-Flakes.png',
-      name: 'Bran-Flakes Cereals',
+      category:'anniversary',
+      image: 'images/anniversary2.png',
+      name: 'Timeless Roses',
       price: 140,
       description:"Savor the goodness of our organic bran flakes, made from wholesome ingredients and rich in fiber, vitamins, and minerals for a nourishing start to your day."
   },
   {
       id: 2,
-      category:'cereals',
-      image: 'images/oatmeal.png',
-      name: 'Oatmeal Cereals',
+      category:'anniversary',
+      image: 'images/anniversary3.png',
+      name: 'Mile stone Memories',
       price: 130,
       description:"Our organic oatmeal cereal offers a wholesome and nourishing breakfast option, packed with fiber, vitamins, and minerals."
   },
   {
       id: 3,
-      category:'cereals',
-      image: 'images/Puffed-Rice.png',
-      name: 'Puffed-Rice Cereals',
+      category:'anniversary',
+      image: 'images/anniversary4.png',
+      name: 'Romantic Bloom',
       price: 150,
       description:"Enjoy the light and crispy delight of our organic puffed rice cereal, made from whole grains and packed with a satisfying crunch and natural goodness."
   },
   {
       id: 4,
-      category:'cereals',
-      image: 'images/Salt-Muesli.png',
-      name: 'Salt-Muesli Cereals',
+      category:'anniversary',
+      image: 'images/anniversary5.png',
+      name: 'Precious Petals',
       price: 200,
       description:"Discover the perfect balance of flavors in our organic salt muesli, combining wholesome grains, nuts, seeds, and a touch of salt for a savory and nutritious breakfast option."
   },
   {
       id: 5,
-      category:'cereals',
-      image: 'images/Whole-Wheat.png',
-      name: 'Whole-Wheat Cereals',
+      category:'anniversary',
+      image: 'images/anniversary6.png',
+      name: 'Passionate Pansies',
       price: 200,
       description:"Experience the wholesome goodness of our organic whole wheat cereal, made from nutrient-rich whole grains, providing a hearty and nutritious start to your day."
   },
   {
       id: 6,
-      category:'cereals',
-      image: 'images/Barley.png',
-      name: 'Barley Cereals',
+      category:'anniversary',
+      image: 'images/anniversary7.png',
+      name: 'Forever Your',
       price: 220,
       description:"Nutritious ancient grain packed with fiber and essential minerals, known for its versatility in soups, salads, and pilafs."
   },
   {
       id: 7,
-      category:'cereals',
-      image: 'images/Buckwheat.png',
-      name: 'Buck-Wheat Cereals',
+      category:'anniversary',
+      image: 'images/anniversary8.png',
+      name: 'Cherished Blessing',
       price: 250,
       description:"Nutrient-rich pseudo-cereal with a distinct nutty flavor, gluten-free, and a great source of protein and dietary fiber."
   },
   {
       id: 8,
-      category:'cereals',
-      image: 'images/Farro.png',
-      name: 'Farro Cereals',
+      category:'anniversary',
+      image: 'images/roses1.png',
+      name: 'Crimson Charm',
       price: 240,
       description:"Hearty ancient wheat grain with a chewy texture, rich in vitamins and minerals, commonly used in salads, soups, and risottos."
   },
   {
       id: 9,
-      category:'cereals',
-      image: 'images/Millet-Cereal.png',
-      name: 'Millet Cereals',
+      category:'anniversary',
+      image: 'images/tulips1.png',
+      name: 'Coral Charm',
       price: 240,
       description:"Small grain with a mild, nutty flavor, gluten-free, and rich in antioxidants, fiber, and minerals, often used in porridges and baked goods."
   },
   {
       id: 10,
-      category:'cereals',
-      image: 'images/Spelt.png',
-      name: 'Spelt Cereals',
+      category:'anniversary',
+      image: 'images/sunflower1.png',
+      name: 'Sunny Smiles',
       price: 300,
       description:"Nutty-flavored ancient grain, a distant relative of wheat, rich in protein, fiber, and B-vitamins, commonly used in bread and pasta recipes."
   },
   {
       id: 11,
-      category:'protein',
-      image: 'images/Granola.png',
-      name: 'Granola',
+      category:'anniversary',
+      image: 'images/spray1.png',
+      name: 'Fragrant Breeze',
       price: 280,
       description:"Indulge in our protein-rich organic granola, crafted with wholesome ingredients like nuts, seeds, and grains, for a satisfying and nourishing snack or breakfast option."
   },
   {
       id: 12,
-      category:'protein',
-      image: 'images/Quinoa.png',
-      name: 'Quinoa',
+      category:'anniversary',
+      image: 'images/carnation1.png',
+      name: 'Rosy Radiance',
       price: 250,
       description:"Savor the nutritional powerhouse of our organic quinoa, a protein-rich grain that offers a complete amino acid profile, making it a versatile and wholesome addition to your meals."
   },
   {
       id: 13,
-      category:'protein',
-      image: 'images/pork.png',
-      name: 'Pork',
+      category:'anniversary',
+      image: 'images/hydrangeas1.png',
+      name: 'Lavenger Love',
       price: 110,
       description:"Versatile meat option, known for its rich flavor and tenderness, providing a good source of protein, vitamins, and minerals."
   },
   {
       id: 14,
-      category:'protein',
-      image: 'images/Almonds.png',
-      name: 'Almonds',
+      category:'anniversary',
+      image: 'images/lisianthus1.png',
+      name: 'Gentle Grace',
       price: 150,
       description:"Nutritional powerhouse packed with healthy fats, fiber, antioxidants, and vitamin E, promoting heart health and providing a satisfying crunch."
   },
   {
       id: 15,
-      category:'protein',
-      image: 'images/Boiled-egg.png',
-      name: 'Egg',
+      category:'anniversary',
+      image: 'images/gypsophilia1.png',
+      name: 'Cloudy Whisper',
       price: 170,
       description:"Nutrient-dense food, packed with high-quality protein, vitamins, and minerals, versatile in cooking and essential for various culinary preparations."
   },
   {
       id: 16,
-      category:'protein',
-      image: 'images/Beefe.png',
-      name: 'Beef',
+      category:'anniversary',
+      image: 'images/gemini1.png',
+      name: 'Sparkling Gemini',
       price: 300,
       description:" Protein-rich meat option, offering essential nutrients like iron, zinc, and B-vitamins, contributing to muscle growth and overall health."
   },
   {
       id: 17,
-      category:'protein',
-      image: 'images/Chicken.png',
-      name: 'Chicken',
+      category:'anniversary',
+      image: 'images/calla-lilly1.png',
+      name: 'Ivory Grace',
       price: 340,
       description:"Lean poultry choice, low in fat and high in protein, supplying essential amino acids, vitamins, and minerals for muscle growth and repair."
   },
@@ -489,13 +489,13 @@ const searchModalTemplate = `
         `
         <div  id="mappedItems" class=" mappedDiv group w-full h-[500px] max-sm:flex-col justify-center flex flex-col rounded-[2rem] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] bg-transparent items-center group group-hover:text-white border-solid  border-white"
           style="background-color:#FF7F50">
-          <h4 class="font-bold text-center text-white mt-10">CATEGORY: ${product.category}</h4>
+          <h4 class=" text-center text-white mt-10">Category: ${product.category}</h4>
           <span class="bg-red-800 w-[5rem] h-1 justify-center items-center text-center"></span>
-            <h4 class="font-bold text-center text-white mt-10">NAME: ${product.name}</h4>
+            <h4 class=" text-center text-white mt-10">Name: ${product.name}</h4>
             <span class="bg-red-800 w-[5rem] h-1 justify-center items-center text-center"></span>
             <img id="small" src=${product.image} alt="oatmeal" class="small-img w-[15rem] ">
                    
-            <p id='charge'  class=' mt-5 text-white p-2  font-bold w-full  text-[14px]'>${product.description}</p>
+            <p id='charge'  class=' mt-5 text-white p-2 w-full  text-[14px]'>${product.description}</p>
        
            
         </div>`
@@ -516,20 +516,6 @@ const searchModalTemplate = `
     document.getElementById('searchInput').value = '';
     document.getElementById('searchResults').innerHTML = '';
   });
-
-
-
-  // Function to perform the search
-// function searchItems(){
-      
-//   const searchQuery = document.getElementById('searchInput').value.toLowerCase();
-//   if (searchQuery.trim() === '') {
-//     // Input is empty, do not perform a search
-//     return;
-// }
-//     const searchResults = products.filter(product => product.name.toLowerCase().includes(searchQuery));
-//     displaySearchResults(searchResults);
-//   };
 
 
 function searchItems() {
