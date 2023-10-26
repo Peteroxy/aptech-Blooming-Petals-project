@@ -19,7 +19,7 @@
 }
 
 body{
-    position: relative;
+    /* position: relative; */
     scroll-behavior: smooth;
     background-color: #F7D7D7;
 }
@@ -119,6 +119,7 @@ body{
     background-color:white;
     color: white;
   }
+ 
   .promo-card {
     position: relative;
     background-color: var(--white);
@@ -195,6 +196,17 @@ body{
     50% {
     }
   }
+  .animated-section2 {
+    animation: skill 3s linear ;
+}
+@keyframes skill {
+  0%, 100% {
+      opacity: 1;
+  }
+  50% {
+      opacity: 0;
+  }
+}
 
 
   

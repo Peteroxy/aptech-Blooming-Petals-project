@@ -459,10 +459,10 @@ const searchModalTemplate = `
 <div class="bg-white p-4 rounded-lg  shadow-lg z-10 w-full max-w-md">
   <div class="flex items-center justify-between mb-4">
     <input id="searchInput" required type="text" placeholder="Search products..." 
-    class="w-full p-2 rounded-l-lg border border-gray-300 focus:outline-none focus:ring focus:border-red-400">
+    class="w-full p-2 rounded-l-lg border border-gray-300 focus:outline-none focus:ring focus:border-red-800">
   `
   +
-  " <button id='searchButton' class='bg-red-400 text-white px-4 py-2 rounded-r-lg hover:bg-red-400' onclick = 'searchItems()' >Search</button>"
+  " <button id='searchButton' class='bg-red-800 text-white px-4 py-2 rounded-r-lg hover:bg-red-800' onclick = 'searchItems()' >Search</button>"
   +
   `</div>
   <!-- Results will be displayed here -->
@@ -490,7 +490,7 @@ const searchModalTemplate = `
         <div  id="mappedItems" class=" mappedDiv group w-full h-[500px] max-sm:flex-col justify-center flex flex-col rounded-[2rem] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] bg-transparent items-center group group-hover:text-white border-solid  border-white"
           style="background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5))">
             <h4 class="font-bold text-center text-white mt-10">${product.name}</h4>
-            <span class="bg-red-500 w-[5rem] h-2 justify-center items-center text-center"></span>
+            <span class="bg-red-800 w-[5rem] h-2 justify-center items-center text-center"></span>
             <img id="small" src=${product.image} alt="oatmeal" class="small-img w-[15rem] ">
                    
             <p id='charge'  class=' mt-5 text-white p-2 font-bold w-full  text-[14px]'>${product.description}</p>
