@@ -614,8 +614,121 @@ const product = [
       name: 'Blushy Beauty',
       price: 195,
       description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
-    }
+    },
+    {
+        id: 77,
+        category:'Love And Romance',
+        image: 'images/love&romance1.png',
+        name: 'Love Blooms',
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+    },
+    {
+        id: 78,
+        category:'Love And Romance',
+        image: 'images/love2.png',
+        name: 'Heart-Felt Hues',
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+    },
+    {
+        id: 79,
+        category:'Love And Romance',
+        image: 'images/love3.png',
+        name: 'Rose Romance',
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+    },
+    {
+        id: 80,
+        category:'Love And Romance',
+        image: 'images/love4.png',
+        name: 'Kissable Carnation',
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+    },
+    {
+        id: 81,
+        category:'Love And Romance',
+        image: 'images/love5.png',
+        name: 'Scarlet Roses',
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+    },
+    {
+        id: 82,
+        category:'Love And Romance',
+        image: 'images/love6.png',
+        name: 'Love Tokens',
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+    },
+    {
+        id: 83,
+        category:'Love And Romance',
+        image: 'images/love7.png',
+        name: 'Red Passion',
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+    },
+    {
+        id: 84,
+        category:'Love And Romance',
+        image: 'images/love8.png',
+        name: 'Sweet Kisses',
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+    },
+    {
+        id: 85,
+        category:'Love And Romance',
+        image: 'images/love9.png',
+        name: 'Red Velvet',
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+    },
+    {
+        id: 86,
+        category:'Love And Romance',
+        image: 'images/roses4.png',
+        name: 'Pink Passion',
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+    },
+    {
+        id: 87,
+        category:'Love And Romance',
+        image: 'images/tulips4.png',
+        name: 'Blushing Beauty',
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+    },
+    {
+        id: 88,
+        category:'Love And Romance',
+        image: 'images/sunflower4.png',
+        name: 'Golden Glow',
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+    },
+    {
+        id: 89,
+        category:'Love And Romance',
+        image: 'images/spray4.png',
+        name: 'Sweet Spray',
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+    },
+    {
+        id: 90,
+        category:'Love And Romance',
+        image: 'images/gemini4.png',
+        name: 'Meadow Marvel',
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+    },
 ];
+
 
 let anniversary = product.filter(function (items) { 
     return items.category === "Anniversary"; 
@@ -755,31 +868,31 @@ document.getElementById('motion5').innerHTML = house.map((items) =>
 }).join('')
 
 
-// let flourProduct = product.filter(function (items) { 
-//     return items.category === "flours"; 
-// }).map(function (items) { 
-//     {return items}; 
-// })
+let love = product.filter(function (items) { 
+    return items.category === "Love And Romance"; 
+}).map(function (items) { 
+    {return items}; 
+})
 
 
-// document.getElementById('motion6').innerHTML = flourProduct.map((items) =>
-// {
-//     var {image, id,name,price,description} = items;
-//     return (
-//         `
-//         <div  id="mappedItems" class=" mappedDiv group swiper-slide w-[200px] h-[500px] max-sm:w-[50px] max-sm:flex-col justify-center flex flex-col rounded-[2rem] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] bg-transparent items-center group group-hover:text-white border-solid  border-white"
-//           style="background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5))">
-//             <h4 class="font-bold text-center text-white mt-10">${name}</h4>
-//             <span class="bg-red-500 w-[5rem] h-1 justify-center items-center text-center"></span>
-//             <img id="small" src=${image} alt="oatmeal" class="small-img w-[15rem]  mt-24  ">
+document.getElementById('motion6').innerHTML = love.map((items) =>
+{
+    var {image, id,name,price,description} = items;
+    return (
+        `
+        <div  id="mappedItems" class=" mappedDiv group swiper-slide w-[200px] h-[550px] max-sm:w-[50px] max-sm:flex-col justify-center flex flex-col rounded-[2rem] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] bg-transparent items-center group group-hover:text-white border-solid  border-white"
+          style="background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5))">
+            <h4 class="font-bold text-center text-white mt-10">${name}</h4>
+            <span class="bg-red-500 w-[5rem] h-1 justify-center items-center text-center"></span>
+            <img id="small" src=${image} alt="oatmeal" class="small-img w-[17rem] h-[10rem]   mt-24  ">
                    
-//             <p id='charge' onClick='logger("${image}","${name}","${price}","${description}")' class='cursor-pointer max-sm:w-[6rem] mt-5 text-black bg-white p-2 font-bold w-[10rem] rounded-full text-[14px] invisible group-hover:visible transition ease-in-out duration-3000 delay-1000'>View Details</p>`+
+            <p id='charge' onClick='logger("${image}","${name}","${price}","${description}")' class='cursor-pointer max-sm:w-[6rem] mt-5 text-black bg-white p-2 font-bold w-[10rem] rounded-full text-[14px] invisible group-hover:visible transition ease-in-out duration-3000 delay-1000'>View Details</p>`+
        
-//             "<p onclick='addtocart("+JSON.stringify(items)+")'  class='cursor-pointer max-sm:w-[6rem] mt-5 text-white bg-red-400 p-2 font-bold w-[10rem] rounded-full text-[14px] '>Add to cart</p>"+
-//        ` </div>`
-//     )
+            "<p onclick='addtocart("+JSON.stringify(items)+")'  class='cursor-pointer max-sm:w-[6rem] mt-5 text-white bg-red-400 p-2 font-bold w-[10rem] rounded-full text-[14px] '>Add to cart</p>"+
+       ` </div>`
+    )
     
-// }).join('')
+}).join('')
 
 
 
