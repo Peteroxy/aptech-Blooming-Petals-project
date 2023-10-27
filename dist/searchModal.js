@@ -494,7 +494,128 @@ const products = [
     name: 'Blooming Bliss',
     price: 195,
     description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+  },
+  {
+    id: 62,
+    category:'House Warming',
+    image: 'images/house-warming1.png',
+    name: 'Warm wishes',
+    price: 195,
+    description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+  },
+  {
+    id: 63,
+    category:'House Warming',
+    image: 'images/house-warming2.png',
+    name: 'Hearth Hues',
+    price: 195,
+    description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+  },
+  {
+    id: 64,
+    category:'House Warming',
+    image: 'images/house-warming3.png',
+    name: 'Garden Joy',
+    price: 195,
+    description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+  },
+  {
+    id: 65,
+    category:'House Warming',
+    image: 'images/house-warming4.png',
+    name: 'Sweet Sanctuary',
+    price: 195,
+    description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+  },
+  {
+    id: 66,
+    category:'House Warming',
+    image: 'images/house-warming5.png',
+    name: 'Floral Haven',
+    price: 195,
+    description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+  },
+  {
+    id: 67,
+    category:'House Warming',
+    image: 'images/house-warming6.png',
+    name: 'Bloosom Blessing',
+    price: 195,
+    description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+  },
+  {
+    id: 68,
+    category:'House Warming',
+    image: 'images/house-warming7.png',
+    name: 'Dwelling Delight',
+    price: 195,
+    description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+  },
+  {
+    id: 69,
+    category:'House Warming',
+    image: 'images/house-warming8.png',
+    name: 'Fresh Beginning',
+    price: 195,
+    description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+  },
+  {
+    id: 70,
+    category:'House Warming',
+    image: 'images/house-warming9.png',
+    name: 'Home Harmony',
+    price: 195,
+    description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+  },
+  {
+    id: 71,
+    category:'House Warming',
+    image: 'images/house-warming10.png',
+    name: 'Garden Hug',
+    price: 195,
+    description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+  },
+  {
+    id: 72,
+    category:'House Warming',
+    image: 'images/lisianthus3.png',
+    name: 'Romantic Ruffles',
+    price: 195,
+    description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
 },
+{
+  id: 73,
+  category:'House Warming',
+  image: 'images/hydrangeas3.png',
+  name: 'Ocean Dream',
+  price: 195,
+  description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+  },
+  {
+    id: 74,
+    category:'House Warming',
+    image: 'images/gypsophilia3.png',
+    name: 'Airy Amour',
+    price: 195,
+    description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+  },
+  {
+    id: 75,
+    category:'House Warming',
+    image: 'images/carnation3.png',
+    name: 'Ivory Elegance',
+    price: 195,
+    description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+  },
+  {
+    id: 76,
+    category:'House Warming',
+    image: 'images/calla-lilly3.png',
+    name: 'Blushy Beauty',
+    price: 195,
+    description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+  },
+  
 
 
 ];

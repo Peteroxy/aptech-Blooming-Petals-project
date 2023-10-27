@@ -1,459 +1,624 @@
 const product = [
     {
         id: 0,
-        category:'cereals',
-        image: 'images/Cornflakes.png',
-        name: 'Cornflakes',
+        category:'Anniversary',
+        image: 'images/anniversary1.png',
+        name: 'Eternal Bloom',
         price: 120,
         description:"Indulge in our organic cornflakes, crafted from sustainably sourced corn for a crisp and nutritious breakfast experience that satisfies."
     },
     {
         id: 1,
-        category:'cereals',
-        image: 'images/Bran-Flakes.png',
-        name: 'Bran-Flakes',
+        category:'Anniversary',
+        image: 'images/anniversary2.png',
+        name: 'Timeless Roses',
         price: 140,
         description:"Savor the goodness of our organic bran flakes, made from wholesome ingredients and rich in fiber, vitamins, and minerals for a nourishing start to your day."
     },
     {
         id: 2,
-        category:'cereals',
-        image: 'images/oatmeal.png',
-        name: 'Oatmeal',
+        category:'Anniversary',
+        image: 'images/anniversary3.png',
+        name: 'Mile stone Memories',
         price: 130,
         description:"Our organic oatmeal cereal offers a wholesome and nourishing breakfast option, packed with fiber, vitamins, and minerals."
     },
     {
         id: 3,
-        category:'cereals',
-        image: 'images/Puffed-Rice.png',
-        name: 'Puffed-Rice',
+        category:'Anniversary',
+        image: 'images/anniversary4.png',
+        name: 'Romantic Bloom',
         price: 150,
         description:"Enjoy the light and crispy delight of our organic puffed rice cereal, made from whole grains and packed with a satisfying crunch and natural goodness."
     },
     {
         id: 4,
-        category:'cereals',
-        image: 'images/Salt-Muesli.png',
-        name: 'Salt-Muesli',
+        category:'Anniversary',
+        image: 'images/anniversary5.png',
+        name: 'Precious Petals',
         price: 200,
         description:"Discover the perfect balance of flavors in our organic salt muesli, combining wholesome grains, nuts, seeds, and a touch of salt for a savory and nutritious breakfast option."
     },
     {
         id: 5,
-        category:'cereals',
-        image: 'images/Whole-Wheat.png',
-        name: 'Whole-Wheat',
+        category:'Anniversary',
+        image: 'images/anniversary6.png',
+        name: 'Passionate Pansies',
         price: 200,
         description:"Experience the wholesome goodness of our organic whole wheat cereal, made from nutrient-rich whole grains, providing a hearty and nutritious start to your day."
     },
     {
         id: 6,
-        category:'cereals',
-        image: 'images/Barley.png',
-        name: 'Barley',
+        category:'Anniversary',
+        image: 'images/anniversary7.png',
+        name: 'Forever Your',
         price: 220,
         description:"Nutritious ancient grain packed with fiber and essential minerals, known for its versatility in soups, salads, and pilafs."
     },
     {
         id: 7,
-        category:'cereals',
-        image: 'images/Buckwheat.png',
-        name: 'Buck-Wheat',
+        category:'Anniversary',
+        image: 'images/anniversary8.png',
+        name: 'Cherished Blessing',
         price: 250,
         description:"Nutrient-rich pseudo-cereal with a distinct nutty flavor, gluten-free, and a great source of protein and dietary fiber."
     },
     {
         id: 8,
-        category:'cereals',
-        image: 'images/Farro.png',
-        name: 'Farro',
+        category:'Anniversary',
+        image: 'images/roses1.png',
+        name: 'Crimson Charm',
         price: 240,
         description:"Hearty ancient wheat grain with a chewy texture, rich in vitamins and minerals, commonly used in salads, soups, and risottos."
     },
     {
         id: 9,
-        category:'cereals',
-        image: 'images/Millet-Cereal.png',
-        name: 'Millet',
+        category:'Anniversary',
+        image: 'images/tulips1.png',
+        name: 'Coral Charm',
         price: 240,
         description:"Small grain with a mild, nutty flavor, gluten-free, and rich in antioxidants, fiber, and minerals, often used in porridges and baked goods."
     },
     {
         id: 10,
-        category:'cereals',
-        image: 'images/Spelt.png',
-        name: 'Spelt',
+        category:'Anniversary',
+        image: 'images/sunflower1.png',
+        name: 'Sunny Smiles',
         price: 300,
         description:"Nutty-flavored ancient grain, a distant relative of wheat, rich in protein, fiber, and B-vitamins, commonly used in bread and pasta recipes."
     },
     {
         id: 11,
-        category:'protein',
-        image: 'images/Granola.png',
-        name: 'Granola',
+        category:'Anniversary',
+        image: 'images/spray1.png',
+        name: 'Fragrant Breeze',
         price: 280,
         description:"Indulge in our protein-rich organic granola, crafted with wholesome ingredients like nuts, seeds, and grains, for a satisfying and nourishing snack or breakfast option."
     },
     {
         id: 12,
-        category:'protein',
-        image: 'images/Quinoa.png',
-        name: 'Quinoa',
+        category:'Anniversary',
+        image: 'images/carnation1.png',
+        name: 'Rosy Radiance',
         price: 250,
         description:"Savor the nutritional powerhouse of our organic quinoa, a protein-rich grain that offers a complete amino acid profile, making it a versatile and wholesome addition to your meals."
     },
     {
         id: 13,
-        category:'protein',
-        image: 'images/pork.png',
-        name: 'Pork',
+        category:'Anniversary',
+        image: 'images/hydrangeas1.png',
+        name: 'Lavenger Love',
         price: 110,
         description:"Versatile meat option, known for its rich flavor and tenderness, providing a good source of protein, vitamins, and minerals."
     },
     {
         id: 14,
-        category:'protein',
-        image: 'images/Almonds.png',
-        name: 'Almonds',
+        category:'Anniversary',
+        image: 'images/lisianthus1.png',
+        name: 'Gentle Grace',
         price: 150,
         description:"Nutritional powerhouse packed with healthy fats, fiber, antioxidants, and vitamin E, promoting heart health and providing a satisfying crunch."
     },
     {
         id: 15,
-        category:'protein',
-        image: 'images/Boiled-egg.png',
-        name: 'Egg',
+        category:'Anniversary',
+        image: 'images/gypsophilia1.png',
+        name: 'Cloudy Whisper',
         price: 170,
         description:"Nutrient-dense food, packed with high-quality protein, vitamins, and minerals, versatile in cooking and essential for various culinary preparations."
     },
     {
         id: 16,
-        category:'protein',
-        image: 'images/Beefe.png',
-        name: 'Beef',
+        category:'Anniversary',
+        image: 'images/gemini1.png',
+        name: 'Sparkling Gemini',
         price: 300,
         description:" Protein-rich meat option, offering essential nutrients like iron, zinc, and B-vitamins, contributing to muscle growth and overall health."
     },
     {
         id: 17,
-        category:'protein',
-        image: 'images/Chicken.png',
-        name: 'Chicken',
+        category:'Anniversary',
+        image: 'images/calla-lilly1.png',
+        name: 'Ivory Grace',
         price: 340,
         description:"Lean poultry choice, low in fat and high in protein, supplying essential amino acids, vitamins, and minerals for muscle growth and repair."
     },
     {
         id: 18,
-        category:'protein',
-        image: 'images/Lentils.png',
-        name: 'Lentils',
+        category:'Birthday',
+        image: 'images/birthday1.png',
+        name: 'Petal Party',
         price: 330,
         description:"Protein-packed legumes, rich in fiber, folate, and iron, providing a versatile and nutritious ingredient for soups, stews, and salads."
     },
     {
         id: 19,
-        category:'protein',
-        image: 'images/Salmon.png',
-        name: 'Salmon',
+        category:'Birthday',
+        image: 'images/birthday2.png',
+        name: 'Rainbow Rose',
         price: 300,
         description:"Fatty fish renowned for its omega-3 fatty acids, promoting heart health, and providing a rich source of high-quality protein."
     },
     {
         id: 20,
-        category:'protein',
-        image: 'images/Tofu.png',
-        name: 'Tofu',
+        category:'Birthday',
+        image: 'images/birthday3.png',
+        name: 'Vibrant Violet',
         price: 160,
         description:"Soy-based protein alternative, low in fat and cholesterol-free, offering a versatile option for vegetarian and vegan dishes."
     },
     {
-        id: 21,
-        category:'spices',
-        image: 'images/nutmeg.png',
-        name: 'Nutmeg',
-        price: 180,
-        description:"Fragrant spice with a warm, sweet flavor, adding depth to both sweet and savory dishes, known for its potential health benefit"
+      id: 21,
+      category:'Birthday',
+      image: 'images/birthday4.png',
+      name: 'Lily Luxe',
+      price: 180,
+      description:"Fragrant spice with a warm, sweet flavor, adding depth to both sweet and savory dishes, known for its potential health benefit"
+  },
+  {
+      id: 22,
+      category:'Birthday',
+      image: 'images/birthday5.png',
+      name: 'Velvet Rose',
+      price: 140,
+      description:"Aromatic spice with a sweet and warm taste, boasting antioxidant properties and potential health benefits, commonly used in baking and cooking."
+  },
+  {
+      id: 23,
+      category:'Birthday',
+      image: 'images/birthday6.png',
+      name: 'Daisy Duet',
+      price: 190,
+      description:"Earthy spice with a distinct aroma, adding depth and warmth to various cuisines, known for its digestive and anti-inflammatory properties."
+  },
+  {
+      id: 24,
+      category:'Birthday',
+      image: 'images/birthday7.png',
+      name: 'Rose Radiance',
+      price: 200,
+      description:"Fragrant herb with a robust flavor, commonly used in Mediterranean cuisine, providing antioxidants and potential antimicrobial properties."
+  },
+  {
+      id: 25,
+      category:'Birthday',
+      image: 'images/birthday7.png',
+      name: 'Elegant Roses',
+      price: 220,
+      description:"Vibrant spice derived from dried red peppers, adding a smoky and slightly sweet flavor to dishes, rich in antioxidants and vitamin C."
+  },
+  {
+      id: 26,
+      category:'Birthday',
+      image: 'images/birthday8.png',
+      name: 'Daisy Delight',
+      price: 250,
+      description:"Aromatic herb with a pine-like fragrance, adding a unique flavor to savory dishes, known for its potential cognitive and digestive benefits."
+  },
+  {
+      id: 27,
+      category:'Birthday',
+      image: 'images/birthday9.png',
+      name: 'Ballon Bouquet',
+      price: 100,
+      description:"Fragrant herb with a subtle lemony flavor, enhancing the taste of various dishes, and believed to have antibacterial properties."
+  },
+  {
+      id: 28,
+      category:'Birthday',
+      image: 'images/birthday10.png',
+      name: 'Daisy Dreams',
+      price: 180,
+      description:"Golden spice with a warm, earthy flavor, containing curcumin, a compound with potential anti-inflammatory and antioxidant properties."
     },
     {
-        id: 22,
-        category:'spices',
-        image: 'images/Cinnamon.png',
-        name: 'Cinnamon',
-        price: 140,
-        description:"Aromatic spice with a sweet and warm taste, boasting antioxidant properties and potential health benefits, commonly used in baking and cooking."
+      id: 29,
+      category:'Birthday',
+      image: 'images/roses2.png',
+      name: 'Heavenly Rose',
+      price: 100,
+      description:"Crisp and versatile, apples are sweet-tart fruits packed with fiber, perfect for snacking or adding to both sweet and savory dishes."
+  },
+  {
+      id: 30,
+      category:'Birthday',
+      image: 'images/tulips2.png',
+      name: 'Tulip Timeless',
+      price: 140,
+      description:"Nutritious and energizing, bananas are potassium-rich fruits with a convenient peel, ideal for on-the-go snacking and adding to smoothies or baked goods."
+  },
+  {
+      id: 31,
+      category:'Birthday',
+      image: 'images/sunflower2.png',
+      name: 'Sunny Serenity',
+      price: 170,
+      description:"Bursting with flavor, cherries are antioxidant-packed stone fruits that bring a delightful balance of sweetness and tartness to your palate."
+  },
+  {
+      id: 32,
+      category:'Birthday',
+      image: 'images/spray2.png',
+      name: 'Royal Ruffles',
+      price: 200,
+      description:" Juicy and bite-sized, grapes come in various colors and flavors, offering hydration, antioxidants, and vitamins for a refreshing snack or addition to salads and juices."
+  },
+  {
+      id: 33,
+      category:'Birthday',
+      image: 'images/gemini2.png',
+      name: 'Rainbow Gem',
+      price: 220,
+      description:"The tropical 'king of fruits,' mangoes have a luscious, aromatic flavor, providing a dose of vitamins, fiber, and antioxidants for a refreshing addition to smoothies, salsas, and desserts."
+  },
+  {
+      id: 34,
+      category:'Birthday',
+      image: 'images/lisianthus2.png',
+      name: 'Secrete Garden',
+      price: 190,
+      description:"Tangy and vibrant, oranges are citrus fruits rich in vitamin C and nutrients, offering a refreshing juice and versatility in both sweet and savory recipes."
+  },
+  {
+      id: 35,
+      category:'Get Well Soon',
+      image: 'images/get-well-soon1.png',
+      name: 'Blossom Bost',
+      price: 250,
+      description:"Tropical and juicy, pineapples bring a sweet and tangy flavor with a dose of vitamins and enzymes, perfect for snacking, salads, and tropical-inspired dishes."
+  },
+  {
+      id: 36,
+      category:'Get Well Soon',
+      image: 'images/get-well-soon2.png',
+      name: 'Uplifting Lilies',
+      price: 220,
+      description:"Bright and sweet, strawberries are antioxidant-rich fruits that make a refreshing snack, addition to salads, or a delicious topping for desserts and breakfast dishes."
+  },
+  {
+      id: 37,
+      category:'Get Well Soon',
+      image: 'images/get-well-soon3.png',
+      name: 'Floral Comfort',
+      price: 250,
+      description:"Refreshing and hydrating, watermelon is a juicy fruit that quenches your thirst and offers a burst of vitamins, making it a perfect summertime treat."
+  },
+  {
+    id: 38,
+    category:'Get Well Soon',
+    image: 'images/get-well-soon4.png',
+    name: 'Recovery Roses',
+    price: 400,
+    description:"Extracted from the meat of mature coconuts, coconut oil is a popular choice known for its distinct tropical aroma and flavor, as well as its various culinary and beauty applications."
+  },
+  {
+    id: 39,
+    category:'Get Well Soon',
+    image: 'images/get-well-soon5.png',
+    name: 'Floral Rose',
+    price: 420,
+    description:"Renowned for its health benefits and culinary versatility, olive oil is derived from the fruit of olive trees and comes in different varieties such as extra virgin, virgin, and regular olive oil."
+  },
+  {
+    id: 40,
+    category:'Get Well Soon',
+    image: 'images/get-well-soon6.png',
+    name: 'Cheerful Posies',
+    price: 430,
+    description:"Derived from the seeds of the canola plant, canola oil is known for its mild flavor, high smoking point, and heart-healthy monounsaturated fats."
+  },
+  {
+    id: 41,
+    category:'Get Well Soon',
+    image: 'images/get-well-soon7.png',
+    name: 'Healthy Comfort',
+    price: 450,
+    description:"Extracted from sunflower seeds, sunflower oil is a light and neutral-tasting oil that is commonly used for cooking, frying, and baking."
+  },
+  {
+    id: 42,
+    category:'Get Well Soon',
+    image: 'images/get-well-soon8.png',
+    name: 'Brighter Days',
+    price: 470,
+    description:"Produced from soybeans, soybean oil is a widely used cooking oil due to its neutral flavor, affordability, and high smoke point."
+  },
+  {
+    id: 43,
+    category:'Get Well Soon',
+    image: 'images/get-well-soon9.png',
+    name: 'Petal Therapy',
+    price: 500,
+    description:"Cold-pressed from the flesh of avocados, avocado oil is prized for its high monounsaturated fat content, creamy texture, and mild flavor."
+  },
+  {
+    id: 44,
+    category:'Get Well Soon',
+    image: 'images/gypsophilia2.png',
+    name: 'Misty Morning',
+    price: 460,
+    description:"Derived from sesame seeds, sesame oil is characterized by its distinct nutty flavor and is often used in Asian cuisines for stir-frying and as a flavor enhancer."
+  },
+  {
+    id: 45,
+    category:'Get Well Soon',
+    image: 'images/hydrangeas2.png',
+    name: 'Gentle Giant',
+    price: 470,
+    description:"Extracted from the seeds of grapes, grapeseed oil is a light, neutral-tasting oil that is commonly used in cooking, baking, and salad dressings."
+  },
+  {
+    id: 46,
+    category:'Get Well Soon',
+    image: 'images/carnation2.png',
+    name: 'Coral Crush',
+    price: 490,
+    description:"Made from the germ of corn kernels, corn oil is a popular cooking oil known for its mild flavor and versatility in various culinary applications."
     },
     {
-        id: 23,
-        category:'spices',
-        image: 'images/Cumin.png',
-        name: 'Cumin',
-        price: 190,
-        description:"Earthy spice with a distinct aroma, adding depth and warmth to various cuisines, known for its digestive and anti-inflammatory properties."
+      id: 47,
+      category:'Get Well Soon',
+      image: 'images/calla-lilly2.png',
+      name: 'Angelic Aura',
+      price: 90,
+      description:"Made from the entire wheat kernel, whole wheat flour is higher in fiber, vitamins, and minerals compared to refined flours."
+  },
+  {
+      id: 48,
+      category:'Graduation',
+      image: 'images/graduation1.png',
+      name: 'Academic Glory',
+      price: 120,
+      description:"Ground from blanched almonds, almond flour is a popular gluten-free alternative with a nutty flavor and moist texture."
+  },
+  {
+      id: 49,
+      category:'Graduation',
+      image: 'images/graduation2.png',
+      name: 'Cap Toppers',
+      price: 110,
+      description:"Made from dried and ground coconut meat, coconut flour is a gluten-free option rich in fiber and adds a subtle coconut flavor to baked goods."
+  },
+  {
+      id: 50,
+      category:'Graduation',
+      image: 'images/graduation3.png',
+      name: 'Success Roses',
+      price: 110,
+      description:"Milled from ground rice grains, rice flour is a staple in many Asian cuisines and is often used in gluten-free baking, as well as thickening sauces and coatings."
+  },
+  {
+      id: 51,
+      category:'Graduation',
+      image: 'images/graduation4.png',
+      name: 'Diploma Blooms',
+      price: 180,
+      description:"An ancient grain flour that has a nutty flavor and is lower in gluten compared to modern wheat, making it a potential alternative for those with mild gluten sensitivities."
+  },
+  {
+      id: 52,
+      category:'Graduation',
+      image: 'images/graduation5.png',
+      name: 'Degree Roses',
+      price: 180,
+      description:"An ancient grain flour that has a nutty flavor and is lower in gluten compared to modern wheat, making it a potential alternative for those with mild gluten sensitivities."
+  },
+  {
+      id: 53,
+      category:'Graduation',
+      image: 'images/graduation6.png',
+      name: 'Graduate Roses',
+      price: 190,
+      description:"Commonly used in pasta-making, semolina flour adds a firm and chewy texture. It can also be used in breads and desserts."
+  },
+  {
+      id: 54,
+      category:'Graduation',
+      image: 'images/graduation7.png',
+      name: 'Bright Future',
+      price: 150,
+      description:"Ideal for delicate baked goods like pastries, pie crusts, and cookies, pastry flour produces tender and flaky results."
+  },
+  {
+      id: 55,
+      category:'Graduation',
+      image: 'images/graduation8.png',
+      name: 'Class Act',
+      price: 195,
+      description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
     },
     {
-        id: 24,
-        category:'spices',
-        image: 'images/Oregano.png',
-        name: 'Oregano',
-        price: 200,
-        description:"Fragrant herb with a robust flavor, commonly used in Mediterranean cuisine, providing antioxidants and potential antimicrobial properties."
+      id: 56,
+      category:'Graduation',
+      image: 'images/graduation9.png',
+      name: 'Graduation Glory',
+      price: 195,
+      description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
     },
     {
-        id: 25,
-        category:'spices',
-        image: 'images/Paprika.png',
-        name: 'Paprica',
-        price: 220,
-        description:"Vibrant spice derived from dried red peppers, adding a smoky and slightly sweet flavor to dishes, rich in antioxidants and vitamin C."
+      id: 57,
+      category:'Graduation',
+      image: 'images/roses3.png',
+      name: 'Ruby Success',
+      price: 195,
+      description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
     },
     {
-        id: 26,
-        category:'spices',
-        image: 'images/Rosemary.png',
-        name: 'RoseMary',
-        price: 250,
-        description:"Aromatic herb with a pine-like fragrance, adding a unique flavor to savory dishes, known for its potential cognitive and digestive benefits."
+      id: 58,
+      category:'Graduation',
+      image: 'images/tulips3.png',
+      name: 'Perfection',
+      price: 195,
+      description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
     },
     {
-        id: 27,
-        category:'spices',
-        image: 'images/Thyme.png',
-        name: 'Thyme',
-        price: 100,
-        description:"Fragrant herb with a subtle lemony flavor, enhancing the taste of various dishes, and believed to have antibacterial properties."
+      id: 59,
+      category:'Graduation',
+      image: 'images/sunflower3.png',
+      name: 'Harvest Hope',
+      price: 195,
+      description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
     },
     {
-        id: 28,
-        category:'spices',
-        image: 'images/Turmeric.png',
-        name: 'Tumeric',
-        price: 180,
-        description:"Golden spice with a warm, earthy flavor, containing curcumin, a compound with potential anti-inflammatory and antioxidant properties."
+      id: 60,
+      category:'Graduation',
+      image: 'images/spray3.png',
+      name: 'Golden Success',
+      price: 195,
+      description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
     },
     {
-        id: 29,
-        category:'fruits',
-        image: 'images/Appled.png',
-        name: 'Apple',
-        price: 100,
-        description:"Crisp and versatile, apples are sweet-tart fruits packed with fiber, perfect for snacking or adding to both sweet and savory dishes."
+      id: 61,
+      category:'Graduation',
+      image: 'images/gemini3.png',
+      name: 'Blooming Bliss',
+      price: 195,
+      description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
     },
     {
-        id: 30,
-        category:'fruits',
-        image: 'images/Bananasd.png',
-        name: 'Banana',
-        price: 140,
-        description:"Nutritious and energizing, bananas are potassium-rich fruits with a convenient peel, ideal for on-the-go snacking and adding to smoothies or baked goods."
+      id: 62,
+      category:'House Warming',
+      image: 'images/house-warming1.png',
+      name: 'Warm wishes',
+      price: 195,
+      description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
     },
     {
-        id: 31,
-        category:'fruits',
-        image: 'images/cherriesd.png',
-        name: 'Cherries',
-        price: 170,
-        description:"Bursting with flavor, cherries are antioxidant-packed stone fruits that bring a delightful balance of sweetness and tartness to your palate."
+      id: 63,
+      category:'House Warming',
+      image: 'images/house-warming2.png',
+      name: 'Hearth Hues',
+      price: 195,
+      description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
     },
     {
-        id: 32,
-        category:'fruits',
-        image: 'images/graped.png',
-        name: 'Grape',
-        price: 200,
-        description:" Juicy and bite-sized, grapes come in various colors and flavors, offering hydration, antioxidants, and vitamins for a refreshing snack or addition to salads and juices."
+      id: 64,
+      category:'House Warming',
+      image: 'images/house-warming3.png',
+      name: 'Garden Joy',
+      price: 195,
+      description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
     },
     {
-        id: 33,
-        category:'fruits',
-        image: 'images/mangod.png',
-        name: 'Mango',
-        price: 220,
-        description:"The tropical 'king of fruits,' mangoes have a luscious, aromatic flavor, providing a dose of vitamins, fiber, and antioxidants for a refreshing addition to smoothies, salsas, and desserts."
+      id: 65,
+      category:'House Warming',
+      image: 'images/house-warming4.png',
+      name: 'Sweet Sanctuary',
+      price: 195,
+      description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
     },
     {
-        id: 34,
-        category:'fruits',
-        image: 'images/Oranged.png',
-        name: 'Orange',
-        price: 190,
-        description:"Tangy and vibrant, oranges are citrus fruits rich in vitamin C and nutrients, offering a refreshing juice and versatility in both sweet and savory recipes."
+      id: 66,
+      category:'House Warming',
+      image: 'images/house-warming5.png',
+      name: 'Floral Haven',
+      price: 195,
+      description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
     },
     {
-        id: 35,
-        category:'fruits',
-        image: 'images/Pineappled.png',
-        name: 'Pineapple',
-        price: 250,
-        description:"Tropical and juicy, pineapples bring a sweet and tangy flavor with a dose of vitamins and enzymes, perfect for snacking, salads, and tropical-inspired dishes."
+      id: 67,
+      category:'House Warming',
+      image: 'images/house-warming6.png',
+      name: 'Bloosom Blessing',
+      price: 195,
+      description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
     },
     {
-        id: 36,
-        category:'fruits',
-        image: 'images/strawberriesd.png',
-        name: 'Strawberries',
-        price: 220,
-        description:"Bright and sweet, strawberries are antioxidant-rich fruits that make a refreshing snack, addition to salads, or a delicious topping for desserts and breakfast dishes."
+      id: 68,
+      category:'House Warming',
+      image: 'images/house-warming7.png',
+      name: 'Dwelling Delight',
+      price: 195,
+      description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
     },
     {
-        id: 37,
-        category:'fruits',
-        image: 'images/water-melon.png',
-        name: 'Water Melon',
-        price: 250,
-        description:"Refreshing and hydrating, watermelon is a juicy fruit that quenches your thirst and offers a burst of vitamins, making it a perfect summertime treat."
+      id: 69,
+      category:'House Warming',
+      image: 'images/house-warming8.png',
+      name: 'Fresh Beginning',
+      price: 195,
+      description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
     },
     {
-        id: 38,
-        category:'oils',
-        image: 'images/Coconut-oild.png',
-        name: 'Coconut Oil',
-        price: 400,
-        description:"Extracted from the meat of mature coconuts, coconut oil is a popular choice known for its distinct tropical aroma and flavor, as well as its various culinary and beauty applications."
+      id: 70,
+      category:'House Warming',
+      image: 'images/house-warming9.png',
+      name: 'Home Harmony',
+      price: 195,
+      description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
     },
     {
-        id: 39,
-        category:'oils',
-        image: 'images/olive-oil.png',
-        name: 'Olive Oil',
-        price: 420,
-        description:"Renowned for its health benefits and culinary versatility, olive oil is derived from the fruit of olive trees and comes in different varieties such as extra virgin, virgin, and regular olive oil."
+      id: 71,
+      category:'House Warming',
+      image: 'images/house-warming10.png',
+      name: 'Garden Hug',
+      price: 195,
+      description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
     },
     {
-        id: 40,
-        category:'oils',
-        image: 'images/canola-oil.png',
-        name: 'Canola Oil',
-        price: 430,
-        description:"Derived from the seeds of the canola plant, canola oil is known for its mild flavor, high smoking point, and heart-healthy monounsaturated fats."
+      id: 72,
+      category:'House Warming',
+      image: 'images/lisianthus3.png',
+      name: 'Romantic Ruffles',
+      price: 195,
+      description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+  },
+  {
+    id: 73,
+    category:'House Warming',
+    image: 'images/hydrangeas3.png',
+    name: 'Ocean Dream',
+    price: 195,
+    description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
     },
     {
-        id: 41,
-        category:'oils',
-        image: 'images/sunflower-oil.png',
-        name: 'Sunflower Oil',
-        price: 450,
-        description:"Extracted from sunflower seeds, sunflower oil is a light and neutral-tasting oil that is commonly used for cooking, frying, and baking."
+      id: 74,
+      category:'House Warming',
+      image: 'images/gypsophilia3.png',
+      name: 'Airy Amour',
+      price: 195,
+      description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
     },
     {
-        id: 42,
-        category:'oils',
-        image: 'images/soya-bean-oil.jpg',
-        name: 'Soyabean Oil',
-        price: 470,
-        description:"Produced from soybeans, soybean oil is a widely used cooking oil due to its neutral flavor, affordability, and high smoke point."
+      id: 75,
+      category:'House Warming',
+      image: 'images/carnation3.png',
+      name: 'Ivory Elegance',
+      price: 195,
+      description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
     },
     {
-        id: 43,
-        category:'oils',
-        image: 'images/avocado-oil.png',
-        name: 'Avogado Oil',
-        price: 500,
-        description:"Cold-pressed from the flesh of avocados, avocado oil is prized for its high monounsaturated fat content, creamy texture, and mild flavor."
-    },
-    {
-        id: 44,
-        category:'oils',
-        image: 'images/sesame-oil.png',
-        name: 'Sesame Oil',
-        price: 460,
-        description:"Derived from sesame seeds, sesame oil is characterized by its distinct nutty flavor and is often used in Asian cuisines for stir-frying and as a flavor enhancer."
-    },
-    {
-        id: 45,
-        category:'oils',
-        image: 'images/grape-oil.png',
-        name: 'Grape-Seed Oil',
-        price: 470,
-        description:"Extracted from the seeds of grapes, grape seed oil is a light, neutral-tasting oil that is commonly used in cooking, baking, and salad dressings."
-    },
-    {
-        id: 46,
-        category:'oils',
-        image: 'images/corn-oildd.png',
-        name: 'Corn Oil',
-        price: 490,
-        description:"Made from the germ of corn kernels, corn oil is a popular cooking oil known for its mild flavor and versatility in various culinary applications."
-    },
-    {
-        id: 47,
-        category:'flours',
-        image: 'images/wheat-flour.png',
-        name: 'Wheat Flour',
-        price: 90,
-        description:"Made from the entire wheat kernel, whole wheat flour is higher in fiber, vitamins, and minerals compared to refined flours."
-    },
-    {
-        id: 48,
-        category:'flours',
-        image: 'images/almond-flour.png',
-        name: 'Almond Flour',
-        price: 120,
-        description:"Ground from blanched almonds, almond flour is a popular gluten-free alternative with a nutty flavor and moist texture."
-    },
-    {
-        id: 49,
-        category:'flours',
-        image: 'images/Coconut.png',
-        name: 'Coconut Flour',
-        price: 110,
-        description:"Made from dried and ground coconut meat, coconut flour is a gluten-free option rich in fiber and adds a subtle coconut flavor to baked goods."
-    },
-    {
-        id: 50,
-        category:'flours',
-        image: 'images/rice-flour.png',
-        name: 'Rice Flour',
-        price: 110,
-        description:"Milled from ground rice grains, rice flour is a staple in many Asian cuisines and is often used in gluten-free baking, as well as thickening sauces and coatings."
-    },
-    {
-        id: 51,
-        category:'flours',
-        image: 'images/spelt-flour.png',
-        name: 'Spelt Flour',
-        price: 180,
-        description:"An ancient grain flour that has a nutty flavor and is lower in gluten compared to modern wheat, making it a potential alternative for those with mild gluten sensitivities."
-    },
-    {
-        id: 52,
-        category:'flours',
-        image: 'images/quinoa-flour.png',
-        name: 'Quinoa Flour',
-        price: 180,
-        description:"An ancient grain flour that has a nutty flavor and is lower in gluten compared to modern wheat, making it a potential alternative for those with mild gluten sensitivities."
-    },
-    {
-        id: 53,
-        category:'flours',
-        image: 'images/semolina-flour.png',
-        name: 'Semolina Flour',
-        price: 190,
-        description:"Commonly used in pasta-making, semolina flour adds a firm and chewy texture. It can also be used in breads and desserts."
-    },
-    {
-        id: 54,
-        category:'flours',
-        image: 'images/pastry-flour.png',
-        name: 'Pastry Flour',
-        price: 150,
-        description:"Ideal for delicate baked goods like pastries, pie crusts, and cookies, pastry flour produces tender and flaky results."
-    },
-    {
-        id: 55,
-        category:'flours',
-        image: 'images/oat-flour.png',
-        name: 'Oat Flour',
-        price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+      id: 76,
+      category:'House Warming',
+      image: 'images/calla-lilly3.png',
+      name: 'Blushy Beauty',
+      price: 195,
+      description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
     }
-
-
-
 ];
 
-let cerealsProduct = product.filter(function (items) { 
-    return items.category === "cereals"; 
+let anniversary = product.filter(function (items) { 
+    return items.category === "Anniversary"; 
 }).map(function (items) { 
     {return items}; 
 })
@@ -461,16 +626,16 @@ let cerealsProduct = product.filter(function (items) {
 
 let i = 0;
 
-document.getElementById('motion').innerHTML = cerealsProduct.map((items) =>
+document.getElementById('motion').innerHTML = anniversary.map((items) =>
 {
     var {image, id,name,price,description} = items;
     return (
         `
-        <div  id="mappedItems" class=" mappedDiv group swiper-slide w-[200px] h-[500px] max-sm:w-[50px] max-sm:flex-col justify-center flex flex-col rounded-[2rem] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] bg-transparent items-center group group-hover:text-white border-solid  border-white"
+        <div  id="mappedItems" class=" mappedDiv group swiper-slide w-[200px] h-[550px] max-sm:w-[50px] max-sm:flex-col justify-center flex flex-col rounded-[2rem] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] bg-transparent items-center group group-hover:text-white border-solid  border-white"
           style="background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5))">
             <h4 class="font-bold text-center text-white mt-10">${name}</h4>
             <span class="bg-red-500 w-[5rem] h-1 justify-center items-center text-center"></span>
-            <img id="small" src=${image} alt="oatmeal" class="small-img w-[15rem]  mt-24  ">
+            <img id="small" src=${image} alt="oatmeal" class="small-img w-[17rem] h-[10rem]  mt-24  ">
                    
             <p id='charge' onClick='logger("${image}","${name}","${price}","${description}")' class='cursor-pointer max-sm:w-[6rem] mt-5 text-black bg-white p-2 font-bold w-[10rem] rounded-full text-[14px] invisible group-hover:visible transition ease-in-out duration-3000 delay-1000'>View Details</p>`+
        
@@ -481,23 +646,23 @@ document.getElementById('motion').innerHTML = cerealsProduct.map((items) =>
 }).join('')
 
 
-let proteinProduct = product.filter(function (items) { 
-    return items.category === "protein"; 
+let birthday = product.filter(function (items) { 
+    return items.category === "Birthday"; 
 }).map(function (items) { 
     {return items}; 
 })
 
 
-document.getElementById('motion2').innerHTML = proteinProduct.map((items) =>
+document.getElementById('motion2').innerHTML = birthday.map((items) =>
 {
     var {image, id,name,price,description} = items;
     return (
         `
-        <div  id="mappedItems" class=" mappedDiv group swiper-slide w-[200px] h-[500px] max-sm:w-[50px] max-sm:flex-col justify-center flex flex-col rounded-[2rem] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] bg-transparent items-center group group-hover:text-white border-solid  border-white"
+        <div  id="mappedItems" class=" mappedDiv group swiper-slide w-[200px] h-[550px] max-sm:w-[50px] max-sm:flex-col justify-center flex flex-col rounded-[2rem] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] bg-transparent items-center group group-hover:text-white border-solid  border-white"
           style="background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5))">
             <h4 class="font-bold text-center text-white mt-10">${name}</h4>
             <span class="bg-red-500 w-[5rem] h-1 justify-center items-center text-center"></span>
-            <img id="small" src=${image} alt="oatmeal" class="small-img w-[15rem]  mt-24  ">
+            <img id="small" src=${image} alt="oatmeal" class="small-img w-[17rem] h-[10rem]  mt-24  ">
                    
             <p id='charge' onClick='logger("${image}","${name}","${price}","${description}")' class=' cursor-pointer max-sm:w-[6rem] mt-5 text-black bg-white p-2 font-bold w-[10rem] rounded-full text-[14px] invisible group-hover:visible transition ease-in-out duration-3000 delay-1000'>View Details</p>`+
        
@@ -508,23 +673,23 @@ document.getElementById('motion2').innerHTML = proteinProduct.map((items) =>
 }).join('')
 
 
-let spicesProduct = product.filter(function (items) { 
-    return items.category === "spices"; 
+let well = product.filter(function (items) { 
+    return items.category === "Get Well Soon"; 
 }).map(function (items) { 
     {return items}; 
 })
 
 
-document.getElementById('motion3').innerHTML = spicesProduct.map((items) =>
+document.getElementById('motion3').innerHTML = well.map((items) =>
 {
     var {image, id,name,price,description} = items;
     return (
         `
-        <div  id="mappedItems" class=" mappedDiv group swiper-slide w-[200px] h-[500px] max-sm:w-[50px] max-sm:flex-col justify-center flex flex-col rounded-[2rem] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] bg-transparent items-center group group-hover:text-white border-solid  border-white"
+        <div  id="mappedItems" class=" mappedDiv group swiper-slide w-[200px] h-[550px] max-sm:w-[50px] max-sm:flex-col justify-center flex flex-col rounded-[2rem] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] bg-transparent items-center group group-hover:text-white border-solid  border-white"
           style="background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5))">
             <h4 class="font-bold text-center text-white mt-10">${name}</h4>
             <span class="bg-red-500 w-[5rem] h-1 justify-center items-center text-center"></span>
-            <img id="small" src=${image} alt="oatmeal" class="small-img w-[15rem]  mt-24  ">
+            <img id="small" src=${image} alt="oatmeal" class="small-img w-[17rem] h-[10rem]  mt-24  ">
                    
             <p id='charge' onClick='logger("${image}","${name}","${price}","${description}")' class='cursor-pointer max-sm:w-[6rem] mt-5 text-black bg-white p-2 font-bold w-[10rem] rounded-full text-[14px] invisible group-hover:visible transition ease-in-out duration-3000 delay-1000'>View Details</p>`+
        
@@ -536,23 +701,23 @@ document.getElementById('motion3').innerHTML = spicesProduct.map((items) =>
 
 
 
-let fruitsProduct = product.filter(function (items) { 
-    return items.category === "fruits"; 
+let graduation = product.filter(function (items) { 
+    return items.category === "Graduation"; 
 }).map(function (items) { 
     {return items}; 
 })
 
 
-document.getElementById('motion4').innerHTML = fruitsProduct.map((items) =>
+document.getElementById('motion4').innerHTML = graduation.map((items) =>
 {
     var {image, id,name,price,description} = items;
     return (
         `
-        <div  id="mappedItems" class=" mappedDiv group swiper-slide w-[200px] h-[500px] max-sm:w-[50px] max-sm:flex-col justify-center flex flex-col rounded-[2rem] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] bg-transparent items-center group group-hover:text-white border-solid  border-white"
+        <div  id="mappedItems" class=" mappedDiv group swiper-slide w-[200px] h-[550px] max-sm:w-[50px] max-sm:flex-col justify-center flex flex-col rounded-[2rem] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] bg-transparent items-center group group-hover:text-white border-solid  border-white"
           style="background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5))">
             <h4 class="font-bold text-center text-white mt-10">${name}</h4>
             <span class="bg-red-500 w-[5rem] h-1 justify-center items-center text-center"></span>
-            <img id="small" src=${image} alt="oatmeal" class="small-img w-[15rem]  mt-24  ">
+            <img id="small" src=${image} alt="oatmeal" class="small-img w-[17rem] h-[10rem]  mt-24  ">
                    
             <p id='charge' onClick='logger("${image}","${name}","${price}","${description}")' class='cursor-pointer max-sm:w-[6rem] mt-5 text-black bg-white p-2 font-bold w-[10rem] rounded-full text-[14px] invisible group-hover:visible transition ease-in-out duration-3000 delay-1000'>View Details</p>`+
        
@@ -563,23 +728,23 @@ document.getElementById('motion4').innerHTML = fruitsProduct.map((items) =>
 }).join('')
 
 
-let oilProduct = product.filter(function (items) { 
-    return items.category === "oils"; 
+let house = product.filter(function (items) { 
+    return items.category === "House Warming"; 
 }).map(function (items) { 
     {return items}; 
 })
 
 
-document.getElementById('motion5').innerHTML = oilProduct.map((items) =>
+document.getElementById('motion5').innerHTML = house.map((items) =>
 {
     var {image, id,name,price,description} = items;
     return (
         `
-        <div  id="mappedItems" class=" mappedDiv group swiper-slide w-[200px] h-[500px] max-sm:w-[50px] max-sm:flex-col justify-center flex flex-col rounded-[2rem] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] bg-transparent items-center group group-hover:text-white border-solid  border-white"
+        <div  id="mappedItems" class=" mappedDiv group swiper-slide w-[200px] h-[550px] max-sm:w-[50px] max-sm:flex-col justify-center flex flex-col rounded-[2rem] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] bg-transparent items-center group group-hover:text-white border-solid  border-white"
           style="background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5))">
             <h4 class="font-bold text-center text-white mt-10">${name}</h4>
             <span class="bg-red-500 w-[5rem] h-1 justify-center items-center text-center"></span>
-            <img id="small" src=${image} alt="oatmeal" class="small-img w-[15rem]  mt-24  ">
+            <img id="small" src=${image} alt="oatmeal" class="small-img w-[17rem] h-[10rem]  mt-24  ">
                    
             <p id='charge' onClick='logger("${image}","${name}","${price}","${description}")' class='cursor-pointer max-sm:w-[6rem] mt-5 text-black bg-white p-2 font-bold w-[10rem] rounded-full text-[14px] invisible group-hover:visible transition ease-in-out duration-3000 delay-1000'>View Details</p>`+
        
@@ -590,37 +755,37 @@ document.getElementById('motion5').innerHTML = oilProduct.map((items) =>
 }).join('')
 
 
-let flourProduct = product.filter(function (items) { 
-    return items.category === "flours"; 
-}).map(function (items) { 
-    {return items}; 
-})
+// let flourProduct = product.filter(function (items) { 
+//     return items.category === "flours"; 
+// }).map(function (items) { 
+//     {return items}; 
+// })
 
 
-document.getElementById('motion6').innerHTML = flourProduct.map((items) =>
-{
-    var {image, id,name,price,description} = items;
-    return (
-        `
-        <div  id="mappedItems" class=" mappedDiv group swiper-slide w-[200px] h-[500px] max-sm:w-[50px] max-sm:flex-col justify-center flex flex-col rounded-[2rem] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] bg-transparent items-center group group-hover:text-white border-solid  border-white"
-          style="background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5))">
-            <h4 class="font-bold text-center text-white mt-10">${name}</h4>
-            <span class="bg-red-500 w-[5rem] h-1 justify-center items-center text-center"></span>
-            <img id="small" src=${image} alt="oatmeal" class="small-img w-[15rem]  mt-24  ">
+// document.getElementById('motion6').innerHTML = flourProduct.map((items) =>
+// {
+//     var {image, id,name,price,description} = items;
+//     return (
+//         `
+//         <div  id="mappedItems" class=" mappedDiv group swiper-slide w-[200px] h-[500px] max-sm:w-[50px] max-sm:flex-col justify-center flex flex-col rounded-[2rem] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] bg-transparent items-center group group-hover:text-white border-solid  border-white"
+//           style="background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5))">
+//             <h4 class="font-bold text-center text-white mt-10">${name}</h4>
+//             <span class="bg-red-500 w-[5rem] h-1 justify-center items-center text-center"></span>
+//             <img id="small" src=${image} alt="oatmeal" class="small-img w-[15rem]  mt-24  ">
                    
-            <p id='charge' onClick='logger("${image}","${name}","${price}","${description}")' class='cursor-pointer max-sm:w-[6rem] mt-5 text-black bg-white p-2 font-bold w-[10rem] rounded-full text-[14px] invisible group-hover:visible transition ease-in-out duration-3000 delay-1000'>View Details</p>`+
+//             <p id='charge' onClick='logger("${image}","${name}","${price}","${description}")' class='cursor-pointer max-sm:w-[6rem] mt-5 text-black bg-white p-2 font-bold w-[10rem] rounded-full text-[14px] invisible group-hover:visible transition ease-in-out duration-3000 delay-1000'>View Details</p>`+
        
-            "<p onclick='addtocart("+JSON.stringify(items)+")'  class='cursor-pointer max-sm:w-[6rem] mt-5 text-white bg-red-400 p-2 font-bold w-[10rem] rounded-full text-[14px] '>Add to cart</p>"+
-       ` </div>`
-    )
+//             "<p onclick='addtocart("+JSON.stringify(items)+")'  class='cursor-pointer max-sm:w-[6rem] mt-5 text-white bg-red-400 p-2 font-bold w-[10rem] rounded-full text-[14px] '>Add to cart</p>"+
+//        ` </div>`
+//     )
     
-}).join('')
+// }).join('')
 
 
 
 
 
-let mainDivContent = cerealsProduct.filter(function (single) {
+let mainDivContent = anniversary.filter(function (single) {
     return single.id === 0
 });
 
@@ -634,7 +799,7 @@ function createModal() {
             <div class="w-[400px] mt-3 h-[500px] max-sm:w-[200px]  bg-white justify-center items-center text-center flex flex-col shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] bg-transparent rounded-[3rem]"
                 >
                 <div class="object-contain mt-50">
-                    <img id="mainImg" src=${image} alt="" class="rounded-full object-cover">
+                    <img id="mainImg" src=${image} alt="" class="rounded-full w-[17rem] h-[10rem] object-cover">
                 </div>
                 <div class="mt-10">
                     <button id="mainPrice" class="mt-5 text-white bg-red-400 p-2 font-bold w-[10rem] rounded-full text-[14px] transition ease-in-out duration-3000 delay-1000">$ ${price}</button>
@@ -670,27 +835,27 @@ function createModal() {
 }
 
 createModal();
-// Add the modal HTML to your page
+
 document.body.insertAdjacentHTML("beforeend", createModal());
 
 function logger(image, name, price, description) {
-    // Get the modal elements
+   
     var mainImg = document.getElementById("mainImg");
     var mainName = document.getElementById("mainName");
     var mainPrice = document.getElementById("mainPrice");
     var mainDescription = document.getElementById("mainDescription");
 
-    // Update the modal content
+    
     mainImg.src = image;
     mainName.textContent = name;
     mainPrice.textContent = '$' + price;
     mainDescription.textContent = description;
 
-    // Show the modal
+    
     openModal();
 }
 
-// JavaScript functions to open and close the modal
+
 function openModal() {
     var modal = document.getElementById("myModal");
     modal.classList.remove("hidden");
@@ -701,18 +866,18 @@ function closeModal() {
     modal.classList.add("hidden");
 }
 
-// Add an event listener to the "Close" button in the modal to close it
+
 document.getElementById("modalCloseButton").addEventListener("click", closeModal);
 
-// Add an event listener to the "Charge" button
+
 document.getElementById("charge").addEventListener("click", function () {
-    // Get the details from the main div
+    
     var image = mainImg.src;
     var name = mainName.textContent;
     var price = mainPrice.textContent;
     var description = mainDescription.textContent;
 
-    // Update the modal content
+   
     logger(image, name, price, description);
 });
 
