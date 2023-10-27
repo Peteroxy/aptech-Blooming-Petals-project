@@ -624,6 +624,33 @@ video {
   }
 }
 
+.navbar {
+  background-color: transparent;
+  /* Set your initial background color */
+  padding: 10px;
+  transition: background-color 1s;
+  /* Add a smooth transition effect */
+  color: white;
+  margin-top: 0;
+  /* margin-bottom: 20rem; */
+}
+
+/* Sticky Navbar Styles */
+
+.navbar-sticky {
+  background-color: #F7D7D7;
+  /* Set your sticky background color */
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+  /* Add a box shadow for a sticky effect */
+  position: fixed;
+  top: -1.5rem;
+  left: 0;
+  right: 0;
+  color: black;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
 .banner{
   background-image: url(/background.jpg);
   background-size: cover;
@@ -1066,10 +1093,6 @@ video {
   min-width: 150px;
 }
 
-.max-w-\[1330px\]{
-  max-width: 1330px;
-}
-
 .max-w-md{
   max-width: 28rem;
 }
@@ -1096,6 +1119,27 @@ video {
 
 .animate-bounce{
   animation: bounce 1s infinite;
+}
+
+@keyframes ping{
+  75%, 100%{
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+.animate-ping{
+  animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+@keyframes pulse{
+  50%{
+    opacity: .5;
+  }
+}
+
+.animate-pulse{
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }
 
 .cursor-pointer{
@@ -1148,10 +1192,6 @@ video {
 
 .gap-20{
   gap: 5rem;
-}
-
-.gap-28{
-  gap: 7rem;
 }
 
 .gap-32{
@@ -1596,6 +1636,16 @@ body{
   transition: var(--transition-1);
 }
 
+@keyframes pulse{
+  50%{
+    opacity: .5;
+  }
+}
+
+.hover\:animate-pulse:hover{
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
 @keyframes spin{
   to{
     transform: rotate(360deg);
@@ -1709,10 +1759,6 @@ body{
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .max-xl\:gap-10{
-    gap: 2.5rem;
-  }
-
   .max-xl\:text-\[20px\]{
     font-size: 20px;
   }
@@ -1749,10 +1795,6 @@ body{
 
   .max-lg\:gap-10{
     gap: 2.5rem;
-  }
-
-  .max-lg\:gap-20{
-    gap: 5rem;
   }
 
   .max-lg\:text-\[20px\]{
