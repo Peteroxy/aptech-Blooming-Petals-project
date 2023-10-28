@@ -758,7 +758,479 @@ function addtocart(item) {
             name: 'Meadow Marvel',
             price: 195,
             description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
-        },
+      },
+      {
+        id: 91,
+        category:"Mothers Day",
+        image: 'images/mother1.png',
+        name: "Mother's Joy",
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+    },
+    {
+        id: 92,
+        category:"Mothers Day",
+        image: 'images/mother2.png',
+        name: "Lavender Love",
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+    },
+    {
+        id: 93,
+        category:"Mothers Day",
+        image: 'images/mother3.png',
+        name: "Floral Grace",
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+    },
+    {
+        id: 94,
+        category:"Mothers Day",
+        image: 'images/mother4.png',
+        name: "Love Blossom",
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+    },
+    {
+        id: 95,
+        category:"Mothers Day",
+        image: 'images/mother5.png',
+        name: "Petal Affection",
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+    },
+    {
+        id: 96,
+        category:"Mothers Day",
+        image: 'images/mother6.png',
+        name: "Mum's Blooms",
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+    },
+    {
+        id: 97,
+        category:"Mothers Day",
+        image: 'images/mother7.png',
+        name: "Mum's Garden",
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+    },
+    {
+        id: 98,
+        category:"Mothers Day",
+        image: 'images/mother8.png',
+        name: "Rose Beauty",
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+    },
+    {
+        id: 99,
+        category:"Mothers Day",
+        image: 'images/mother9.png',
+        name: "Loving Carnations",
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+    },
+    {
+        id: 100,
+        category:"Mothers Day",
+        image: 'images/mother10.png',
+        name: "Pink Petals",
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+    },
+    {
+        id: 101,
+        category:"Mothers Day",
+        image: 'images/roses5.png',
+        name: "Crimson Charm",
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+    },
+    {
+        id: 102,
+        category:"Mothers Day",
+        image: 'images/tulips5.png',
+        name: "Spring Symphony",
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+    },
+    {
+        id: 103,
+        category:"Mothers Day",
+        image: 'images/sunflower5.png',
+        name: "Daisy Sun-burst",
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+    },
+    {
+        id: 104,
+        category:"Mothers Day",
+        image: 'images/spray5.png',
+        name: "Whispering Winds",
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+    },
+    {
+        id: 105,
+        category:"Mothers Day",
+        image: 'images/gemini5.png',
+        name: "Pastel Petals",
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+      },
+      {
+        id: 106,
+        category:"Sympathy",
+        image: 'images/sympathy1.png',
+        name: "Serene Blossom",
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+    },
+    {
+        id: 107,
+        category:"Sympathy",
+        image: 'images/sympathy2.png',
+        name: "Compassion Roses",
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+    },
+    {
+        id: 108,
+        category:"Sympathy",
+        image: 'images/sympathy3.png',
+        name: "Graceful Tokens",
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+    },
+    {
+        id: 109,
+        category:"Sympathy",
+        image: 'images/sympathy4.png',
+        name: "Gentle Wishes",
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+    },
+    {
+        id: 110,
+        category:"Sympathy",
+        image: 'images/sympathy5.png',
+        name: "Quite Comfort",
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+    },
+    {
+        id: 111,
+        category:"Sympathy",
+        image: 'images/sympathy6.png',
+        name: "Floral Grace",
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+    },
+    {
+        id: 112,
+        category:"Sympathy",
+        image: 'images/sympathy7.png',
+        name: "Calming Blooms",
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+    },
+    {
+        id: 113,
+        category:"Sympathy",
+        image: 'images/sympathy8.png',
+        name: "Mourning Petals",
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+    },
+    {
+        id: 114,
+        category:"Sympathy",
+        image: 'images/sympathy9.png',
+        name: "Peaceful Blooms",
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+    },
+    {
+        id: 115,
+        category:"Sympathy",
+        image: 'images/lisianthus4.png',
+        name: "Starry Sappphire",
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+    },
+    {
+        id: 116,
+        category:"Sympathy",
+        image: 'images/hydrangeas4.png',
+        name: "Majestic Mauve ",
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+    },
+    {
+        id: 117,
+        category:"Sympathy",
+        image: 'images/gypsophilia4.png',
+        name: "Fairy's Finery ",
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+    },
+    {
+        id: 118,
+        category:"Sympathy",
+        image: 'images/carnation4.png',
+        name: "Golden Glimmer ",
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+    },
+    {
+        id: 119,
+        category:"Sympathy",
+        image: 'images/calla-lilly4.png',
+        name: "Regal Radiance",
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+      },
+      {
+        id: 120,
+        category:"Valentine",
+        image: 'images/valentine1.png',
+        name: "Forever Love",
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+    },
+    {
+        id: 121,
+        category:"Valentine",
+        image: 'images/valentine2.png',
+        name: "Scarlet Roses",
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+    },
+    {
+        id: 122,
+        category:"Valentine",
+        image: 'images/valentine3.png',
+        name: "Sweet Roses",
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+    },
+    {
+        id: 123,
+        category:"Valentine",
+        image: 'images/valentine4.png',
+        name: "Rose Romance",
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+    },
+    {
+        id: 124,
+        category:"Valentine",
+        image: 'images/valentine5.png',
+        name: "Love Bouquet",
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+    },
+    {
+        id: 125,
+        category:"Valentine",
+        image: 'images/valentine6.png',
+        name: "Love Token",
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+    },
+    {
+        id: 126,
+        category:"Valentine",
+        image: 'images/valentine7.png',
+        name: "Passion Petals",
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+    },
+    {
+        id: 127,
+        category:"Valentine",
+        image: 'images/valentine8.png',
+        name: "Romantic Reds",
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+    },
+    {
+        id: 128,
+        category:"Valentine",
+        image: 'images/valentine9.png',
+        name: "Heart Garden",
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+    },
+    {
+        id: 129,
+        category:"Valentine",
+        image: 'images/valentine10.png',
+        name: "Love Blooms",
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+    },
+    {
+        id: 130,
+        category:"Valentine",
+        image: 'images/lisianthus5.png',
+        name: "Precious Petals",
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+    },
+    {
+        id: 131,
+        category:"Valentine",
+        image: 'images/hydrangeas5.png',
+        name: "Coral Charm",
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+    },
+    {
+        id: 132,
+        category:"Valentine",
+        image: 'images/gypsophilia5.png',
+        name: "Angel Aura",
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+    },
+    {
+        id: 133,
+        category:"Valentine",
+        image: 'images/calla-lilly5.png',
+        name: "Elegant Embrace",
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+    },
+    {
+        id: 133,
+        category:"Valentine",
+        image: 'images/carnation5.png',
+        name: "Coral Crush",
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+      },
+      {
+        id: 134,
+        category:"Wedding",
+        image: 'images/wedding1.png',
+        name: "Bridal Bliss",
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+    },
+    {
+        id: 135,
+        category:"Wedding",
+        image: 'images/wedding2.png',
+        name: "Garden Dreams",
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+    },
+    {
+        id: 136,
+        category:"Wedding",
+        image: 'images/wedding3.png',
+        name: "Blossom Breeze",
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+    },
+    {
+        id: 137,
+        category:"Wedding",
+        image: 'images/wedding4.png',
+        name: "Wedding Wonders",
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+    },
+    {
+        id: 138,
+        category:"Wedding",
+        image: 'images/wedding5.png',
+        name: "Pure Passion",
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+    },
+    {
+        id: 139,
+        category:"Wedding",
+        image: 'images/wedding6.png',
+        name: "Eternal Love",
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+    },
+    {
+        id: 140,
+        category:"Wedding",
+        image: 'images/wedding7.png',
+        name: "Rose Rapture",
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+    },
+    {
+        id: 141,
+        category:"Wedding",
+        image: 'images/wedding8.png',
+        name: "Bridal Beauty",
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+    },
+    {
+        id: 142,
+        category:"Wedding",
+        image: 'images/wedding9.png',
+        name: "Enchanted Roses",
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+    },
+    {
+        id: 143,
+        category:"Wedding",
+        image: 'images/wedding10.png',
+        name: "Romantic Roses",
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+    },
+    {
+        id: 144,
+        category:"Wedding",
+        image: 'images/roses6.png',
+        name: "Graceful Grace",
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+    },
+    {
+        id: 145,
+        category:"Wedding",
+        image: 'images/tulips6.png',
+        name: "Apricot Dreams",
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+    },
+    {
+        id: 146,
+        category:"Wedding",
+        image: 'images/sunflower6.png',
+        name: "Radiance Ray",
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+    },
+    {
+        id: 147,
+        category:"Wedding",
+        image: 'images/spray6.png',
+        name: "Blossom Cascade",
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+    },
+    {
+        id: 148,
+        category:"Wedding",
+        image: 'images/gemini6.png',
+        name: "Floral Fantasy",
+        price: 195,
+        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+    },
 
 ];
 
