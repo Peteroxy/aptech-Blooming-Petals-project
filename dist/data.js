@@ -5,7 +5,7 @@ const product = [
         image: 'images/anniversary1.png',
         name: 'Eternal Bloom',
         price: 120,
-        description:"Indulge in our organic cornflakes, crafted from sustainably sourced corn for a crisp and nutritious breakfast experience that satisfies."
+        description:" Delicate and everlasting, these flowers exude timeless beauty and enduring grace in every petal."
     },
     {
         id: 1,
@@ -13,7 +13,7 @@ const product = [
         image: 'images/anniversary2.png',
         name: 'Timeless Roses',
         price: 140,
-        description:"Savor the goodness of our organic bran flakes, made from wholesome ingredients and rich in fiber, vitamins, and minerals for a nourishing start to your day."
+        description:" Classic and enchanting, roses transcend time, symbolizing eternal love, passion, and romantic allure."
     },
     {
         id: 2,
@@ -21,7 +21,7 @@ const product = [
         image: 'images/anniversary3.png',
         name: 'Mile stone Memories',
         price: 130,
-        description:"Our organic oatmeal cereal offers a wholesome and nourishing breakfast option, packed with fiber, vitamins, and minerals."
+        description:" Flowers marking important moments, weaving vivid memories with vibrant colors and fragrant embrace."
     },
     {
         id: 3,
@@ -29,7 +29,7 @@ const product = [
         image: 'images/anniversary4.png',
         name: 'Romantic Bloom',
         price: 150,
-        description:"Enjoy the light and crispy delight of our organic puffed rice cereal, made from whole grains and packed with a satisfying crunch and natural goodness."
+        description:" Alluring, passion-filled petals ignite flames of love, creating an atmosphere of desire and affection."
     },
     {
         id: 4,
@@ -37,7 +37,7 @@ const product = [
         image: 'images/anniversary5.png',
         name: 'Precious Petals',
         price: 200,
-        description:"Discover the perfect balance of flavors in our organic salt muesli, combining wholesome grains, nuts, seeds, and a touch of salt for a savory and nutritious breakfast option."
+        description:" Tender and exquisite, symbolizing love, gratitude, and admiration in each delicate, cherished petal."
     },
     {
         id: 5,
@@ -45,15 +45,15 @@ const product = [
         image: 'images/anniversary6.png',
         name: 'Passionate Pansies',
         price: 200,
-        description:"Experience the wholesome goodness of our organic whole wheat cereal, made from nutrient-rich whole grains, providing a hearty and nutritious start to your day."
+        description:" Vibrant and bold, pansies express emotions with their lively colors, radiating an undeniable ardor."
     },
     {
         id: 6,
         category:'Anniversary',
         image: 'images/anniversary7.png',
-        name: 'Forever Your',
+        name: 'Forever Yours',
         price: 220,
-        description:"Nutritious ancient grain packed with fiber and essential minerals, known for its versatility in soups, salads, and pilafs."
+        description:" A promise of everlasting devotion, these blooms capture the essence of love's eternal embrace."
     },
     {
         id: 7,
@@ -61,7 +61,7 @@ const product = [
         image: 'images/anniversary8.png',
         name: 'Cherished Blessing',
         price: 250,
-        description:"Nutrient-rich pseudo-cereal with a distinct nutty flavor, gluten-free, and a great source of protein and dietary fiber."
+        description:" These flowers bestow a sense of grace and gratitude, symbolizing life's most treasured moments."
     },
     {
         id: 8,
@@ -69,7 +69,7 @@ const product = [
         image: 'images/roses1.png',
         name: 'Crimson Charm',
         price: 240,
-        description:"Hearty ancient wheat grain with a chewy texture, rich in vitamins and minerals, commonly used in salads, soups, and risottos."
+        description:" Deep red hues evoke desire, love, and unending fascination in every captivating crimson petal."
     },
     {
         id: 9,
@@ -77,7 +77,7 @@ const product = [
         image: 'images/tulips1.png',
         name: 'Coral Charm',
         price: 240,
-        description:"Small grain with a mild, nutty flavor, gluten-free, and rich in antioxidants, fiber, and minerals, often used in porridges and baked goods."
+        description:" Soft, joyful blooms exuding warmth through their coral-colored petals, bringing a sense of happiness."
     },
     {
         id: 10,
@@ -85,7 +85,7 @@ const product = [
         image: 'images/sunflower1.png',
         name: 'Sunny Smiles',
         price: 300,
-        description:"Nutty-flavored ancient grain, a distant relative of wheat, rich in protein, fiber, and B-vitamins, commonly used in bread and pasta recipes."
+        description:" Radiating positivity, these cheerful blooms brighten any day, inviting joy and warmth with sunny grins."
     },
     {
         id: 11,
@@ -93,7 +93,7 @@ const product = [
         image: 'images/spray1.png',
         name: 'Fragrant Breeze',
         price: 280,
-        description:"Indulge in our protein-rich organic granola, crafted with wholesome ingredients like nuts, seeds, and grains, for a satisfying and nourishing snack or breakfast option."
+        description:" Gentle, soothing aroma flows from these flowers, bringing a refreshing, tranquil natural breeze."
     },
     {
         id: 12,
@@ -101,7 +101,7 @@ const product = [
         image: 'images/carnation1.png',
         name: 'Rosy Radiance',
         price: 250,
-        description:"Savor the nutritional powerhouse of our organic quinoa, a protein-rich grain that offers a complete amino acid profile, making it a versatile and wholesome addition to your meals."
+        description:" Elegant, vibrant roses emanate inner light that warms the heart, capturing attention with their radiance."
     },
     {
         id: 13,
@@ -109,7 +109,7 @@ const product = [
         image: 'images/hydrangeas1.png',
         name: 'Lavenger Love',
         price: 110,
-        description:"Versatile meat option, known for its rich flavor and tenderness, providing a good source of protein, vitamins, and minerals."
+        description:" Tranquil lavender blooms symbolize deep affection, emanating serenity and representing a tranquil, profound love."
     },
     {
         id: 14,
@@ -117,7 +117,7 @@ const product = [
         image: 'images/lisianthus1.png',
         name: 'Gentle Grace',
         price: 150,
-        description:"Nutritional powerhouse packed with healthy fats, fiber, antioxidants, and vitamin E, promoting heart health and providing a satisfying crunch."
+        description:" Flowers embodying calm and elegance, captivating all with gentle charm, bringing a sense of poise."
     },
     {
         id: 15,
@@ -125,7 +125,7 @@ const product = [
         image: 'images/gypsophilia1.png',
         name: 'Cloudy Whisper',
         price: 170,
-        description:"Nutrient-dense food, packed with high-quality protein, vitamins, and minerals, versatile in cooking and essential for various culinary preparations."
+        description:" Delicate, ethereal blooms resemble whispers from the sky, embodying tranquility and enigmatic beauty perfectly."
     },
     {
         id: 16,
@@ -133,7 +133,7 @@ const product = [
         image: 'images/gemini1.png',
         name: 'Sparkling Gemini',
         price: 300,
-        description:" Protein-rich meat option, offering essential nutrients like iron, zinc, and B-vitamins, contributing to muscle growth and overall health."
+        description:" Unique and captivating, these flowers showcase a duality that sparkles with an enchanting, distinct charm."
     },
     {
         id: 17,
@@ -141,7 +141,7 @@ const product = [
         image: 'images/calla-lilly1.png',
         name: 'Ivory Grace',
         price: 340,
-        description:"Lean poultry choice, low in fat and high in protein, supplying essential amino acids, vitamins, and minerals for muscle growth and repair."
+        description:" Pure, elegant ivory blooms symbolize grace, poise, and serene beauty, capturing hearts with their delicate elegance."
     },
     {
         id: 18,
@@ -149,7 +149,7 @@ const product = [
         image: 'images/birthday1.png',
         name: 'Petal Party',
         price: 330,
-        description:"Protein-packed legumes, rich in fiber, folate, and iron, providing a versatile and nutritious ingredient for soups, stews, and salads."
+        description:" : A lively celebration of colors and fragrance, these blooms invite joy and festivity in every petal."
     },
     {
         id: 19,
@@ -157,7 +157,7 @@ const product = [
         image: 'images/birthday2.png',
         name: 'Rainbow Rose',
         price: 300,
-        description:"Fatty fish renowned for its omega-3 fatty acids, promoting heart health, and providing a rich source of high-quality protein."
+        description:" A unique and enchanting flower that boasts a spectrum of colors, symbolizing diversity and love."
     },
     {
         id: 20,
@@ -165,7 +165,7 @@ const product = [
         image: 'images/birthday3.png',
         name: 'Vibrant Violet',
         price: 160,
-        description:"Soy-based protein alternative, low in fat and cholesterol-free, offering a versatile option for vegetarian and vegan dishes."
+        description:" With its regal hues, the vibrant violet exudes charm and elegance, captivating all who behold it."
     },
     {
       id: 21,
@@ -173,7 +173,7 @@ const product = [
       image: 'images/birthday4.png',
       name: 'Lily Luxe',
       price: 180,
-      description:"Fragrant spice with a warm, sweet flavor, adding depth to both sweet and savory dishes, known for its potential health benefit"
+      description:" With its regal hues, the vibrant violet exudes charm and elegance, captivating all who behold it."
   },
   {
       id: 22,
@@ -181,7 +181,7 @@ const product = [
       image: 'images/birthday5.png',
       name: 'Velvet Rose',
       price: 140,
-      description:"Aromatic spice with a sweet and warm taste, boasting antioxidant properties and potential health benefits, commonly used in baking and cooking."
+      description:" Rich, velvety petals that convey a sense of deep, luxurious passion and alluring beauty."
   },
   {
       id: 23,
@@ -189,7 +189,7 @@ const product = [
       image: 'images/birthday6.png',
       name: 'Daisy Duet',
       price: 190,
-      description:"Earthy spice with a distinct aroma, adding depth and warmth to various cuisines, known for its digestive and anti-inflammatory properties."
+      description:" Delicate daisies in harmony, singing a duet of simplicity and purity in their graceful presence."
   },
   {
       id: 24,
@@ -197,7 +197,7 @@ const product = [
       image: 'images/birthday7.png',
       name: 'Rose Radiance',
       price: 200,
-      description:"Fragrant herb with a robust flavor, commonly used in Mediterranean cuisine, providing antioxidants and potential antimicrobial properties."
+      description:" These roses shine with an inner light, emanating elegance and captivating all with their radiant charm."
   },
   {
       id: 25,
@@ -205,7 +205,7 @@ const product = [
       image: 'images/birthday7.png',
       name: 'Elegant Roses',
       price: 220,
-      description:"Vibrant spice derived from dried red peppers, adding a smoky and slightly sweet flavor to dishes, rich in antioxidants and vitamin C."
+      description:" A symbol of grace and beauty, these roses exemplify elegance in every petal and gesture."
   },
   {
       id: 26,
@@ -213,7 +213,7 @@ const product = [
       image: 'images/birthday8.png',
       name: 'Daisy Delight',
       price: 250,
-      description:"Aromatic herb with a pine-like fragrance, adding a unique flavor to savory dishes, known for its potential cognitive and digestive benefits."
+      description:" Simple yet joyful, daisies bring delight with their bright and cheerful blooms, spreading happiness."
   },
   {
       id: 27,
@@ -221,7 +221,7 @@ const product = [
       image: 'images/birthday9.png',
       name: 'Ballon Bouquet',
       price: 100,
-      description:"Fragrant herb with a subtle lemony flavor, enhancing the taste of various dishes, and believed to have antibacterial properties."
+      description:" A colorful assortment of blooms reminiscent of balloons, radiating joy and festivity in each petal."
   },
   {
       id: 28,
@@ -229,7 +229,7 @@ const product = [
       image: 'images/birthday10.png',
       name: 'Daisy Dreams',
       price: 180,
-      description:"Golden spice with a warm, earthy flavor, containing curcumin, a compound with potential anti-inflammatory and antioxidant properties."
+      description:" These daisies inspire dreams with their purity and simplicity, bringing visions of beauty and hope."
     },
     {
       id: 29,
@@ -237,7 +237,7 @@ const product = [
       image: 'images/roses2.png',
       name: 'Heavenly Rose',
       price: 100,
-      description:"Crisp and versatile, apples are sweet-tart fruits packed with fiber, perfect for snacking or adding to both sweet and savory dishes."
+      description:" Roses that reflect a divine beauty, exuding an aura of heavenly grace and serenity."
   },
   {
       id: 30,
@@ -245,7 +245,7 @@ const product = [
       image: 'images/tulips2.png',
       name: 'Tulip Timeless',
       price: 140,
-      description:"Nutritious and energizing, bananas are potassium-rich fruits with a convenient peel, ideal for on-the-go snacking and adding to smoothies or baked goods."
+      description:" Timeless and beloved, tulips symbolize undying love, making them perfect for expressing affection."
   },
   {
       id: 31,
@@ -253,7 +253,7 @@ const product = [
       image: 'images/sunflower2.png',
       name: 'Sunny Serenity',
       price: 170,
-      description:"Bursting with flavor, cherries are antioxidant-packed stone fruits that bring a delightful balance of sweetness and tartness to your palate."
+      description:" Radiating serenity and warmth, these blooms bring a sense of peace and happiness to any space."
   },
   {
       id: 32,
@@ -261,7 +261,7 @@ const product = [
       image: 'images/spray2.png',
       name: 'Royal Ruffles',
       price: 200,
-      description:" Juicy and bite-sized, grapes come in various colors and flavors, offering hydration, antioxidants, and vitamins for a refreshing snack or addition to salads and juices."
+      description:" Regal and elegant, these flowers display ruffled petals that exude a sense of majesty and grandeur."
   },
   {
       id: 33,
@@ -269,7 +269,7 @@ const product = [
       image: 'images/gemini2.png',
       name: 'Rainbow Gem',
       price: 220,
-      description:"The tropical 'king of fruits,' mangoes have a luscious, aromatic flavor, providing a dose of vitamins, fiber, and antioxidants for a refreshing addition to smoothies, salsas, and desserts."
+      description:" These flowers are like precious gems, with their colorful hues that shine and captivate all."
   },
   {
       id: 34,
@@ -277,7 +277,7 @@ const product = [
       image: 'images/lisianthus2.png',
       name: 'Secrete Garden',
       price: 190,
-      description:"Tangy and vibrant, oranges are citrus fruits rich in vitamin C and nutrients, offering a refreshing juice and versatility in both sweet and savory recipes."
+      description:" Enigmatic and captivating, these blooms symbolize the hidden beauty and wonders of a secluded garden."
   },
   {
       id: 35,
@@ -285,7 +285,7 @@ const product = [
       image: 'images/get-well-soon1.png',
       name: 'Blossom Bost',
       price: 250,
-      description:"Tropical and juicy, pineapples bring a sweet and tangy flavor with a dose of vitamins and enzymes, perfect for snacking, salads, and tropical-inspired dishes."
+      description:" These vibrant blooms rejuvenate spirits, infusing energy and vitality into any environment they grace."
   },
   {
       id: 36,
@@ -293,7 +293,7 @@ const product = [
       image: 'images/get-well-soon2.png',
       name: 'Uplifting Lilies',
       price: 220,
-      description:"Bright and sweet, strawberries are antioxidant-rich fruits that make a refreshing snack, addition to salads, or a delicious topping for desserts and breakfast dishes."
+      description:" Lilies that inspire joy and positivity, symbolizing hope and happiness in their delicate petals."
   },
   {
       id: 37,
@@ -301,7 +301,7 @@ const product = [
       image: 'images/get-well-soon3.png',
       name: 'Floral Comfort',
       price: 250,
-      description:"Refreshing and hydrating, watermelon is a juicy fruit that quenches your thirst and offers a burst of vitamins, making it a perfect summertime treat."
+      description:" Offering solace and peace, these flowers provide a comforting presence in times of need."
   },
   {
     id: 38,
@@ -309,7 +309,7 @@ const product = [
     image: 'images/get-well-soon4.png',
     name: 'Recovery Roses',
     price: 400,
-    description:"Extracted from the meat of mature coconuts, coconut oil is a popular choice known for its distinct tropical aroma and flavor, as well as its various culinary and beauty applications."
+    description:" Symbolizing resilience and healing, these roses are perfect for wishing a speedy recovery."
   },
   {
     id: 39,
@@ -317,7 +317,7 @@ const product = [
     image: 'images/get-well-soon5.png',
     name: 'Floral Rose',
     price: 420,
-    description:"Renowned for its health benefits and culinary versatility, olive oil is derived from the fruit of olive trees and comes in different varieties such as extra virgin, virgin, and regular olive oil."
+    description:" A classic beauty, this flower radiates the essence of love and sentiment with its elegance."
   },
   {
     id: 40,
@@ -325,7 +325,7 @@ const product = [
     image: 'images/get-well-soon6.png',
     name: 'Cheerful Posies',
     price: 430,
-    description:"Derived from the seeds of the canola plant, canola oil is known for its mild flavor, high smoking point, and heart-healthy monounsaturated fats."
+    description:" These posies bring an instant smile, spreading cheer and joy with their delightful presence."
   },
   {
     id: 41,
@@ -333,7 +333,7 @@ const product = [
     image: 'images/get-well-soon7.png',
     name: 'Healthy Comfort',
     price: 450,
-    description:"Extracted from sunflower seeds, sunflower oil is a light and neutral-tasting oil that is commonly used for cooking, frying, and baking."
+    description:" Flowers that embody well-being and comfort, providing solace and warmth in times of need."
   },
   {
     id: 42,
@@ -341,7 +341,7 @@ const product = [
     image: 'images/get-well-soon8.png',
     name: 'Brighter Days',
     price: 470,
-    description:"Produced from soybeans, soybean oil is a widely used cooking oil due to its neutral flavor, affordability, and high smoke point."
+    description:" These blooms signify the promise of better days ahead, bringing optimism and hope to all."
   },
   {
     id: 43,
@@ -349,7 +349,7 @@ const product = [
     image: 'images/get-well-soon9.png',
     name: 'Petal Therapy',
     price: 500,
-    description:"Cold-pressed from the flesh of avocados, avocado oil is prized for its high monounsaturated fat content, creamy texture, and mild flavor."
+    description:" These soothing blooms act as a therapeutic remedy, offering tranquility and serenity to the soul."
   },
   {
     id: 44,
@@ -357,7 +357,7 @@ const product = [
     image: 'images/gypsophilia2.png',
     name: 'Misty Morning',
     price: 460,
-    description:"Derived from sesame seeds, sesame oil is characterized by its distinct nutty flavor and is often used in Asian cuisines for stir-frying and as a flavor enhancer."
+    description:" Evoking the tranquil beauty of a misty morning, these flowers bring a sense of peace."
   },
   {
     id: 45,
@@ -365,7 +365,7 @@ const product = [
     image: 'images/hydrangeas2.png',
     name: 'Gentle Giant',
     price: 470,
-    description:"Extracted from the seeds of grapes, grapeseed oil is a light, neutral-tasting oil that is commonly used in cooking, baking, and salad dressings."
+   description:"Majestic and tender, these blooms combine strength and gentleness, commanding attention with grace."
   },
   {
     id: 46,
@@ -373,7 +373,7 @@ const product = [
     image: 'images/carnation2.png',
     name: 'Coral Crush',
     price: 490,
-    description:"Made from the germ of corn kernels, corn oil is a popular cooking oil known for its mild flavor and versatility in various culinary applications."
+    description:" Bold and vibrant, these flowers exhibit a passion and vibrancy that cannot be ignored."
     },
     {
       id: 47,
@@ -381,7 +381,7 @@ const product = [
       image: 'images/calla-lilly2.png',
       name: 'Angelic Aura',
       price: 90,
-      description:"Made from the entire wheat kernel, whole wheat flour is higher in fiber, vitamins, and minerals compared to refined flours."
+      description:" These blooms radiate an ethereal presence, embodying purity and grace with an otherworldly charm."
   },
   {
       id: 48,
@@ -389,7 +389,7 @@ const product = [
       image: 'images/graduation1.png',
       name: 'Academic Glory',
       price: 120,
-      description:"Ground from blanched almonds, almond flour is a popular gluten-free alternative with a nutty flavor and moist texture."
+      description:" These flowers symbolize achievement, commemorating academic excellence with their vibrant and distinguished presence."
   },
   {
       id: 49,
@@ -397,7 +397,7 @@ const product = [
       image: 'images/graduation2.png',
       name: 'Cap Toppers',
       price: 110,
-      description:"Made from dried and ground coconut meat, coconut flour is a gluten-free option rich in fiber and adds a subtle coconut flavor to baked goods."
+      description:" Celebrate success with these blooms, akin to graduates cap and tassel, reaching new heights of achievement."
   },
   {
       id: 50,
@@ -405,7 +405,7 @@ const product = [
       image: 'images/graduation3.png',
       name: 'Success Roses',
       price: 110,
-      description:"Milled from ground rice grains, rice flour is a staple in many Asian cuisines and is often used in gluten-free baking, as well as thickening sauces and coatings."
+      description:" Radiating accomplishment, these roses embody success and achievement, making them perfect for graduation celebrations."
   },
   {
       id: 51,
@@ -413,7 +413,7 @@ const product = [
       image: 'images/graduation4.png',
       name: 'Diploma Blooms',
       price: 180,
-      description:"An ancient grain flour that has a nutty flavor and is lower in gluten compared to modern wheat, making it a potential alternative for those with mild gluten sensitivities."
+      description:" These flowers honor graduates and the attainment of knowledge, resembling the scroll of a diploma."
   },
   {
       id: 52,
@@ -421,7 +421,7 @@ const product = [
       image: 'images/graduation5.png',
       name: 'Degree Roses',
       price: 180,
-      description:"An ancient grain flour that has a nutty flavor and is lower in gluten compared to modern wheat, making it a potential alternative for those with mild gluten sensitivities."
+      description:" These roses represent the culmination of hard work, making them a fitting gift for graduates."
   },
   {
       id: 53,
@@ -429,7 +429,7 @@ const product = [
       image: 'images/graduation6.png',
       name: 'Graduate Roses',
       price: 190,
-      description:"Commonly used in pasta-making, semolina flour adds a firm and chewy texture. It can also be used in breads and desserts."
+      description:" A tribute to educational milestones, these roses honor the achievement of completing one's academic journey."
   },
   {
       id: 54,
@@ -437,7 +437,7 @@ const product = [
       image: 'images/graduation7.png',
       name: 'Bright Future',
       price: 150,
-      description:"Ideal for delicate baked goods like pastries, pie crusts, and cookies, pastry flour produces tender and flaky results."
+      description:" Symbolizing optimism, these blooms inspire hope and excitement for the prosperous journey that lies ahead."
   },
   {
       id: 55,
@@ -445,7 +445,7 @@ const product = [
       image: 'images/graduation8.png',
       name: 'Class Act',
       price: 195,
-      description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+      description:" Exuding sophistication, these flowers are a testament to the class and excellence achieved by graduates."
     },
     {
       id: 56,
@@ -453,7 +453,7 @@ const product = [
       image: 'images/graduation9.png',
       name: 'Graduation Glory',
       price: 195,
-      description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+      description:" A radiant symbol of success, these blooms celebrate the glory of academic accomplishments with distinction."
     },
     {
       id: 57,
@@ -461,7 +461,7 @@ const product = [
       image: 'images/roses3.png',
       name: 'Ruby Success',
       price: 195,
-      description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+      description:" Symbolizing passion and success, these blooms capture the essence of a remarkable achievement."
     },
     {
       id: 58,
@@ -469,7 +469,7 @@ const product = [
       image: 'images/tulips3.png',
       name: 'Perfection',
       price: 195,
-      description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+      description:" These flowers embody excellence and the pursuit of perfection, making them a fitting gift for graduates."
     },
     {
       id: 59,
@@ -477,7 +477,7 @@ const product = [
       image: 'images/sunflower3.png',
       name: 'Harvest Hope',
       price: 195,
-      description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+      description:" Signifying the culmination of effort, these blooms represent the hope and promise of a bountiful future."
     },
     {
       id: 60,
@@ -485,7 +485,7 @@ const product = [
       image: 'images/spray3.png',
       name: 'Golden Success',
       price: 195,
-      description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+      description:" These blooms radiate the brilliance of success, akin to a golden achievement that shines brightly."
     },
     {
       id: 61,
@@ -493,7 +493,7 @@ const product = [
       image: 'images/gemini3.png',
       name: 'Blooming Bliss',
       price: 195,
-      description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+      description:" Celebrate academic accomplishments with these blooms that exude a sense of joy and fulfillment.."
     },
     {
       id: 62,
@@ -501,7 +501,7 @@ const product = [
       image: 'images/house-warming1.png',
       name: 'Warm wishes',
       price: 195,
-      description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+      description:" These flowers convey heartfelt wishes and warm sentiments, symbolizing the depth of affection and care."
     },
     {
       id: 63,
@@ -509,7 +509,7 @@ const product = [
       image: 'images/house-warming2.png',
       name: 'Hearth Hues',
       price: 195,
-      description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+      description:" Blooms that mirror the cozy colors of a hearth, exuding a sense of warmth and comfort."
     },
     {
       id: 64,
@@ -517,7 +517,7 @@ const product = [
       image: 'images/house-warming3.png',
       name: 'Garden Joy',
       price: 195,
-      description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+      description:" These flowers bring the joy of a blooming garden, brightening any space with their vibrant colors."
     },
     {
       id: 65,
@@ -525,7 +525,7 @@ const product = [
       image: 'images/house-warming4.png',
       name: 'Sweet Sanctuary',
       price: 195,
-      description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+      description:" Like a refuge of sweetness, these blooms offer a serene and comforting presence to behold."
     },
     {
       id: 66,
@@ -533,15 +533,15 @@ const product = [
       image: 'images/house-warming5.png',
       name: 'Floral Haven',
       price: 195,
-      description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+      description:" A haven of blossoms that radiate tranquility and serenity, inviting you into a world of floral delight."
     },
     {
       id: 67,
       category:'House Warming',
       image: 'images/house-warming6.png',
-      name: 'Bloosom Blessing',
+      name: 'Bloosom Bloom',
       price: 195,
-      description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+      description:" An exquisite display of flowers in full bloom, capturing the vibrancy and beauty of nature."
     },
     {
       id: 68,
@@ -549,7 +549,7 @@ const product = [
       image: 'images/house-warming7.png',
       name: 'Dwelling Delight',
       price: 195,
-      description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+      description:" These blooms infuse any dwelling with delight, creating a warm and inviting atmosphere."
     },
     {
       id: 69,
@@ -557,7 +557,7 @@ const product = [
       image: 'images/house-warming8.png',
       name: 'Fresh Beginning',
       price: 195,
-      description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+      description:" Signifying a new start, these blooms represent the freshness and possibilities of a new beginning."
     },
     {
       id: 70,
@@ -565,7 +565,7 @@ const product = [
       image: 'images/house-warming9.png',
       name: 'Home Harmony',
       price: 195,
-      description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+      description:" These flowers bring a sense of peace and harmony, turning a house into a home."
     },
     {
       id: 71,
@@ -573,7 +573,7 @@ const product = [
       image: 'images/house-warming10.png',
       name: 'Garden Hug',
       price: 195,
-      description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+      description:" Embracing the spirit of a garden, these blooms offer a comforting and nurturing hug to the soul."
     },
     {
       id: 72,
@@ -581,7 +581,7 @@ const product = [
       image: 'images/lisianthus3.png',
       name: 'Romantic Ruffles',
       price: 195,
-      description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+      description:" Blooms with ruffled petals that exude an air of romance, capturing hearts with their charm."
   },
   {
     id: 73,
@@ -589,7 +589,7 @@ const product = [
     image: 'images/hydrangeas3.png',
     name: 'Ocean Dream',
     price: 195,
-    description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+    description:" These flowers evoke the dreamy tranquility of the ocean, inspiring visions of serene coastal beauty."
     },
     {
       id: 74,
@@ -597,7 +597,7 @@ const product = [
       image: 'images/gypsophilia3.png',
       name: 'Airy Amour',
       price: 195,
-      description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+      description:" Light and delicate, these blooms symbolize a tender and ethereal love, captivating all with their charm."
     },
     {
       id: 75,
@@ -605,7 +605,7 @@ const product = [
       image: 'images/carnation3.png',
       name: 'Ivory Elegance',
       price: 195,
-      description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+      description:" Pure and elegant, these ivory blooms embody grace and sophistication with a timeless elegance."
     },
     {
       id: 76,
@@ -613,7 +613,7 @@ const product = [
       image: 'images/calla-lilly3.png',
       name: 'Blushy Beauty',
       price: 195,
-      description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+      description:" Delicate and blushing in color, these blooms exude a soft and charming beauty that captivates."
     },
     {
         id: 77,
@@ -621,7 +621,7 @@ const product = [
         image: 'images/love&romance1.png',
         name: 'Love Blooms',
         price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+        description:" These flowers symbolize love's blossoming, capturing the essence of affection and deep emotion in every petal."
     },
     {
         id: 78,
@@ -629,7 +629,7 @@ const product = [
         image: 'images/love2.png',
         name: 'Heart-Felt Hues',
         price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+        description:" Blooms with colors that speak to the heart, embodying a deep and genuine emotional connection."
     },
     {
         id: 79,
@@ -637,7 +637,7 @@ const product = [
         image: 'images/love3.png',
         name: 'Rose Romance',
         price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+        description:" Roses that ignite romantic feelings, offering a passionate and enchanting love story in each petal."
     },
     {
         id: 80,
@@ -645,7 +645,7 @@ const product = [
         image: 'images/love4.png',
         name: 'Kissable Carnation',
         price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+        description:" Carnations that invite affection, inspiring sweet and tender kisses with their alluring charm."
     },
     {
         id: 81,
@@ -653,7 +653,7 @@ const product = [
         image: 'images/love5.png',
         name: 'Scarlet Roses',
         price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+        description:" Deep red roses that symbolize intense love, passion, and an unmistakable connection between hearts."
     },
     {
         id: 82,
@@ -661,7 +661,7 @@ const product = [
         image: 'images/love6.png',
         name: 'Love Tokens',
         price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+        description:" These blooms are tokens of affection, representing the exchange of love, care, and fondness between people."
     },
     {
         id: 83,
@@ -669,7 +669,7 @@ const product = [
         image: 'images/love7.png',
         name: 'Red Passion',
         price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+        description:" A passionate red symbolizing intense and fiery love, capturing the depth of romantic emotions."
     },
     {
         id: 84,
@@ -677,7 +677,7 @@ const product = [
         image: 'images/love8.png',
         name: 'Sweet Kisses',
         price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+        description:" These blooms invite tender and sweet kisses, embodying the purity of affection and endearment."
     },
     {
         id: 85,
@@ -685,7 +685,7 @@ const product = [
         image: 'images/love9.png',
         name: 'Red Velvet',
         price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+        description:" Rich and velvety, these blooms are akin to love's embrace, inviting warmth and tenderness."
     },
     {
         id: 86,
@@ -693,7 +693,7 @@ const product = [
         image: 'images/roses4.png',
         name: 'Pink Passion',
         price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+        description:" Radiating affection and passion, these pink blooms symbolize love in its most affectionate form."
     },
     {
         id: 87,
@@ -701,7 +701,7 @@ const product = [
         image: 'images/tulips4.png',
         name: 'Blushing Beauty',
         price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+        description:" Delicate and blushing in color, these blooms exude a soft and charming beauty that captivates."
     },
     {
         id: 88,
@@ -709,7 +709,7 @@ const product = [
         image: 'images/sunflower4.png',
         name: 'Golden Glow',
         price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+        description:" These blooms shine with a golden brilliance, symbolizing a love that's precious and radiant."
     },
     {
         id: 89,
@@ -717,7 +717,7 @@ const product = [
         image: 'images/spray4.png',
         name: 'Sweet Spray',
         price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+        description:" A gentle spray of blooms that conveys sweetness and tenderness, creating an atmosphere of affection."
     },
     {
         id: 90,
@@ -725,7 +725,7 @@ const product = [
         image: 'images/gemini4.png',
         name: 'Meadow Marvel',
         price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+        description:" Blooms that evoke the wonder of a beautiful meadow, capturing the marvel of nature's beauty."
     },
     {
         id: 91,
@@ -733,7 +733,7 @@ const product = [
         image: 'images/mother1.png',
         name: "Mothers Joy",
         price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+        description:" These blooms radiate the happiness a mother brings, embodying the joy of maternal love and care.."
     },
     {
         id: 92,
@@ -741,7 +741,7 @@ const product = [
         image: 'images/mother2.png',
         name: "Lavender Love",
         price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+        description:" Lavender-hued blooms symbolize deep and tranquil affection, conveying a serene and profound love. "
     },
     {
         id: 93,
@@ -749,7 +749,7 @@ const product = [
         image: 'images/mother3.png',
         name: "Floral Grace",
         price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+        description:" These flowers exude an air of grace and elegance, adorning any setting with their natural charm. "
     },
     {
         id: 94,
@@ -757,7 +757,7 @@ const product = [
         image: 'images/mother4.png',
         name: "Love Blossom",
         price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+        description:" Representing the blossoming of love, these blooms encapsulate the beauty and growth of affection. "
     },
     {
         id: 95,
@@ -765,7 +765,7 @@ const product = [
         image: 'images/mother5.png',
         name: "Petal Affection",
         price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+        description:" Each petal carries a message of affection, nurturing the warmth of love within every bloom."
     },
     {
         id: 96,
@@ -773,7 +773,7 @@ const product = [
         image: 'images/mother6.png',
         name: "Mum's Blooms",
         price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+        description:" A tribute to a mother's love, these blooms symbolize the cherished bond between mother and child. "
     },
     {
         id: 97,
@@ -781,7 +781,7 @@ const product = [
         image: 'images/mother7.png',
         name: "Mum's Garden",
         price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+        description:" Like a mother's nurturing embrace, these blooms create a garden of love, comfort, and care. "
     },
     {
         id: 98,
@@ -789,7 +789,7 @@ const product = [
         image: 'images/mother8.png',
         name: "Rose Beauty",
         price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+        description:" The timeless beauty of roses, symbolizing love and admiration with their delicate, captivating petals."
     },
     {
         id: 99,
@@ -797,7 +797,7 @@ const product = [
         image: 'images/mother9.png',
         name: "Loving Carnations",
         price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+        description:" Carnations that radiate love and affection, offering a tender and heartfelt gesture of care."
     },
     {
         id: 100,
@@ -805,7 +805,7 @@ const product = [
         image: 'images/mother10.png',
         name: "Pink Petals",
         price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+        description:" These blooms wear soft pink like a gentle embrace, inviting a sense of affection and tenderness. "
     },
     {
         id: 101,
@@ -813,7 +813,7 @@ const product = [
         image: 'images/roses5.png',
         name: "Crimson Charm",
         price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+        description:" Deep crimson blooms exude an irresistible charm, symbolizing love, desire, and fascination. "
     },
     {
         id: 102,
@@ -821,7 +821,7 @@ const product = [
         image: 'images/tulips5.png',
         name: "Spring Symphony",
         price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+        description:" A floral symphony celebrating the beauty and rejuvenation of spring, bringing harmony to nature. "
     },
     {
         id: 103,
@@ -829,7 +829,7 @@ const product = [
         image: 'images/sunflower5.png',
         name: "Daisy Sun-burst",
         price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+        description:" These daisies resemble a burst of sunshine, exuding the warmth and radiance of a sunny day. "
     },
     {
         id: 104,
@@ -837,15 +837,15 @@ const product = [
         image: 'images/spray5.png',
         name: "Whispering Winds",
         price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+        description:" Like the gentle whispers of the wind, these blooms convey tranquility and serenity to the soul. "
     },
     {
         id: 105,
         category:"Mothers Day",
-        image: 'images/gemini5.png',
+        image: 'images/gemini5.png',	
         name: "Pastel Petals",
         price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+        description:" Soft and soothing pastel blooms create a gentle atmosphere of beauty and tenderness. "
     },
     {
         id: 106,
@@ -853,7 +853,7 @@ const product = [
         image: 'images/sympathy1.png',
         name: "Serene Blossom",
         price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+        description:" These blooms exude serenity, offering a peaceful and tranquil presence, bringing calm to any environment. "
     },
     {
         id: 107,
@@ -861,7 +861,7 @@ const product = [
         image: 'images/sympathy2.png',
         name: "Compassion Roses",
         price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+        description:" Roses that symbolize compassion and caring, representing empathy and tenderness in their graceful petals. "
     },
     {
         id: 108,
@@ -869,7 +869,7 @@ const product = [
         image: 'images/sympathy3.png',
         name: "Graceful Tokens",
         price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+        description:" These flowers serve as graceful tokens of appreciation, expressing thanks and affection with elegance. "
     },
     {
         id: 109,
@@ -877,7 +877,7 @@ const product = [
         image: 'images/sympathy4.png',
         name: "Gentle Wishes",
         price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+        description:" Blooms that convey gentle wishes, offering warm and heartfelt sentiments for peace and well-being. "
     },
     {
         id: 110,
@@ -885,7 +885,7 @@ const product = [
         image: 'images/sympathy5.png',
         name: "Quite Comfort",
         price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+        description:" Providing silent comfort, these blooms offer solace and support during times of solace. "
     },
     {
         id: 111,
@@ -893,7 +893,7 @@ const product = [
         image: 'images/sympathy6.png',
         name: "Floral Grace",
         price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+        description:" With natural grace, these flowers adorn any space with elegance and charm, enhancing its beauty. "
     },
     {
         id: 112,
@@ -901,7 +901,7 @@ const product = [
         image: 'images/sympathy7.png',
         name: "Calming Blooms",
         price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+        description:" These flowers possess a calming aura, offering tranquility and serenity to those who behold them."
     },
     {
         id: 113,
@@ -909,7 +909,7 @@ const product = [
         image: 'images/sympathy8.png',
         name: "Mourning Petals",
         price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+        description:" Symbolizing remembrance and sympathy, these blooms offer comfort and solace during moments of grief."
     },
     {
         id: 114,
@@ -917,7 +917,7 @@ const product = [
         image: 'images/sympathy9.png',
         name: "Peaceful Blooms",
         price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+        description:" Creating an atmosphere of peace, these flowers bring a sense of serenity and tranquility to the heart. "
     },
     {
         id: 115,
@@ -925,7 +925,7 @@ const product = [
         image: 'images/lisianthus4.png',
         name: "Starry Sappphire",
         price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+        description:" These blooms capture the deep blue allure of sapphires, symbolizing the elegance of starry nights. "
     },
     {
         id: 116,
@@ -933,7 +933,7 @@ const product = [
         image: 'images/hydrangeas4.png',
         name: "Majestic Mauve ",
         price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+        description:" Mauve-hued blooms that exude majesty, capturing attention with their regal and captivating beauty."
     },
     {
         id: 117,
@@ -941,7 +941,7 @@ const product = [
         image: 'images/gypsophilia4.png',
         name: "Fairy's Finery ",
         price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+        description:" Delicate and enchanting, these blooms are akin to the finery of fairies, bringing a touch of magic."
     },
     {
         id: 118,
@@ -949,7 +949,7 @@ const product = [
         image: 'images/carnation4.png',
         name: "Golden Glimmer ",
         price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+        description:" These blooms shine with a golden glimmer, symbolizing elegance, wealth, and beauty with their radiance. "
     },
     {
         id: 119,
@@ -957,7 +957,7 @@ const product = [
         image: 'images/calla-lilly4.png',
         name: "Regal Radiance",
         price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+        description:" Exuding regal charm and radiance, these blooms capture the essence of majesty and elegance. "
     },
     {
         id: 120,
@@ -965,7 +965,7 @@ const product = [
         image: 'images/valentine1.png',
         name: "Forever Love",
         price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+        description:" These blooms symbolize an eternal love, expressing an unwavering affection and an everlasting bond. "
     },
     {
         id: 121,
@@ -973,15 +973,15 @@ const product = [
         image: 'images/valentine2.png',
         name: "Scarlet Roses",
         price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+        description:" Deep scarlet roses symbolize intense love, passion, and the deepest emotions within the heart. "
     },
     {
-        id: 122,
+        id: 122,	
         category:"Valentine",
         image: 'images/valentine3.png',
         name: "Sweet Roses",
         price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+        description:" Roses that embody the sweetness of love, capturing affection and fondness in every petal."
     },
     {
         id: 123,
@@ -989,7 +989,7 @@ const product = [
         image: 'images/valentine4.png',
         name: "Rose Romance",
         price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+        description:" Roses that ignite romantic feelings, creating a passionate and enchanting love story in each petal. "
     },
     {
         id: 124,
@@ -997,7 +997,7 @@ const product = [
         image: 'images/valentine5.png',
         name: "Love Bouquet",
         price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+        description:" A vibrant bouquet of flowers that symbolizes affection, conveying the love and warmth of your heart. "
     },
     {
         id: 125,
@@ -1005,7 +1005,7 @@ const product = [
         image: 'images/valentine6.png',
         name: "Love Token",
         price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+        description:" These blooms are tokens of affection, representing the exchange of love and care between people."
     },
     {
         id: 126,
@@ -1013,7 +1013,7 @@ const product = [
         image: 'images/valentine7.png',
         name: "Passion Petals",
         price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+        description:" These petals are filled with passion, symbolizing intense desire and the warmth of love. "
     },
     {
         id: 127,
@@ -1021,7 +1021,7 @@ const product = [
         image: 'images/valentine8.png',
         name: "Romantic Reds",
         price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+        description:" Deep reds that exude romance, embodying love and affection in the most passionate form. "
     },
     {
         id: 128,
@@ -1029,7 +1029,7 @@ const product = [
         image: 'images/valentine9.png',
         name: "Heart Garden",
         price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+        description:" Blooms that create a garden of love, representing the beauty and depth of heartfelt affection."
     },
     {
         id: 129,
@@ -1037,7 +1037,7 @@ const product = [
         image: 'images/valentine10.png',
         name: "Love Blooms",
         price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+        description:" These flowers symbolize the blossoming of love, capturing the essence of deep and affectionate emotions. "
     },
     {
         id: 130,
@@ -1045,7 +1045,7 @@ const product = [
         image: 'images/lisianthus5.png',
         name: "Precious Petals",
         price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+        description:" Delicate and precious, these petals embody love, gratitude, and admiration within their exquisite beauty. "
     },
     {
         id: 131,
@@ -1053,7 +1053,7 @@ const product = [
         image: 'images/hydrangeas5.png',
         name: "Coral Charm",
         price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+        description:" Bold and vibrant, these blooms capture a sense of passion and attraction that cannot be ignored. "
     },
     {
         id: 132,
@@ -1061,7 +1061,7 @@ const product = [
         image: 'images/gypsophilia5.png',
         name: "Angel Aura",
         price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+        description:" These blooms radiate an ethereal presence, symbolizing purity and grace with an otherworldly charm."
     },
     {
         id: 133,
@@ -1069,137 +1069,139 @@ const product = [
         image: 'images/calla-lilly5.png',
         name: "Elegant Embrace",
         price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+        description:" These flowers signify an elegant and profound embrace, capturing hearts with their graceful beauty. "
     },
     {
-        id: 133,
+        id: 134,
         category:"Valentine",
         image: 'images/carnation5.png',
         name: "Coral Crush",
         price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
-    },
-    {
-        id: 134,
-        category:"Wedding",
-        image: 'images/wedding1.png',
-        name: "Bridal Bliss",
-        price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+        description:" Passionate and vibrant, these blooms express a strong and irresistible attraction, captivating all who see them. "
     },
     {
         id: 135,
         category:"Wedding",
-        image: 'images/wedding2.png',
-        name: "Garden Dreams",
+        image: 'images/wedding1.png',
+        name: "Bridal Bliss",
         price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+        description:" Flowers that epitomize the bliss of a wedding day, symbolizing the joy and love of marriage."
     },
     {
         id: 136,
         category:"Wedding",
-        image: 'images/wedding3.png',
-        name: "Blossom Breeze",
+        image: 'images/wedding2.png',
+        name: "Garden Dreams",
         price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+        description:" These blooms transport you to dreamy gardens, evoking the enchantment of nature's beauty."
     },
     {
         id: 137,
         category:"Wedding",
-        image: 'images/wedding4.png',
-        name: "Wedding Wonders",
+        image: 'images/wedding3.png',
+        name: "Blossom Breeze",
         price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+        description:" Like a gentle breeze, these blooms bring freshness and beauty to any setting, creating a serene atmosphere."
     },
     {
         id: 138,
         category:"Wedding",
-        image: 'images/wedding5.png',
-        name: "Pure Passion",
+        image: 'images/wedding4.png',
+        name: "Wedding Wonders",
         price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+        description:" Symbolizing the wonders of a wedding day, these blooms represent the magic and love of matrimony."
     },
     {
         id: 139,
         category:"Wedding",
-        image: 'images/wedding6.png',
-        name: "Eternal Love",
+        image: 'images/wedding5.png',
+        name: "Pure Passion",
         price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+        description:" These flowers symbolize a pure and intense love, capturing the depth and fervor of affection. "
     },
     {
         id: 140,
         category:"Wedding",
-        image: 'images/wedding7.png',
-        name: "Rose Rapture",
+        image: 'images/wedding6.png',
+        name: "Eternal Love",
         price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+        description:" Signifying an enduring love, these blooms embody a love that lasts for all eternity. "
     },
     {
         id: 141,
         category:"Wedding",
-        image: 'images/wedding8.png',
-        name: "Bridal Beauty",
+        image: 'images/wedding7.png',
+        name: "Rose Rapture",
         price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+        description:" Roses that evoke a state of rapture and intense delight, symbolizing passionate and overwhelming love. "
     },
     {
         id: 142,
         category:"Wedding",
-        image: 'images/wedding9.png',
-        name: "Enchanted Roses",
+        image: 'images/wedding8.png',
+        name: "Bridal Beauty",
         price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+        description:" These flowers radiate bridal beauty, symbolizing the elegance and grace of a wedding day. "
     },
     {
         id: 143,
         category:"Wedding",
-        image: 'images/wedding10.png',
-        name: "Romantic Roses",
+        image: 'images/wedding9.png',
+        name: "Enchanted Roses",
         price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+        description:" Captivating and enchanting, these roses symbolize a love that is truly magical and irresistible. "
     },
     {
         id: 144,
         category:"Wedding",
-        image: 'images/roses6.png',
-        name: "Graceful Grace",
+        image: 'images/wedding10.png',
+        name: "Romantic Roses",
         price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+        description:" Roses that exude romance, embodying the essence of love and passion in every petal."
     },
     {
         id: 145,
         category:"Wedding",
-        image: 'images/tulips6.png',
-        name: "Apricot Dreams",
+        image: 'images/roses6.png',
+        name: "Graceful Grace",
         price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+        description:" A double dose of grace, these blooms represent elegance and charm in their graceful presence. "
     },
     {
         id: 146,
         category:"Wedding",
-        image: 'images/sunflower6.png',
-        name: "Radiance Ray",
+        image: 'images/tulips6.png',
+        name: "Apricot Dreams",
         price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+        description:" Blooms with the soft, dreamy hues of apricot, bringing a sense of warmth and beauty. "
     },
     {
         id: 147,
         category:"Wedding",
-        image: 'images/spray6.png',
-        name: "Blossom Cascade",
+        image: 'images/sunflower6.png',
+        name: "Radiance Ray",
         price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+        description:"These Blooms shine like radiant rays, symbolizing beauty,warmth, and the brilliance of Nature "
     },
     {
         id: 148,
         category:"Wedding",
+        image: 'images/spray6.png',
+        name: "Blossom Cascade",
+        price: 195,
+        description:" Like a cascade of blossoms, these flowers create a stunning and enchanting visual display.."
+    },
+    {
+        id: 149,
+        category:"Wedding",
         image: 'images/gemini6.png',
         name: "Floral Fantasy",
         price: 195,
-        description:"A versatile gluten-free option, oat flour adds a subtle nutty flavor and moist texture to pancakes, cookies, muffins, and breads."
+        description:" A fantasy brought to life, these blooms create an enchanting world of beauty and splendor."
     },
 ];
+
+
 
 
 let anniversary = product.filter(function (items) { 

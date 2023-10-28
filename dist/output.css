@@ -1653,11 +1653,6 @@ body{
   animation: spin 1s linear infinite;
 }
 
-.hover\:bg-red-400:hover{
-  --tw-bg-opacity: 1;
-  background-color: rgb(248 113 113 / var(--tw-bg-opacity));
-}
-
 .hover\:bg-red-500:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(239 68 68 / var(--tw-bg-opacity));
@@ -1715,11 +1710,6 @@ body{
 
 .group:hover .group-hover\:border-solid{
   border-style: solid;
-}
-
-.group:hover .group-hover\:bg-slate-500{
-  --tw-bg-opacity: 1;
-  background-color: rgb(100 116 139 / var(--tw-bg-opacity));
 }
 
 .group:hover .group-hover\:bg-white{
