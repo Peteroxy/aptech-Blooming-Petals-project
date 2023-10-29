@@ -397,7 +397,7 @@ const product = [
       image: 'images/graduation2.png',
       name: 'Cap Toppers',
       price: 110,
-      description:" Celebrate success with these blooms, akin to graduates cap and tassel, reaching new heights of achievement."
+      description:"Celebrate success with these blooms, akin to graduates cap and tassel, reaching new heights of achievement."
   },
   {
       id: 50,
@@ -405,7 +405,7 @@ const product = [
       image: 'images/graduation3.png',
       name: 'Success Roses',
       price: 110,
-      description:" Radiating accomplishment, these roses embody success and achievement, making them perfect for graduation celebrations."
+      description:"Radiating accomplishment, these roses embody success and achievement, making them perfect for graduation celebrations."
   },
   {
       id: 51,
@@ -413,7 +413,7 @@ const product = [
       image: 'images/graduation4.png',
       name: 'Diploma Blooms',
       price: 180,
-      description:" These flowers honor graduates and the attainment of knowledge, resembling the scroll of a diploma."
+      description:"These flowers honor graduates and the attainment of knowledge, resembling the scroll of a diploma."
   },
   {
       id: 52,
@@ -429,7 +429,7 @@ const product = [
       image: 'images/graduation6.png',
       name: 'Graduate Roses',
       price: 190,
-      description:" A tribute to educational milestones, these roses honor the achievement of completing one's academic journey."
+      description:" A tribute to educational milestones, these roses honor the achievement of completing an academic journey."
   },
   {
       id: 54,
@@ -493,7 +493,7 @@ const product = [
       image: 'images/gemini3.png',
       name: 'Blooming Bliss',
       price: 195,
-      description:" Celebrate academic accomplishments with these blooms that exude a sense of joy and fulfillment.."
+      description:"Celebrate academic accomplishments with these blooms that exude a sense of joy and fulfillment."
     },
     {
       id: 62,
