@@ -1105,6 +1105,22 @@ video {
   max-width: 28rem;
 }
 
+.max-w-\[1\]{
+  max-width: 1;
+}
+
+.max-w-\[1240px\]{
+  max-width: 1240px;
+}
+
+.max-w-\[11200px\]{
+  max-width: 11200px;
+}
+
+.max-w-\[1120px\]{
+  max-width: 1120px;
+}
+
 .table-auto{
   table-layout: auto;
 }

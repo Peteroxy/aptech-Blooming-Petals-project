@@ -1,7 +1,7 @@
 var swiper = new Swiper(".slide-container", {
   slidesPerView: "auto",
   spaceBetween: 20,
-  sliderPerGroup: "auto",
+  // sliderPerGroup: "auto",
   slidesOffsetAfter: 0,
   loopFillGroupBlank: false,
   loop: true,
@@ -32,7 +32,7 @@ var swiper = new Swiper(".slide-container", {
 
   breakpoints: {
     1024: {
-      slidesPerView: 4,
+      slidesPerView: 3,
       spaceBetween: 16,
     },
     767: {

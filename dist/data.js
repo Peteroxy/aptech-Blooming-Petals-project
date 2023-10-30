@@ -1051,7 +1051,7 @@ const product = [
         id: 131,
         category:"Valentine",
         image: 'images/hydrangeas5.png',
-        name: "Coral Charm",
+        name: "Violet Velvet",
         price: 195,
         description:" Bold and vibrant, these blooms capture a sense of passion and attraction that cannot be ignored. "
     },
@@ -1199,6 +1199,368 @@ const product = [
         price: 195,
         description:" A fantasy brought to life, these blooms create an enchanting world of beauty and splendor."
     },
+    {
+        id: 150,
+        category:"Anniversary",
+        image: 'images/roses7.png',
+        name: "Midnight Rose",
+        price: 195,
+        description:" Evoking the mystery of midnight, these roses symbolize deep passion and romance in their allure. ",
+        type:'Roses'
+    },
+    {
+        id: 151,
+        category:"Birthday",
+        image: 'images/roses8.png',
+        name: "Amour Amethyst",
+        price: 195,
+        description:" These blooms exude the romantic allure of amethyst, symbolizing deep love and passion in each petal.",
+        type:'Roses'
+    },
+    {
+        id: 152,
+        category:"Get Well Soon",
+        image: 'images/roses9.png',
+        name: "Enchanting Essence",
+        price: 195,
+        description:" Delicate and rosy, these blooms capture the essence of a soft and charming enchanting beauty.",
+        type:'Roses'
+    },
+    {
+        id: 153,
+        category:"Graduation",
+        image: 'images/roses7.png',
+        name: "Ivory Petals",
+        price: 195,
+        description:" These blooms exude elegance with their ivory hues, symbolizing grace, purity, and timeless beauty.",
+        type:'Roses'
+    },
+    {
+        id: 154,
+        category:"House Warming",
+        image: 'images/tulips7.png',
+        name: "Snowflake Serenity",
+        price: 195,
+        description: " Like delicate snowflakes, these blooms bring an atmosphere of serene and tranquil beauty.",
+        type:'Tulips'
+    },
+{
+        id: 155,
+        category:"Love And Romance",
+        image: 'images/tulips8.png',
+        name: "Enchanted Emerald",
+        price: 195,
+        description:" With their enchanting emerald hues, these flowers exude a mystical and captivating allure.",
+        type:'Tulips'
+    },
+{
+        id: 156,
+        category:"Mothers Day",
+        image: 'images/tulips9.png',
+        name: "Ocean Blue",
+        price: 195,
+        description:" Capturing the essence of the deep blue ocean, these blooms evoke a sense of serenity and tranquility.",
+        type:'Tulips'
+    },
+{
+        id: 157,
+        category:"Sympathy",
+        image: 'images/tulips10.png',
+        name: "Golden Glow",
+        price: 195,
+        description:" These blooms radiate with a golden glow, symbolizing elegance, wealth, and beauty in their radiant charm.",
+        type:'Tulips'
+    },
+    {
+        id: 158,
+        category:"Valentine",
+        image: 'images/sunflower7.png',
+        name: "Solar Flare",
+        price: 195,
+        description:" These flowers resemble the intense beauty and energy of a solar flare, exuding warmth and radiance.",
+        type:'Sunflower'
+    },
+    {
+        id: 159,
+        category:"Wedding",
+        image: 'images/sunflower8.png',
+        name: "Yellow Delight",
+        price: 195,
+        description:" These blooms radiate a bright yellow delight, symbolizing happiness, warmth, and sunny cheerfulness.",
+        type:'Sunflower'
+    },
+    {
+        id: 160,
+        category:"Anniversary",
+        image: 'images/sunflower9.png',
+        name: "Blooming Blaze",
+        price: 195,
+        description:" Like a fiery blaze, these flowers burst into bloom with vivid and passionate colors.",
+        type:'Sunflower'
+    },
+    {
+        id: 161,
+        category:"Birthday",
+        image: 'images/sunflower10.png',
+        name: "Joyful Jolene",
+        price: 195,
+        description:" Capturing the joy of Jolene, these blooms bring an atmosphere of happiness and vibrant energy.",
+        type:'Sunflower'
+    },
+    {
+        id: 162,
+        category:"Get Well Soon",
+        image: 'images/spray7.png',
+        name: "Lavender Lace",
+        price: 195,
+        description:" Delicate and lavender-hued, these blooms are like lace, symbolizing grace and elegance in their charm.",
+        type:'Spray Roses'
+    },
+    {
+        id: 163,
+        category:"Graduation",
+        image: 'images/spray8.png',
+        name: "Sunset Spritz",
+        price: 195,
+        description:" Resembling the warm colors of a sunset, these flowers bring a splash of vibrant radiance.",
+        type:'Spray Roses'
+    },
+
+    {
+        id: 164,
+        category:"House Warming",
+        image: 'images/spray9.png',
+        name: "Coral Cascade",
+        price: 195,
+        description:" These blooms cascade like coral, radiating vibrancy and exuberance in their captivating display.",
+        type:'Spray Roses'
+    },
+    {
+        id: 165,
+        category:"Love And Romance",
+        image: 'images/spray10.png',
+        name: "Enchanted Elixir",
+        price: 195,
+        description:" With an enchanted elixir-like allure, these flowers captivate with an otherworldly charm and beauty.",
+        type:'Spray Roses'
+    },
+    {
+        id: 166,
+        category:"Mothers Day",
+        image: 'images/gemini7.png',
+        name: "Garden Jewel",
+        price: 195,
+        description:" Like a precious jewel in the garden, these blooms symbolize beauty and richness in nature's splendor.",
+        type:'Gemini'
+    },
+   {
+        id: 167,
+        category:"Sympathy",
+        image: 'images/gemini8.png',
+        name: "Wildflower Wonder",
+        price: 195,
+        description:" These wildflowers bring wonder, embodying the charm and untamed beauty of the wilderness.",
+        type:'Gemini'
+    },
+   {
+        id: 168,
+        category:"Wedding",
+        image: 'images/gemini9.png',
+        name: "Dreamy Daisies",
+        price: 195,
+        description:" Delicate and dreamy, these daisies create an enchanting atmosphere with their soft and cheerful presence.",
+        type:'Gemini'
+    },
+   {
+        id: 169,
+        category:"Valentine",
+        image: 'images/gemini10.png',
+        name: "Sunset Splendor",
+        price: 195,
+        description:" Resembling the splendor of a vibrant sunset, these flowers bring a breathtaking and colorful display.",
+        type:'Gemini'
+    },
+    {
+        id: 170,
+        category:"Anniversary",
+        image: 'images/lisianthus6.png',
+        name: "Vintage Velvet",
+        price: 195,
+        description:" These blooms exude the timeless elegance of vintage velvet, symbolizing luxury and sophistication. ",
+        type:'Lisianthus'
+    },
+{
+        id: 171,
+        category:"Birthday",
+        image: 'images/lisianthus7.png',
+        name: "Orchid Odyssey",
+        price: 195,
+        description:" Like a captivating journey, these orchids invite you to explore their unique and exotic beauty.",
+        type:'Lisianthus'
+    },
+{
+        id: 172,
+        category:"Get Well Soon",
+        image: 'images/lisianthus8.png',
+        name: "Periwinkle Princess",
+        price: 195,
+        description:" Delicate and regal in periwinkle hues, these blooms embody a sense of royal beauty. ",
+        type:'Lisianthus'
+    },
+{
+        id: 173,
+        category:"Graduation",
+        image: 'images/lisianthus9.png',
+        name: "Whispering Bells",	
+        price: 195,
+        description:" With a gentle whisper, these bell-shaped blooms convey a tranquil and serene atmosphere. ",
+        type:'Lisianthus'
+    },
+{
+        id: 174,
+        category:"Graduation",
+        image: 'images/lisianthus10.png',
+        name: "Lush Lisianthus",
+        price: 195,
+        description:" These lisianthus blooms are lush and opulent, representing richness and elegance in their abundance.",
+        type:'Lisianthus'
+    },
+    {
+        id: 175,
+        category:"House Warming",
+        image: 'images/hydrangeas6.png',
+        name: "Heavenly Hydrangeas",
+        price: 195,
+        description:" Bold and vibrant, these blooms capture a sense of passion and attraction that cannot be ignored. ",
+        type:'Hydrangeas'
+    },
+    {
+        id: 176,
+        category:"Love And Romance",
+        image: 'images/hydrangeas7.png',
+        name: "Blue Skies Beauty",
+        price: 195,
+        description:" Bold and vibrant, these blooms capture a sense of passion and attraction that cannot be ignored. ",
+        type:'Hydrangeas'
+    },
+    {
+        id: 177,
+        category:"Mothers Day",
+        image: 'images/hydrangeas8.png',
+        name: "Hydrangea Haven",
+        price: 195,
+        description:" Bold and vibrant, these blooms capture a sense of passion and attraction that cannot be ignored. ",
+        type:'Hydrangeas'
+    },
+    {
+        id: 178,
+        category:"Sympatthy",
+        image: 'images/hydrangeas9.png',
+        name: "Sunny Side Blooms",
+        price: 195,
+        description:" Bold and vibrant, these blooms capture a sense of passion and attraction that cannot be ignored. ",
+        type:'Hydrangeas'
+    },
+    {
+        id: 179,
+        category:"Valentine",
+        image: 'images/hydrangeas10.png',
+        name: "Floral Fantasy",
+        price: 195,
+        description:" Bold and vibrant, these blooms capture a sense of passion and attraction that cannot be ignored. ",
+        type:'Hydrangeas'
+    },
+    {
+        id: 180,
+        category:"Wedding",
+        image: 'images/carnation6.png',
+        name: "Daisy Delight",
+        price: 195,
+        description:" These daisies bring delight with their bright and cheerful blooms, spreading happiness and joy.",
+        type:'Carnation'
+    },
+    {
+        id: 181,
+        category:"Anniversary",
+        image: 'images/carnation7.png',
+        name: "Rosebud Romance",
+        price: 195,
+        description:" Symbolizing the beginning of love, these rosebuds capture the tender and enchanting moments of romance.",
+        type:'Carnation'
+    },
+    {
+        id: 182,
+        category:"Birthday",
+        image: 'images/carnation8.png',
+        name: "Carnation Cascade",
+        price: 195,
+        description:" These blooms cascade like carnations, radiating vibrancy and exuberance in their captivating display.",
+        type:'Carnation'
+    },
+    {
+        id: 183,
+        category:"Get Well Soon",
+        image: 'images/carnation9.png',
+        name: "Delicate Dancer",
+        price: 195,
+        description:" Like a graceful dancer, these blooms exude an airy and elegant charm, captivating with every move. ",
+        type:'Carnation'
+    },
+    {
+        id: 184,
+        category:"Graduation",
+        image: 'images/carnation10.png',
+        name: "Carnation Charm",
+        price: 195,
+        description:" Carnations that convey charm and attraction, offering a delightful and alluring presence in any setting.",
+        type:'Carnation'
+    },
+    {
+        id: 185,
+        category:"House Warming",
+        image: 'images/calla-lilly6.png',
+        name: "Graceful Guardian",
+        price: 195,
+        description:" These blooms stand as a graceful guardian, symbolizing protection, guidance, and unwavering presence. ",
+        type:'Calla LIlly'
+    },
+    {	
+        id: 186,
+        category:"Love And Romance",
+        image: 'images/calla-lilly7.png',
+        name: "Velvet Dreams",
+        price: 195,
+        description:" With a velvety allure, these blooms evoke a dreamy, luxurious charm and elegance. ",
+        type:'Calla LIlly'
+    },
+    {
+        id: 187,
+        category:"Mothers Day",
+        image: 'images/calla-lilly8.png',
+        name: "Starlight Serenade",
+        price: 195,
+        description:" Resembling the serenade of starlight, these flowers bring a gentle, celestial radiance and beauty. ",
+        type:'Calla LIlly'
+    },
+    {
+        id: 188,
+        category:"Sympathy",
+        image: 'images/calla-lilly9.png',
+        name: "Opulent Orchid",
+        price: 195,
+        description:" These orchids exude opulence and luxury, symbolizing wealth and sophistication in their lavish beauty. ",
+        type:'Calla LIlly'
+    },
+    {
+        id: 189,
+        category:"Valentine",
+        image: 'images/calla-lilly10.png',
+        name: "Ethereal Elegance",
+        price: 195,
+        description:" Delicate and ethereal, these blooms embody an airy and elegant charm, captivating with grace and beauty. ",
+        type:'Calla LIlly'
+    },
+
 ];
 
 

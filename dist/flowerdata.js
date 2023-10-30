@@ -1,4 +1,4 @@
-const product = [
+const flowers = [
     {
         id: 0,
         category:'Anniversary',
@@ -69,7 +69,8 @@ const product = [
         image: 'images/roses1.png',
         name: 'Crimson Charm',
         price: 240,
-        description:" Deep red hues evoke desire, love, and unending fascination in every captivating crimson petal."
+        description:" Deep red hues evoke desire, love, and unending fascination in every captivating crimson petal.",
+        type:'Roses',
     },
     {
         id: 9,
@@ -77,7 +78,8 @@ const product = [
         image: 'images/tulips1.png',
         name: 'Coral Charm',
         price: 240,
-        description:" Soft, joyful blooms exuding warmth through their coral-colored petals, bringing a sense of happiness."
+        description: " Soft, joyful blooms exuding warmth through their coral-colored petals, bringing a sense of happiness.",
+        type:'Tulips'
     },
     {
         id: 10,
@@ -85,7 +87,8 @@ const product = [
         image: 'images/sunflower1.png',
         name: 'Sunny Smiles',
         price: 300,
-        description:" Radiating positivity, these cheerful blooms brighten any day, inviting joy and warmth with sunny grins."
+        description:" Radiating positivity, these cheerful blooms brighten any day, inviting joy and warmth with sunny grins.",
+        type:'Sunflower'
     },
     {
         id: 11,
@@ -93,7 +96,8 @@ const product = [
         image: 'images/spray1.png',
         name: 'Fragrant Breeze',
         price: 280,
-        description:" Gentle, soothing aroma flows from these flowers, bringing a refreshing, tranquil natural breeze."
+        description:" Gentle, soothing aroma flows from these flowers, bringing a refreshing, tranquil natural breeze.",
+        type:'Spray Roses'
     },
     {
         id: 12,
@@ -101,7 +105,8 @@ const product = [
         image: 'images/carnation1.png',
         name: 'Rosy Radiance',
         price: 250,
-        description:" Elegant, vibrant roses emanate inner light that warms the heart, capturing attention with their radiance."
+        description:" Elegant, vibrant roses emanate inner light that warms the heart, capturing attention with their radiance.",
+        type:'Carnation'
     },
     {
         id: 13,
@@ -109,7 +114,8 @@ const product = [
         image: 'images/hydrangeas1.png',
         name: 'Lavenger Love',
         price: 110,
-        description:" Tranquil lavender blooms symbolize deep affection, emanating serenity and representing a tranquil, profound love."
+        description:" Tranquil lavender blooms symbolize deep affection, emanating serenity and representing a tranquil, profound love.",
+        type:'Hydrangeas'
     },
     {
         id: 14,
@@ -117,7 +123,8 @@ const product = [
         image: 'images/lisianthus1.png',
         name: 'Gentle Grace',
         price: 150,
-        description:" Flowers embodying calm and elegance, captivating all with gentle charm, bringing a sense of poise."
+        description: " Flowers embodying calm and elegance, captivating all with gentle charm, bringing a sense of poise.",
+        type:'Lisianthus'
     },
     {
         id: 15,
@@ -125,7 +132,8 @@ const product = [
         image: 'images/gypsophilia1.png',
         name: 'Cloudy Whisper',
         price: 170,
-        description:" Delicate, ethereal blooms resemble whispers from the sky, embodying tranquility and enigmatic beauty perfectly."
+        description:" Delicate, ethereal blooms resemble whispers from the sky, embodying tranquility and enigmatic beauty perfectly.",
+        type:'Gypsophilia'
     },
     {
         id: 16,
@@ -133,7 +141,8 @@ const product = [
         image: 'images/gemini1.png',
         name: 'Sparkling Gemini',
         price: 300,
-        description:" Unique and captivating, these flowers showcase a duality that sparkles with an enchanting, distinct charm."
+        description: " Unique and captivating, these flowers showcase a duality that sparkles with an enchanting, distinct charm.",
+        type:'Gemini'
     },
     {
         id: 17,
@@ -141,7 +150,8 @@ const product = [
         image: 'images/calla-lilly1.png',
         name: 'Ivory Grace',
         price: 340,
-        description:" Pure, elegant ivory blooms symbolize grace, poise, and serene beauty, capturing hearts with their delicate elegance."
+        description: " Pure, elegant ivory blooms symbolize grace, poise, and serene beauty, capturing hearts with their delicate elegance.",
+        type:'Calla LIlly'
     },
     {
         id: 18,
@@ -213,7 +223,8 @@ const product = [
       image: 'images/birthday8.png',
       name: 'Daisy Delight',
       price: 250,
-      description:" Simple yet joyful, daisies bring delight with their bright and cheerful blooms, spreading happiness."
+      description:" Simple yet joyful, daisies bring delight with their bright and cheerful blooms, spreading happiness.",
+      type:'Carnation'
   },
   {
       id: 27,
@@ -237,7 +248,9 @@ const product = [
       image: 'images/roses2.png',
       name: 'Heavenly Rose',
       price: 100,
-      description:" Roses that reflect a divine beauty, exuding an aura of heavenly grace and serenity."
+    description: " Roses that reflect a divine beauty, exuding an aura of heavenly grace and serenity.",
+    type:'Roses',
+      
   },
   {
       id: 30,
@@ -245,7 +258,8 @@ const product = [
       image: 'images/tulips2.png',
       name: 'Tulip Timeless',
       price: 140,
-      description:" Timeless and beloved, tulips symbolize undying love, making them perfect for expressing affection."
+      description:" Timeless and beloved, tulips symbolize undying love, making them perfect for expressing affection.",
+      type:'Tulips'
   },
   {
       id: 31,
@@ -253,7 +267,8 @@ const product = [
       image: 'images/sunflower2.png',
       name: 'Sunny Serenity',
       price: 170,
-      description:" Radiating serenity and warmth, these blooms bring a sense of peace and happiness to any space."
+      description:" Radiating serenity and warmth, these blooms bring a sense of peace and happiness to any space.",
+      type:'Sunflower'
   },
   {
       id: 32,
@@ -261,7 +276,8 @@ const product = [
       image: 'images/spray2.png',
       name: 'Royal Ruffles',
       price: 200,
-      description:" Regal and elegant, these flowers display ruffled petals that exude a sense of majesty and grandeur."
+      description:" Regal and elegant, these flowers display ruffled petals that exude a sense of majesty and grandeur.",
+      type:'Spray Roses'
   },
   {
       id: 33,
@@ -269,7 +285,8 @@ const product = [
       image: 'images/gemini2.png',
       name: 'Rainbow Gem',
       price: 220,
-      description:" These flowers are like precious gems, with their colorful hues that shine and captivate all."
+      description:" These flowers are like precious gems, with their colorful hues that shine and captivate all.",
+      type:'Gemini'
   },
   {
       id: 34,
@@ -277,7 +294,8 @@ const product = [
       image: 'images/lisianthus2.png',
       name: 'Secrete Garden',
       price: 190,
-      description:" Enigmatic and captivating, these blooms symbolize the hidden beauty and wonders of a secluded garden."
+      description:" Enigmatic and captivating, these blooms symbolize the hidden beauty and wonders of a secluded garden.",
+      type:'Lisianthus'
   },
   {
       id: 35,
@@ -357,7 +375,8 @@ const product = [
     image: 'images/gypsophilia2.png',
     name: 'Misty Morning',
     price: 460,
-    description:" Evoking the tranquil beauty of a misty morning, these flowers bring a sense of peace."
+    description:" Evoking the tranquil beauty of a misty morning, these flowers bring a sense of peace.",
+    type:'Gypsophilia'
   },
   {
     id: 45,
@@ -365,7 +384,8 @@ const product = [
     image: 'images/hydrangeas2.png',
     name: 'Gentle Giant',
     price: 470,
-   description:"Majestic and tender, these blooms combine strength and gentleness, commanding attention with grace."
+   description:"Majestic and tender, these blooms combine strength and gentleness, commanding attention with grace.",
+   type:'Hydrangeas'
   },
   {
     id: 46,
@@ -373,7 +393,8 @@ const product = [
     image: 'images/carnation2.png',
     name: 'Coral Crush',
     price: 490,
-    description:" Bold and vibrant, these flowers exhibit a passion and vibrancy that cannot be ignored."
+    description:" Bold and vibrant, these flowers exhibit a passion and vibrancy that cannot be ignored.",
+    type:'Carnation'
     },
     {
       id: 47,
@@ -381,7 +402,8 @@ const product = [
       image: 'images/calla-lilly2.png',
       name: 'Angelic Aura',
       price: 90,
-      description:" These blooms radiate an ethereal presence, embodying purity and grace with an otherworldly charm."
+      description:" These blooms radiate an ethereal presence, embodying purity and grace with an otherworldly charm.",
+      type:'Calla LIlly'
   },
   {
       id: 48,
@@ -397,7 +419,7 @@ const product = [
       image: 'images/graduation2.png',
       name: 'Cap Toppers',
       price: 110,
-      description:"Celebrate success with these blooms, akin to graduates cap and tassel, reaching new heights of achievement."
+      description:" Celebrate success with these blooms, akin to graduates cap and tassel, reaching new heights of achievement."
   },
   {
       id: 50,
@@ -405,7 +427,7 @@ const product = [
       image: 'images/graduation3.png',
       name: 'Success Roses',
       price: 110,
-      description:"Radiating accomplishment, these roses embody success and achievement, making them perfect for graduation celebrations."
+      description:" Radiating accomplishment, these roses embody success and achievement, making them perfect for graduation celebrations."
   },
   {
       id: 51,
@@ -413,7 +435,7 @@ const product = [
       image: 'images/graduation4.png',
       name: 'Diploma Blooms',
       price: 180,
-      description:"These flowers honor graduates and the attainment of knowledge, resembling the scroll of a diploma."
+      description:" These flowers honor graduates and the attainment of knowledge, resembling the scroll of a diploma."
   },
   {
       id: 52,
@@ -429,7 +451,7 @@ const product = [
       image: 'images/graduation6.png',
       name: 'Graduate Roses',
       price: 190,
-      description:" A tribute to educational milestones, these roses honor the achievement of completing an academic journey."
+      description:" A tribute to educational milestones, these roses honor the achievement of completing one's academic journey."
   },
   {
       id: 54,
@@ -461,7 +483,8 @@ const product = [
       image: 'images/roses3.png',
       name: 'Ruby Success',
       price: 195,
-      description:" Symbolizing passion and success, these blooms capture the essence of a remarkable achievement."
+        description: " Symbolizing passion and success, these blooms capture the essence of a remarkable achievement.",
+        type:'Roses',
     },
     {
       id: 58,
@@ -469,7 +492,8 @@ const product = [
       image: 'images/tulips3.png',
       name: 'Perfection',
       price: 195,
-      description:" These flowers embody excellence and the pursuit of perfection, making them a fitting gift for graduates."
+      description:" These flowers embody excellence and the pursuit of perfection, making them a fitting gift for graduates.",
+      type:'Tulips'
     },
     {
       id: 59,
@@ -477,7 +501,8 @@ const product = [
       image: 'images/sunflower3.png',
       name: 'Harvest Hope',
       price: 195,
-      description:" Signifying the culmination of effort, these blooms represent the hope and promise of a bountiful future."
+    description: " Signifying the culmination of effort, these blooms represent the hope and promise of a bountiful future.",
+    type:'Sunflower'
     },
     {
       id: 60,
@@ -485,7 +510,8 @@ const product = [
       image: 'images/spray3.png',
       name: 'Golden Success',
       price: 195,
-      description:" These blooms radiate the brilliance of success, akin to a golden achievement that shines brightly."
+      description:" These blooms radiate the brilliance of success, akin to a golden achievement that shines brightly.",
+      type:'Spray Roses'
     },
     {
       id: 61,
@@ -493,7 +519,8 @@ const product = [
       image: 'images/gemini3.png',
       name: 'Blooming Bliss',
       price: 195,
-      description:"Celebrate academic accomplishments with these blooms that exude a sense of joy and fulfillment."
+      description:" Celebrate academic accomplishments with these blooms that exude a sense of joy and fulfillment.",
+      type:'Gemini'
     },
     {
       id: 62,
@@ -581,7 +608,8 @@ const product = [
       image: 'images/lisianthus3.png',
       name: 'Romantic Ruffles',
       price: 195,
-      description:" Blooms with ruffled petals that exude an air of romance, capturing hearts with their charm."
+      description:" Blooms with ruffled petals that exude an air of romance, capturing hearts with their charm.",
+      type:'Lisianthus'
   },
   {
     id: 73,
@@ -589,7 +617,8 @@ const product = [
     image: 'images/hydrangeas3.png',
     name: 'Ocean Dream',
     price: 195,
-    description:" These flowers evoke the dreamy tranquility of the ocean, inspiring visions of serene coastal beauty."
+      description: " These flowers evoke the dreamy tranquility of the ocean, inspiring visions of serene coastal beauty.",
+      type:'Hydrangeas'
     },
     {
       id: 74,
@@ -597,7 +626,8 @@ const product = [
       image: 'images/gypsophilia3.png',
       name: 'Airy Amour',
       price: 195,
-      description:" Light and delicate, these blooms symbolize a tender and ethereal love, captivating all with their charm."
+        description: " Light and delicate, these blooms symbolize a tender and ethereal love, captivating all with their charm.",
+        type:'Gypsophilia'
     },
     {
       id: 75,
@@ -605,7 +635,8 @@ const product = [
       image: 'images/carnation3.png',
       name: 'Ivory Elegance',
       price: 195,
-      description:" Pure and elegant, these ivory blooms embody grace and sophistication with a timeless elegance."
+        description: " Pure and elegant, these ivory blooms embody grace and sophistication with a timeless elegance.",
+        type:'Carnation'
     },
     {
       id: 76,
@@ -613,7 +644,8 @@ const product = [
       image: 'images/calla-lilly3.png',
       name: 'Blushy Beauty',
       price: 195,
-      description:" Delicate and blushing in color, these blooms exude a soft and charming beauty that captivates."
+      description:" Delicate and blushing in color, these blooms exude a soft and charming beauty that captivates.",
+      type:'Calla LIlly'
     },
     {
         id: 77,
@@ -693,7 +725,8 @@ const product = [
         image: 'images/roses4.png',
         name: 'Pink Passion',
         price: 195,
-        description:" Radiating affection and passion, these pink blooms symbolize love in its most affectionate form."
+        description:" Radiating affection and passion, these pink blooms symbolize love in its most affectionate form.",
+        
     },
     {
         id: 87,
@@ -701,7 +734,8 @@ const product = [
         image: 'images/tulips4.png',
         name: 'Blushing Beauty',
         price: 195,
-        description:" Delicate and blushing in color, these blooms exude a soft and charming beauty that captivates."
+        description:" Delicate and blushing in color, these blooms exude a soft and charming beauty that captivates.",
+        type:'Tulips'
     },
     {
         id: 88,
@@ -709,7 +743,8 @@ const product = [
         image: 'images/sunflower4.png',
         name: 'Golden Glow',
         price: 195,
-        description:" These blooms shine with a golden brilliance, symbolizing a love that's precious and radiant."
+        description: " These blooms shine with a golden brilliance, symbolizing a love that's precious and radiant.",
+        type:'Sunflower'
     },
     {
         id: 89,
@@ -717,7 +752,8 @@ const product = [
         image: 'images/spray4.png',
         name: 'Sweet Spray',
         price: 195,
-        description:" A gentle spray of blooms that conveys sweetness and tenderness, creating an atmosphere of affection."
+        description:" A gentle spray of blooms that conveys sweetness and tenderness, creating an atmosphere of affection.",
+        type:'Spray Roses'
     },
     {
         id: 90,
@@ -725,7 +761,8 @@ const product = [
         image: 'images/gemini4.png',
         name: 'Meadow Marvel',
         price: 195,
-        description:" Blooms that evoke the wonder of a beautiful meadow, capturing the marvel of nature's beauty."
+        description: " Blooms that evoke the wonder of a beautiful meadow, capturing the marvel of nature's beauty.",
+        type:'Gemini'
     },
     {
         id: 91,
@@ -811,9 +848,10 @@ const product = [
         id: 101,
         category:"Mothers Day",
         image: 'images/roses5.png',
-        name: "Crimson Charm",
+        name: "Sun Kissed Rose",
         price: 195,
-        description:" Deep crimson blooms exude an irresistible charm, symbolizing love, desire, and fascination. "
+        description: " Deep crimson blooms exude an irresistible charm, symbolizing love, desire, and fascination. ",
+        type:'Roses',
     },
     {
         id: 102,
@@ -821,7 +859,8 @@ const product = [
         image: 'images/tulips5.png',
         name: "Spring Symphony",
         price: 195,
-        description:" A floral symphony celebrating the beauty and rejuvenation of spring, bringing harmony to nature. "
+        description:" A floral symphony celebrating the beauty and rejuvenation of spring, bringing harmony to nature. ",
+        type:'Tulips'
     },
     {
         id: 103,
@@ -829,7 +868,8 @@ const product = [
         image: 'images/sunflower5.png',
         name: "Daisy Sun-burst",
         price: 195,
-        description:" These daisies resemble a burst of sunshine, exuding the warmth and radiance of a sunny day. "
+        description: " These daisies resemble a burst of sunshine, exuding the warmth and radiance of a sunny day. ",
+        type:'Sunflower'
     },
     {
         id: 104,
@@ -837,7 +877,8 @@ const product = [
         image: 'images/spray5.png',
         name: "Whispering Winds",
         price: 195,
-        description:" Like the gentle whispers of the wind, these blooms convey tranquility and serenity to the soul. "
+        description:" Like the gentle whispers of the wind, these blooms convey tranquility and serenity to the soul. ",
+        type:'Spray Roses'
     },
     {
         id: 105,
@@ -845,7 +886,8 @@ const product = [
         image: 'images/gemini5.png',	
         name: "Pastel Petals",
         price: 195,
-        description:" Soft and soothing pastel blooms create a gentle atmosphere of beauty and tenderness. "
+        description:" Soft and soothing pastel blooms create a gentle atmosphere of beauty and tenderness. ",
+        type:'Gemini'
     },
     {
         id: 106,
@@ -891,7 +933,7 @@ const product = [
         id: 111,
         category:"Sympathy",
         image: 'images/sympathy6.png',
-        name: "Floral Grace",
+        name: "Floral Serenity",
         price: 195,
         description:" With natural grace, these flowers adorn any space with elegance and charm, enhancing its beauty. "
     },
@@ -925,7 +967,8 @@ const product = [
         image: 'images/lisianthus4.png',
         name: "Starry Sappphire",
         price: 195,
-        description:" These blooms capture the deep blue allure of sapphires, symbolizing the elegance of starry nights. "
+        description: " These blooms capture the deep blue allure of sapphires, symbolizing the elegance of starry nights. ",
+        type:'Lisianthus'
     },
     {
         id: 116,
@@ -933,7 +976,8 @@ const product = [
         image: 'images/hydrangeas4.png',
         name: "Majestic Mauve ",
         price: 195,
-        description:" Mauve-hued blooms that exude majesty, capturing attention with their regal and captivating beauty."
+        description:" Mauve-hued blooms that exude majesty, capturing attention with their regal and captivating beauty.",
+        type:'Hydrangeas'
     },
     {
         id: 117,
@@ -941,7 +985,8 @@ const product = [
         image: 'images/gypsophilia4.png',
         name: "Fairy's Finery ",
         price: 195,
-        description:" Delicate and enchanting, these blooms are akin to the finery of fairies, bringing a touch of magic."
+        description:" Delicate and enchanting, these blooms are akin to the finery of fairies, bringing a touch of magic.",
+        type:'Gypsophilia'
     },
     {
         id: 118,
@@ -949,7 +994,8 @@ const product = [
         image: 'images/carnation4.png',
         name: "Golden Glimmer ",
         price: 195,
-        description:" These blooms shine with a golden glimmer, symbolizing elegance, wealth, and beauty with their radiance. "
+        description:" These blooms shine with a golden glimmer, symbolizing elegance, wealth, and beauty with their radiance. ",
+        type:'Carnation'
     },
     {
         id: 119,
@@ -957,7 +1003,8 @@ const product = [
         image: 'images/calla-lilly4.png',
         name: "Regal Radiance",
         price: 195,
-        description:" Exuding regal charm and radiance, these blooms capture the essence of majesty and elegance. "
+        description:" Exuding regal charm and radiance, these blooms capture the essence of majesty and elegance. ",
+        type:'Calla LIlly'
     },
     {
         id: 120,
@@ -1045,15 +1092,17 @@ const product = [
         image: 'images/lisianthus5.png',
         name: "Precious Petals",
         price: 195,
-        description:" Delicate and precious, these petals embody love, gratitude, and admiration within their exquisite beauty. "
+        description:" Delicate and precious, these petals embody love, gratitude, and admiration within their exquisite beauty. ",
+        type:'Lisianthus'
     },
     {
         id: 131,
         category:"Valentine",
         image: 'images/hydrangeas5.png',
-        name: "Coral Charm",
+        name: "Violet Velvet",
         price: 195,
-        description:" Bold and vibrant, these blooms capture a sense of passion and attraction that cannot be ignored. "
+        description: " Bold and vibrant, these blooms capture a sense of passion and attraction that cannot be ignored. ",
+        type:'Hydrangeas'
     },
     {
         id: 132,
@@ -1061,7 +1110,8 @@ const product = [
         image: 'images/gypsophilia5.png',
         name: "Angel Aura",
         price: 195,
-        description:" These blooms radiate an ethereal presence, symbolizing purity and grace with an otherworldly charm."
+        description: " These blooms radiate an ethereal presence, symbolizing purity and grace with an otherworldly charm.",
+        type:'Gypsophilia'
     },
     {
         id: 133,
@@ -1069,15 +1119,17 @@ const product = [
         image: 'images/calla-lilly5.png',
         name: "Elegant Embrace",
         price: 195,
-        description:" These flowers signify an elegant and profound embrace, capturing hearts with their graceful beauty. "
+        description:" These flowers signify an elegant and profound embrace, capturing hearts with their graceful beauty. ",
+        type:'Calla LIlly'
     },
     {
         id: 134,
         category:"Valentine",
         image: 'images/carnation5.png',
-        name: "Coral Crush",
+        name: "Dreamy DewDrops",
         price: 195,
-        description:" Passionate and vibrant, these blooms express a strong and irresistible attraction, captivating all who see them. "
+        description:" Passionate and vibrant, these blooms express a strong and irresistible attraction, captivating all who see them. ",
+        type:'Carnation'
     },
     {
         id: 135,
@@ -1165,7 +1217,8 @@ const product = [
         image: 'images/roses6.png',
         name: "Graceful Grace",
         price: 195,
-        description:" A double dose of grace, these blooms represent elegance and charm in their graceful presence. "
+        description:" A double dose of grace, these blooms represent elegance and charm in their graceful presence. ",
+        type:'Roses',
     },
     {
         id: 146,
@@ -1173,7 +1226,8 @@ const product = [
         image: 'images/tulips6.png',
         name: "Apricot Dreams",
         price: 195,
-        description:" Blooms with the soft, dreamy hues of apricot, bringing a sense of warmth and beauty. "
+        description:" Blooms with the soft, dreamy hues of apricot, bringing a sense of warmth and beauty. ",
+        type:'Tulips'
     },
     {
         id: 147,
@@ -1181,7 +1235,8 @@ const product = [
         image: 'images/sunflower6.png',
         name: "Radiance Ray",
         price: 195,
-        description:"These Blooms shine like radiant rays, symbolizing beauty,warmth, and the brilliance of Nature "
+        description:"These Blooms shine like radiant rays, symbolizing beauty,warmth, and the brilliance of Nature ",
+        type:'Sunflower'
     },
     {
         id: 148,
@@ -1189,7 +1244,8 @@ const product = [
         image: 'images/spray6.png',
         name: "Blossom Cascade",
         price: 195,
-        description:" Like a cascade of blossoms, these flowers create a stunning and enchanting visual display.."
+        description:" Like a cascade of blossoms, these flowers create a stunning and enchanting visual display.",
+        type:'Spray Roses'
     },
     {
         id: 149,
@@ -1197,15 +1253,380 @@ const product = [
         image: 'images/gemini6.png',
         name: "Floral Fantasy",
         price: 195,
-        description:" A fantasy brought to life, these blooms create an enchanting world of beauty and splendor."
+        description:" A fantasy brought to life, these blooms create an enchanting world of beauty and splendor.",
+        type:'Gemini'
+    },
+    {
+        id: 150,
+        category:"Anniversary",
+        image: 'images/roses7.png',
+        name: "Midnight Rose",
+        price: 195,
+        description:" Evoking the mystery of midnight, these roses symbolize deep passion and romance in their allure. ",
+        type:'Roses'
+    },
+    {
+        id: 151,
+        category:"Birthday",
+        image: 'images/roses8.png',
+        name: "Amour Amethyst",
+        price: 195,
+        description:" These blooms exude the romantic allure of amethyst, symbolizing deep love and passion in each petal.",
+        type:'Roses'
+    },
+    {
+        id: 152,
+        category:"Get Well Soon",
+        image: 'images/roses9.png',
+        name: "Enchanting Essence",
+        price: 195,
+        description:" Delicate and rosy, these blooms capture the essence of a soft and charming enchanting beauty.",
+        type:'Roses'
+    },
+    {
+        id: 153,
+        category:"Graduation",
+        image: 'images/roses7.png',
+        name: "Ivory Petals",
+        price: 195,
+        description:" These blooms exude elegance with their ivory hues, symbolizing grace, purity, and timeless beauty.",
+        type:'Roses'
+    },
+    {
+        id: 154,
+        category:"House Warming",
+        image: 'images/tulips7.png',
+        name: "Snowflake Serenity",
+        price: 195,
+        description: " Like delicate snowflakes, these blooms bring an atmosphere of serene and tranquil beauty.",
+        type:'Tulips'
+    },
+{
+        id: 155,
+        category:"Love And Romance",
+        image: 'images/tulips8.png',
+        name: "Enchanted Emerald",
+        price: 195,
+        description:" With their enchanting emerald hues, these flowers exude a mystical and captivating allure.",
+        type:'Tulips'
+    },
+{
+        id: 156,
+        category:"Mothers Day",
+        image: 'images/tulips9.png',
+        name: "Ocean Blue",
+        price: 195,
+        description:" Capturing the essence of the deep blue ocean, these blooms evoke a sense of serenity and tranquility.",
+        type:'Tulips'
+    },
+{
+        id: 157,
+        category:"Sympathy",
+        image: 'images/tulips10.png',
+        name: "Golden Glow",
+        price: 195,
+        description:" These blooms radiate with a golden glow, symbolizing elegance, wealth, and beauty in their radiant charm.",
+        type:'Tulips'
+    },
+    {
+        id: 158,
+        category:"Valentine",
+        image: 'images/sunflower7.png',
+        name: "Solar Flare",
+        price: 195,
+        description:" These flowers resemble the intense beauty and energy of a solar flare, exuding warmth and radiance.",
+        type:'Sunflower'
+    },
+    {
+        id: 159,
+        category:"Wedding",
+        image: 'images/sunflower8.png',
+        name: "Yellow Delight",
+        price: 195,
+        description:" These blooms radiate a bright yellow delight, symbolizing happiness, warmth, and sunny cheerfulness.",
+        type:'Sunflower'
+    },
+    {
+        id: 160,
+        category:"Anniversary",
+        image: 'images/sunflower9.png',
+        name: "Blooming Blaze",
+        price: 195,
+        description:" Like a fiery blaze, these flowers burst into bloom with vivid and passionate colors.",
+        type:'Sunflower'
+    },
+    {
+        id: 161,
+        category:"Birthday",
+        image: 'images/sunflower10.png',
+        name: "Joyful Jolene",
+        price: 195,
+        description:" Capturing the joy of Jolene, these blooms bring an atmosphere of happiness and vibrant energy.",
+        type:'Sunflower'
+    },
+    {
+        id: 162,
+        category:"Get Well Soon",
+        image: 'images/spray7.png',
+        name: "Lavender Lace",
+        price: 195,
+        description:" Delicate and lavender-hued, these blooms are like lace, symbolizing grace and elegance in their charm.",
+        type:'Spray Roses'
+    },
+    {
+        id: 163,
+        category:"Graduation",
+        image: 'images/spray8.png',
+        name: "Sunset Spritz",
+        price: 195,
+        description:" Resembling the warm colors of a sunset, these flowers bring a splash of vibrant radiance.",
+        type:'Spray Roses'
+    },
+
+    {
+        id: 164,
+        category:"House Warming",
+        image: 'images/spray9.png',
+        name: "Coral Cascade",
+        price: 195,
+        description:" These blooms cascade like coral, radiating vibrancy and exuberance in their captivating display.",
+        type:'Spray Roses'
+    },
+    {
+        id: 165,
+        category:"Love And Romance",
+        image: 'images/spray10.png',
+        name: "Enchanted Elixir",
+        price: 195,
+        description:" With an enchanted elixir-like allure, these flowers captivate with an otherworldly charm and beauty.",
+        type:'Spray Roses'
+    },
+    {
+        id: 166,
+        category:"Mothers Day",
+        image: 'images/gemini7.png',
+        name: "Garden Jewel",
+        price: 195,
+        description:" Like a precious jewel in the garden, these blooms symbolize beauty and richness in nature's splendor.",
+        type:'Gemini'
+    },
+   {
+        id: 167,
+        category:"Sympathy",
+        image: 'images/gemini8.png',
+        name: "Wildflower Wonder",
+        price: 195,
+        description:" These wildflowers bring wonder, embodying the charm and untamed beauty of the wilderness.",
+        type:'Gemini'
+    },
+   {
+        id: 168,
+        category:"Wedding",
+        image: 'images/gemini9.png',
+        name: "Dreamy Daisies",
+        price: 195,
+        description:" Delicate and dreamy, these daisies create an enchanting atmosphere with their soft and cheerful presence.",
+        type:'Gemini'
+    },
+   {
+        id: 169,
+        category:"Valentine",
+        image: 'images/gemini10.png',
+        name: "Sunset Splendor",
+        price: 195,
+        description:" Resembling the splendor of a vibrant sunset, these flowers bring a breathtaking and colorful display.",
+        type:'Gemini'
+    },
+    {
+        id: 170,
+        category:"Anniversary",
+        image: 'images/lisianthus6.png',
+        name: "Vintage Velvet",
+        price: 195,
+        description:" These blooms exude the timeless elegance of vintage velvet, symbolizing luxury and sophistication. ",
+        type:'Lisianthus'
+    },
+{
+        id: 171,
+        category:"Birthday",
+        image: 'images/lisianthus7.png',
+        name: "Orchid Odyssey",
+        price: 195,
+        description:" Like a captivating journey, these orchids invite you to explore their unique and exotic beauty.",
+        type:'Lisianthus'
+    },
+{
+        id: 172,
+        category:"Get Well Soon",
+        image: 'images/lisianthus8.png',
+        name: "Periwinkle Princess",
+        price: 195,
+        description:" Delicate and regal in periwinkle hues, these blooms embody a sense of royal beauty. ",
+        type:'Lisianthus'
+    },
+{
+        id: 173,
+        category:"Graduation",
+        image: 'images/lisianthus9.png',
+        name: "Whispering Bells",	
+        price: 195,
+        description:" With a gentle whisper, these bell-shaped blooms convey a tranquil and serene atmosphere. ",
+        type:'Lisianthus'
+    },
+{
+        id: 174,
+        category:"Graduation",
+        image: 'images/lisianthus10.png',
+        name: "Lush Lisianthus",
+        price: 195,
+        description:" These lisianthus blooms are lush and opulent, representing richness and elegance in their abundance.",
+        type:'Lisianthus'
+    },
+    {
+        id: 175,
+        category:"House Warming",
+        image: 'images/hydrangeas6.png',
+        name: "Heavenly Hydrangeas",
+        price: 195,
+        description:" Bold and vibrant, these blooms capture a sense of passion and attraction that cannot be ignored. ",
+        type:'Hydrangeas'
+    },
+    {
+        id: 176,
+        category:"Love And Romance",
+        image: 'images/hydrangeas7.png',
+        name: "Blue Skies Beauty",
+        price: 195,
+        description:" Bold and vibrant, these blooms capture a sense of passion and attraction that cannot be ignored. ",
+        type:'Hydrangeas'
+    },
+    {
+        id: 177,
+        category:"Mothers Day",
+        image: 'images/hydrangeas8.png',
+        name: "Hydrangea Haven",
+        price: 195,
+        description:" Bold and vibrant, these blooms capture a sense of passion and attraction that cannot be ignored. ",
+        type:'Hydrangeas'
+    },
+    {
+        id: 178,
+        category:"Sympatthy",
+        image: 'images/hydrangeas9.png',
+        name: "Sunny Side Blooms",
+        price: 195,
+        description:" Bold and vibrant, these blooms capture a sense of passion and attraction that cannot be ignored. ",
+        type:'Hydrangeas'
+    },
+    {
+        id: 179,
+        category:"Valentine",
+        image: 'images/hydrangeas10.png',
+        name: "Floral Fantasy",
+        price: 195,
+        description:" Bold and vibrant, these blooms capture a sense of passion and attraction that cannot be ignored. ",
+        type:'Hydrangeas'
+    },
+    {
+        id: 180,
+        category:"Wedding",
+        image: 'images/carnation6.png',
+        name: "Daisy Delight",
+        price: 195,
+        description:" These daisies bring delight with their bright and cheerful blooms, spreading happiness and joy.",
+        type:'Carnation'
+    },
+    {
+        id: 181,
+        category:"Anniversary",
+        image: 'images/carnation7.png',
+        name: "Rosebud Romance",
+        price: 195,
+        description:" Symbolizing the beginning of love, these rosebuds capture the tender and enchanting moments of romance.",
+        type:'Carnation'
+    },
+    {
+        id: 182,
+        category:"Birthday",
+        image: 'images/carnation8.png',
+        name: "Carnation Cascade",
+        price: 195,
+        description:" These blooms cascade like carnations, radiating vibrancy and exuberance in their captivating display.",
+        type:'Carnation'
+    },
+    {
+        id: 183,
+        category:"Get Well Soon",
+        image: 'images/carnation9.png',
+        name: "Delicate Dancer",
+        price: 195,
+        description:" Like a graceful dancer, these blooms exude an airy and elegant charm, captivating with every move. ",
+        type:'Carnation'
+    },
+    {
+        id: 184,
+        category:"Graduation",
+        image: 'images/carnation10.png',
+        name: "Carnation Charm",
+        price: 195,
+        description:" Carnations that convey charm and attraction, offering a delightful and alluring presence in any setting.",
+        type:'Carnation'
+    },
+    {
+        id: 185,
+        category:"House Warming",
+        image: 'images/calla-lilly6.png',
+        name: "Graceful Guardian",
+        price: 195,
+        description:" These blooms stand as a graceful guardian, symbolizing protection, guidance, and unwavering presence. ",
+        type:'Calla LIlly'
+    },
+    {	
+        id: 186,
+        category:"Love And Romance",
+        image: 'images/calla-lilly7.png',
+        name: "Velvet Dreams",
+        price: 195,
+        description:" With a velvety allure, these blooms evoke a dreamy, luxurious charm and elegance. ",
+        type:'Calla LIlly'
+    },
+    {
+        id: 187,
+        category:"Mothers Day",
+        image: 'images/calla-lilly8.png',
+        name: "Starlight Serenade",
+        price: 195,
+        description:" Resembling the serenade of starlight, these flowers bring a gentle, celestial radiance and beauty. ",
+        type:'Calla LIlly'
+    },
+    {
+        id: 188,
+        category:"Sympathy",
+        image: 'images/calla-lilly9.png',
+        name: "Opulent Orchid",
+        price: 195,
+        description:" These orchids exude opulence and luxury, symbolizing wealth and sophistication in their lavish beauty. ",
+        type:'Calla LIlly'
+    },
+    {
+        id: 189,
+        category:"Valentine",
+        image: 'images/calla-lilly10.png',
+        name: "Ethereal Elegance",
+        price: 195,
+        description:" Delicate and ethereal, these blooms embody an airy and elegant charm, captivating with grace and beauty. ",
+        type:'Calla LIlly'
     },
 ];
 
 
 
 
-let anniversary = product.filter(function (items) { 
-    return items.category === "Anniversary"; 
+
+
+
+let roses = flowers.filter(function (items) { 
+    return items.type === "Roses"; 
 }).map(function (items) { 
     {return items}; 
 })
@@ -1213,7 +1634,7 @@ let anniversary = product.filter(function (items) {
 
 let i = 0;
 
-document.getElementById('motion11').innerHTML = anniversary.map((items) =>
+document.getElementById('motion11').innerHTML = roses.map((items) =>
 {
     var {image, id,name,price,description} = items;
     return (
@@ -1233,14 +1654,14 @@ document.getElementById('motion11').innerHTML = anniversary.map((items) =>
 }).join('')
 
 
-let birthday = product.filter(function (items) { 
-    return items.category === "Birthday"; 
+let tulip = flowers.filter(function (items) { 
+    return items.type === "Tulips"; 
 }).map(function (items) { 
     {return items}; 
 })
 
 
-document.getElementById('motion12').innerHTML = birthday.map((items) =>
+document.getElementById('motion12').innerHTML = tulip.map((items) =>
 {
     var {image, id,name,price,description} = items;
     return (
@@ -1260,14 +1681,14 @@ document.getElementById('motion12').innerHTML = birthday.map((items) =>
 }).join('')
 
 
-let well = product.filter(function (items) { 
-    return items.category === "Get Well Soon"; 
+let sunflower = flowers.filter(function (items) { 
+    return items.type === "Sunflower"; 
 }).map(function (items) { 
     {return items}; 
 })
 
 
-document.getElementById('motion13').innerHTML = well.map((items) =>
+document.getElementById('motion13').innerHTML = sunflower.map((items) =>
 {
     var {image, id,name,price,description} = items;
     return (
@@ -1288,14 +1709,14 @@ document.getElementById('motion13').innerHTML = well.map((items) =>
 
 
 
-let graduation = product.filter(function (items) { 
-    return items.category === "Graduation"; 
+let spray = flowers.filter(function (items) { 
+    return items.type === "Spray Roses"; 
 }).map(function (items) { 
     {return items}; 
 })
 
 
-document.getElementById('motion14').innerHTML = graduation.map((items) =>
+document.getElementById('motion14').innerHTML = spray.map((items) =>
 {
     var {image, id,name,price,description} = items;
     return (
@@ -1315,14 +1736,14 @@ document.getElementById('motion14').innerHTML = graduation.map((items) =>
 }).join('')
 
 
-let house = product.filter(function (items) { 
-    return items.category === "House Warming"; 
+let gemini = flowers.filter(function (items) { 
+    return items.type === "Gemini"; 
 }).map(function (items) { 
     {return items}; 
 })
 
 
-document.getElementById('motion15').innerHTML = house.map((items) =>
+document.getElementById('motion15').innerHTML = gemini.map((items) =>
 {
     var {image, id,name,price,description} = items;
     return (
@@ -1342,14 +1763,14 @@ document.getElementById('motion15').innerHTML = house.map((items) =>
 }).join('')
 
 
-let love = product.filter(function (items) { 
-    return items.category === "Love And Romance"; 
+let lisianthus = flowers.filter(function (items) { 
+    return items.type === "Lisianthus"; 
 }).map(function (items) { 
     {return items}; 
 })
 
 
-document.getElementById('motion16').innerHTML = love.map((items) =>
+document.getElementById('motion16').innerHTML = lisianthus.map((items) =>
 {
     var {image, id,name,price,description} = items;
     return (
@@ -1370,14 +1791,14 @@ document.getElementById('motion16').innerHTML = love.map((items) =>
 
 
 
-let mother = product.filter(function (items) { 
-    return items.category === "Mothers Day"; 
+let hydrangeas = flowers.filter(function (items) { 
+    return items.type === "Hydrangeas"; 
 }).map(function (items) { 
     {return items}; 
 })
 
 
-document.getElementById('motion17').innerHTML = mother.map((items) =>
+document.getElementById('motion17').innerHTML = hydrangeas.map((items) =>
 {
     var {image, id,name,price,description} = items;
     return (
@@ -1397,43 +1818,14 @@ document.getElementById('motion17').innerHTML = mother.map((items) =>
 }).join('')
 
 
-let sympathy = product.filter(function (items) { 
-    return items.category === "Sympathy"; 
+let gypsophilia = flowers.filter(function (items) { 
+    return items.type === "Gypsophilia"; 
 }).map(function (items) { 
     {return items}; 
 })
 
 
-document.getElementById('motion18').innerHTML = sympathy.map((items) =>
-{
-    var {image, id,name,price,description} = items;
-    return (
-        `
-        <div  id="mappedItems" class=" mappedDiv group swiper-slide w-[200px] h-[550px] max-sm:w-[50px] max-sm:flex-col justify-center flex flex-col rounded-[2rem] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] bg-transparent items-center group group-hover:text-white border-solid  border-white"
-          style="background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5))">
-            <h4 class="font-bold text-center text-white mt-10">${name}</h4>
-            <span class="bg-red-500 w-[5rem] h-1 justify-center items-center text-center"></span>
-            <img id="small" src=${image} alt="oatmeal" class="small-img w-[17rem] h-[10rem]   mt-24  ">
-                   
-            <p id='charge' onClick='logger("${image}","${name}","${price}","${description}")' class='cursor-pointer max-sm:w-[6rem] mt-5 text-black bg-white p-2 font-bold w-[10rem] rounded-full text-[14px] invisible group-hover:visible transition ease-in-out duration-3000 delay-1000'>View Details</p>`+
-       
-            "<p onclick='addtocart("+JSON.stringify(items)+")'  class='cursor-pointer max-sm:w-[6rem] mt-5 text-white bg-red-400 p-2 font-bold w-[10rem] rounded-full text-[14px] '>Add to cart</p>"+
-       ` </div>`
-    )
-    
-}).join('')
-
-
-
-
-let valentine = product.filter(function (items) { 
-    return items.category === "Valentine"; 
-}).map(function (items) { 
-    {return items}; 
-})
-
-
-document.getElementById('motion19').innerHTML = valentine.map((items) =>
+document.getElementById('motion18').innerHTML = gypsophilia.map((items) =>
 {
     var {image, id,name,price,description} = items;
     return (
@@ -1455,15 +1847,14 @@ document.getElementById('motion19').innerHTML = valentine.map((items) =>
 
 
 
-
-let wedding = product.filter(function (items) { 
-    return items.category === "Wedding"; 
+let carnation = flowers.filter(function (items) { 
+    return items.type === "Carnation"; 
 }).map(function (items) { 
     {return items}; 
 })
 
 
-document.getElementById('motion20').innerHTML = wedding.map((items) =>
+document.getElementById('motion19').innerHTML = carnation.map((items) =>
 {
     var {image, id,name,price,description} = items;
     return (
@@ -1486,9 +1877,39 @@ document.getElementById('motion20').innerHTML = wedding.map((items) =>
 
 
 
+let calla = flowers.filter(function (items) { 
+    return items.type === "Calla LIlly"; 
+}).map(function (items) { 
+    {return items}; 
+})
 
-let mainDivContent = anniversary.filter(function (single) {
-    return single.id === 0
+
+document.getElementById('motion20').innerHTML = calla.map((items) =>
+{
+    var {image, id,name,price,description} = items;
+    return (
+        `
+        <div  id="mappedItems" class=" mappedDiv group swiper-slide w-[200px] h-[550px] max-sm:w-[50px] max-sm:flex-col justify-center flex flex-col rounded-[2rem] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] bg-transparent items-center group group-hover:text-white border-solid  border-white"
+          style="background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5))">
+            <h4 class="font-bold text-center text-white mt-10">${name}</h4>
+            <span class="bg-red-500 w-[5rem] h-1 justify-center items-center text-center"></span>
+            <img id="small" src=${image} alt="oatmeal" class="small-img w-[17rem] h-[10rem]   mt-24  ">
+                   
+            <p id='charge' onClick='logger("${image}","${name}","${price}","${description}")' class='cursor-pointer max-sm:w-[6rem] mt-5 text-black bg-white p-2 font-bold w-[10rem] rounded-full text-[14px] invisible group-hover:visible transition ease-in-out duration-3000 delay-1000'>View Details</p>`+
+       
+            "<p onclick='addtocart("+JSON.stringify(items)+")'  class='cursor-pointer max-sm:w-[6rem] mt-5 text-white bg-red-400 p-2 font-bold w-[10rem] rounded-full text-[14px] '>Add to cart</p>"+
+       ` </div>`
+    )
+    
+}).join('')
+
+
+
+
+
+
+let mainDivContent = roses.filter(function (single) {
+    return single.id === 8
 });
 
 function createModal() {
