@@ -761,7 +761,7 @@ const flowers = [
         image: 'images/gemini4.png',
         name: 'Meadow Marvel',
         price: 195,
-        description: " Blooms that evoke the wonder of a beautiful meadow, capturing the marvel of nature's beauty.",
+        description: " Blooms that evoke the wonder of a beautiful meadow, capturing the marvel of thr beauty of nature.",
         type:'Gemini'
     },
     {
@@ -985,7 +985,7 @@ const flowers = [
         image: 'images/gypsophilia4.png',
         name: "Fairy's Finery ",
         price: 195,
-        description:" Delicate and enchanting, these blooms are akin to the finery of fairies, bringing a touch of magic.",
+        description:"Delicate and enchanting, these blooms are akin to the finery of fairies, bringing a touch of magic.",
         type:'Gypsophilia'
     },
     {
@@ -1323,7 +1323,7 @@ const flowers = [
         id: 157,
         category:"Sympathy",
         image: 'images/tulips10.png',
-        name: "Golden Glow",
+        name: "Glows",
         price: 195,
         description:" These blooms radiate with a golden glow, symbolizing elegance, wealth, and beauty in their radiant charm.",
         type:'Tulips'

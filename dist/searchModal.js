@@ -1266,7 +1266,7 @@ const products = [
     id: 157,
     category:"Sympathy",
     image: 'images/tulips10.png',
-    name: "Golden Glow",
+    name: "Glows",
     price: 195,
     description:" These blooms radiate with a golden glow, symbolizing elegance, wealth, and beauty in their radiant charm.",
     type:'Tulips'
@@ -1565,8 +1565,8 @@ const products = [
   
   // Template string for the search modal
 const searchModalTemplate = `
-<div id="searchModal" class="absolute  inset-0 flex items-start h-full justify-center z-50 hidden">
-<div id="searchModalOverlay" class="absolute justify-center items-center inset-0 bg-black opacity-50 "></div>
+<div id="searchModal" class="absolute  inset-0 flex items-center h-full justify-center z-50 hidden">
+<div id="searchModalOverlay" class="absolute h-full justify-center items-center inset-0 bg-black opacity-50 "></div>
 <div class="bg-white p-4 rounded-lg justify-center items-center shadow-lg z-10 w-full max-w-md">
   <div class="flex items-center justify-between mb-4">
     <input id="searchInput" required type="text" placeholder="Search products..." 
@@ -1577,7 +1577,7 @@ const searchModalTemplate = `
   +
   `</div>
   <!-- Results will be displayed here -->
-  <div id="searchResults" class="text-sm">
+  <div id="searchResults" class="text-sm mt-40">
   </div>
   <div class="text-right mt-4">
     <button id="closeSearchModal" class="text-gray-500 hover:text-gray-700">Close</button>
@@ -1602,7 +1602,7 @@ const searchModalTemplate = `
           style="background-color:#FF7F50">
           <h4 class=" text-center text-white mt-10">Category: ${product.category}</h4>
           <span class="bg-red-800 w-[5rem] h-1 justify-center items-center text-center"></span>
-            <h4 class=" text-center text-white mt-10">Name: ${product.name}</h4>
+            <h4 class=" text-center text-white ">Name: ${product.name}</h4>
             <span class="bg-red-800 w-[5rem] h-1 justify-center items-center text-center"></span>
             <img id="small" src=${product.image} alt="oatmeal" class="small-img w-[15rem] ">
                    

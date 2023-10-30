@@ -32,7 +32,7 @@ var swiper = new Swiper(".slide-container", {
 
   breakpoints: {
     1024: {
-      slidesPerView: 3,
+      slidesPerView: 4,
       spaceBetween: 16,
     },
     767: {

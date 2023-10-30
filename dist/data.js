@@ -709,7 +709,7 @@ const product = [
         image: 'images/sunflower4.png',
         name: 'Golden Glow',
         price: 195,
-        description:" These blooms shine with a golden brilliance, symbolizing a love that's precious and radiant."
+        description:" These blooms shine with a golden brilliance, symbolizing a love thats precious and radiant."
     },
     {
         id: 89,
@@ -941,7 +941,7 @@ const product = [
         image: 'images/gypsophilia4.png',
         name: "Fairy's Finery ",
         price: 195,
-        description:" Delicate and enchanting, these blooms are akin to the finery of fairies, bringing a touch of magic."
+        description:" Delicate and enchanting, these blooms are akin to the finery of fairies, bringing a touch of magic.",
     },
     {
         id: 118,
@@ -1266,7 +1266,7 @@ const product = [
         id: 157,
         category:"Sympathy",
         image: 'images/tulips10.png',
-        name: "Golden Glow",
+        name: "Glows",
         price: 195,
         description:" These blooms radiate with a golden glow, symbolizing elegance, wealth, and beauty in their radiant charm.",
         type:'Tulips'

@@ -1298,7 +1298,7 @@ function addtocart(item) {
         id: 157,
         category:"Sympathy",
         image: 'images/tulips10.png',
-        name: "Golden Glow",
+        name: "Glows",
         price: 195,
         description:" These blooms radiate with a golden glow, symbolizing elegance, wealth, and beauty in their radiant charm.",
         type:'Tulips'
