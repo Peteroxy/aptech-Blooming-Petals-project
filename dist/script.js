@@ -1,20 +1,13 @@
 var swiper = new Swiper(".slide-container", {
   slidesPerView: "auto",
   spaceBetween: 20,
-  // sliderPerGroup: "auto",
   slidesOffsetAfter: 0,
   loopFillGroupBlank: false,
   loop: true,
   centerSlide: "true",
   fade: "true",
   grabCursor: "true",
-  // observer: true,
-  // observeParents: true,
-  // on: {
-  //   init: function () {
-  //     this.update();
-  //   }
-  // },
+
   cssMode: 'true',
   autoplay: {
     disableOnInteraction:false,

@@ -1866,21 +1866,21 @@ function createModal() {
                     <img id="mainImg" src=${image} alt="" class="rounded-full w-[17rem] h-[10rem] object-cover">
                 </div>
                 <div class="mt-10">
-                    <button id="mainPrice" class="mt-5 text-white bg-red-400 p-2 font-bold w-[10rem] rounded-full text-[14px] transition ease-in-out duration-3000 delay-1000">$ ${price}</button>
+                    <button id="mainPrice" class="mt-5 text-white bg-red-800 p-2 font-bold w-[10rem] rounded-full text-[14px] transition ease-in-out duration-3000 delay-1000">$ ${price}</button>
                 </div>
             </div>
             <div class="w-[400px] mt-3 h-[500px] max-sm:w-[200px] bg-white justify-center items-center text-center rounded-[3rem] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] bg-transparent"
                 >
                 <div class="group flex flex-col justify-center items-center text-center">
-                    <h2 id="mainName" class="font-bold text-black text-[20px] mt-3 group-hover:text-red-400">${name}</h2>
-                    <span class="bg-red-500 w-[5rem] h-1 justify-center items-center text-center"></span>
+                    <h2 id="mainName" class="font-bold text-black text-[20px] mt-3 group-hover:text-red-800">${name}</h2>
+                    <span class="bg-red-800 w-[5rem] h-1 justify-center items-center text-center"></span>
                 </div>
                 <div class="flex mt-10 justify-center items-center text-center">
-                    <p class="text-red-400"><i class="fa-solid fa-star"></i></p>
-                    <p class="text-red-400"><i class="fa-solid fa-star"></i></p>
-                    <p class="text-red-400"><i class="fa-solid fa-star"></i></p>
-                    <p class="text-red-400"><i class="fa-solid fa-star"></i></p>
-                    <p class="text-red-400"><i class="fa-solid fa-star"></i></p>
+                    <p class="text-red-800"><i class="fa-solid fa-star"></i></p>
+                    <p class="text-red-800"><i class="fa-solid fa-star"></i></p>
+                    <p class="text-red-800"><i class="fa-solid fa-star"></i></p>
+                    <p class="text-red-800"><i class="fa-solid fa-star"></i></p>
+                    <p class="text-red-800"><i class="fa-solid fa-star"></i></p>
                 </div>
                 <div class="text-black p-10 max-sm:p-0 w-full h-full justify-center items-center text-center">
                     <p id="mainDescription" class="leading-12 text-[25px] max-xl:text-[20px] max-sm:text-[18px]"><i>
