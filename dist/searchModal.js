@@ -1565,9 +1565,9 @@ const products = [
   
   // Template string for the search modal
 const searchModalTemplate = `
-<div id="searchModal" class="absolute  inset-0 flex items-center h-full justify-center z-50 hidden">
+<div id="searchModal" class="fixed  inset-0  h-full flex items-start overflow-scroll  justify-center z-50 hidden ">
 <div id="searchModalOverlay" class="absolute h-full justify-center items-center inset-0 bg-black opacity-50 "></div>
-<div class="bg-white p-4 rounded-lg justify-center items-center shadow-lg z-10 w-full max-w-md">
+<div class="bg-white p-4 rounded-lg justify-center  items-center shadow-lg z-10 w-full max-w-md ">
   <div class="flex items-center justify-between mb-4">
     <input id="searchInput" required type="text" placeholder="Search products..." 
     class="w-full p-2 rounded-l-lg border border-gray-300 focus:outline-none focus:ring focus:border-red-800">
@@ -1577,7 +1577,7 @@ const searchModalTemplate = `
   +
   `</div>
   <!-- Results will be displayed here -->
-  <div id="searchResults" class="text-sm mt-40">
+  <div id="searchResults" class="text-sm  border-solid border-2 border-white-400">
   </div>
   <div class="text-right mt-4">
     <button id="closeSearchModal" class="text-gray-500 hover:text-gray-700">Close</button>
@@ -1595,10 +1595,10 @@ const searchModalTemplate = `
       searchResults.innerHTML = '<p>No results found.</p>';
     } else {
       results.forEach(product => {
-        const listItem = document.createElement('div');
+          const listItem = document.createElement('div');
         listItem.innerHTML =
         `
-        <div  id="mappedItems" class=" mappedDiv group w-full h-[500px] max-sm:flex-col justify-center flex flex-col rounded-[2rem] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] bg-transparent items-center group group-hover:text-white border-solid  border-white"
+        <div  id="mappedItems" class="  mappedDiv group w-full h-[500px] max-sm:flex-col justify-center flex flex-col rounded-[2rem] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] bg-transparent items-center group group-hover:text-white border-solid  border-white"
           style="background-color:#FF7F50">
           <h4 class=" text-center text-white mt-10">Category: ${product.category}</h4>
           <span class="bg-red-800 w-[5rem] h-1 justify-center items-center text-center"></span>
